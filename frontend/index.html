@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>小山市 防災マップ | 避難所・ハザード情報</title>
+    <meta name="description" content="栃木県小山市の避難所・指定緊急避難場所と洪水浸水想定区域（国土地理院）を重ねて確認できる軽量・高速な防災地図アプリ" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <!-- ヘッダーバー -->
+      <header class="app-header">
+        <div class="header-brand">
+          <span class="brand-badge">小山市</span>
+          <h1 class="brand-title">防災マップ</h1>
+        </div>
+        <div class="header-actions">
+          <button id="btn-nearest" class="btn btn-warning" style="background-color: #ea580c !important; color: #ffffff !important;" title="現在の条件に合う最寄りの避難所をハイライト表示">
+            <svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <circle cx="12" cy="12" r="3" fill="currentColor"></circle>
+              <line x1="12" y1="2" x2="12" y2="5"></line>
+              <line x1="12" y1="19" x2="12" y2="22"></line>
+              <line x1="2" y1="12" x2="5" y2="12"></line>
+              <line x1="19" y1="12" x2="22" y2="12"></line>
+            </svg>
+            <span class="btn-text">最寄りの避難所</span>
+          </button>
+          <button id="btn-locate" class="btn btn-primary" title="現在地を表示">
+            <svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="7"></circle>
+              <line x1="12" y1="1" x2="12" y2="5"></line>
+              <line x1="12" y1="19" x2="12" y2="23"></line>
+              <line x1="1" y1="12" x2="5" y2="12"></line>
+              <line x1="19" y1="12" x2="23" y2="12"></line>
+            </svg>
+            <span class="btn-text">現在地</span>
+          </button>
+          <button id="btn-info" class="btn btn-secondary" title="小山市の防災連絡先と凡例">
+            <svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" y1="16" x2="12" y2="12"></line>
+              <line x1="12" y1="8" x2="12.01" y2="8"></line>
+            </svg>
+          </button>
+        </div>
+      </header>
+
+      <!-- 災害種別フィルター & 施設レイヤー切り替えバー -->
+      <nav class="filter-bar" aria-label="災害種別フィルターと施設表示">
+        <div class="filter-scroll">
+          <span class="filter-group-label">避難所:</span>
+          <button class="filter-chip active" data-filter="all">すべて (<span id="count-all">0</span>)</button>
+          <button class="filter-chip" data-filter="flood">🌊 洪水対応 (<span id="count-flood">0</span>)</button>
+          <button class="filter-chip" data-filter="earthquake">🏚️ 地震対応 (<span id="count-earthquake">0</span>)</button>
+          <button class="filter-chip" data-filter="landslide">⛰️ 土砂災害対応 (<span id="count-landslide">0</span>)</button>
+          <button class="filter-chip" data-filter="fire">🔥 火災対応 (<span id="count-fire">0</span>)</button>
+          <button class="filter-chip" data-filter="inland_flood">🌧️ 内水氾濫 (<span id="count-inland_flood">0</span>)</button>
+          <span class="filter-separator">|</span>
+          <span class="filter-group-label">周辺施設:</span>
+          <button class="filter-chip chip-toggle" id="toggle-aed" data-target-layer="aed">⚡ AED (<span id="count-aed">176</span>)</button>
+          <button class="filter-chip chip-toggle" id="toggle-medical" data-target-layer="medical">🏥 医療機関 (<span id="count-medical">138</span>)</button>
+          <button class="filter-chip chip-toggle" id="toggle-toilets" data-target-layer="toilets">🚻 公衆トイレ (<span id="count-toilets">115</span>)</button>
+          <button class="filter-chip chip-toggle" id="toggle-parks" data-target-layer="parks">🌳 公園 (<span id="count-parks">351</span>)</button>
+        </div>
+      </nav>
+
+      <!-- メイン地図領域 -->
+      <div id="map-container">
+        <div id="map"></div>
+
+        <!-- ハザードマップ不透明度コントロール -->
+        <div class="hazard-control-panel card">
+          <div class="panel-header">
+            <label class="switch-label">
+              <input type="checkbox" id="chk-hazard-flood" checked />
+              <span class="switch-title">🌊 洪水浸水想定 (想定最大)</span>
+            </label>
+          </div>
+          <div class="opacity-slider-box" id="hazard-slider-container">
+            <span class="slider-caption">不透明度</span>
+            <input type="range" id="hazard-opacity" min="10" max="100" value="70" />
+            <span id="opacity-val">70%</span>
+          </div>
+          <div class="flood-legend">
+            <div class="legend-scale">
+              <span class="bar c-05">0.5m未満</span>
+              <span class="bar c-30">0.5~3.0m</span>
+              <span class="bar c-50">3.0~5.0m</span>
+              <span class="bar c-100">5~10m</span>
+              <span class="bar c-200">10m以上</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 最寄り避難所通知カード (現在地取得時) -->
+        <div id="nearest-card" class="nearest-card hidden">
+          <div class="nearest-content">
+            <div class="nearest-badge">最寄りの避難所</div>
+            <div class="nearest-title" id="nearest-name">---</div>
+            <div class="nearest-meta">
+              <span id="nearest-distance">直線距離: -- m</span>
+              <span id="nearest-walk">徒歩約 -- 分</span>
+            </div>
+          </div>
+          <div class="nearest-actions">
+            <button id="btn-focus-nearest" class="btn btn-sm btn-primary">地図で見る</button>
+            <a id="link-gmaps-nearest" class="btn btn-sm btn-outline" target="_blank" rel="noopener">道順</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 防災情報・連絡先モーダル -->
+      <div id="info-modal" class="modal-overlay hidden">
+        <div class="modal-card">
+          <div class="modal-header">
+            <h2>小山市 防災情報・連絡先</h2>
+            <button id="modal-close" class="btn-close" aria-label="閉じる">&times;</button>
+          </div>
+          <div class="modal-body">
+            <section class="modal-section">
+              <h3>🚨 緊急連絡先（小山市）</h3>
+              <ul class="contact-list">
+                <li><strong>小山市役所 代表:</strong> <a href="tel:0285232111">0285-23-2111</a></li>
+                <li><strong>小山市 危機管理課:</strong> <a href="tel:0285229281">0285-22-9281</a></li>
+                <li><strong>小山消防署:</strong> <a href="tel:0285220119">0285-22-0119</a>（緊急時は <strong>119</strong>）</li>
+                <li><strong>小山警察署:</strong> <a href="tel:0285250110">0285-25-0110</a>（緊急時は <strong>110</strong>）</li>
+              </ul>
+            </section>
+
+            <section class="modal-section">
+              <h3>🌐 公式防災リンク</h3>
+              <ul class="link-list">
+                <li><a href="https://www.city.oyama.tochigi.jp/site/bousai/" target="_blank" rel="noopener">小山市 防災ポータル ↗</a></li>
+                <li><a href="https://disaportal.gsi.go.jp/" target="_blank" rel="noopener">国土地理院 重ねるハザードマップ ↗</a></li>
+                <li><a href="https://www.jma.go.jp/bosai/#area_type=class20s&area_code=0920800" target="_blank" rel="noopener">気象庁 小山市の気象警報・注意報 ↗</a></li>
+              </ul>
+            </section>
+
+            <section class="modal-section">
+              <h3>ℹ️ データ出典・クレジット</h3>
+              <p class="text-sm">
+                ・<strong>指定緊急避難場所・指定避難所</strong>: 栃木県小山市（国土地理院 指定緊急避難場所オープンデータ基盤経由・小山市内74施設）<br />
+                ・<strong>AED設置場所一覧</strong>: 栃木県小山市（公式オープンデータ・小山市内176施設）<br />
+                ・<strong>医療機関一覧</strong>: 栃木県小山市（公式オープンデータカタログ・小山市内138施設）<br />
+                ・<strong>公衆トイレ一覧</strong>: 栃木県小山市（公式オープンデータカタログ・小山市内115施設）<br />
+                ・<strong>公園施設一覧</strong>: 栃木県小山市（公式オープンデータカタログ・小山市内351施設）<br />
+                ・<strong>洪水浸水想定区域（想定最大規模）</strong>: 国土交通省 / 栃木県 / 国土地理院 重ねるハザードマップ（思川・巴波川・姿川・鬼怒川等シームレスタイル）<br />
+                ・<strong>背景地図</strong>: 国土地理院（標準地図 / 写真・オルソ / 淡色地図）
+              </p>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

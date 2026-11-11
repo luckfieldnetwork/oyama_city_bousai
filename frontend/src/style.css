@@ -1,0 +1,595 @@
+/* 小山市 防災マップ スタイルシート */
+
+:root {
+  --primary: #0284c7;
+  --primary-hover: #0369a1;
+  --surface: #ffffff;
+  --surface-alt: #f8fafc;
+  --text-main: #0f172a;
+  --text-muted: #64748b;
+  --border: #e2e8f0;
+  --danger: #ef4444;
+  --success: #10b981;
+  --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "BIZ UDPGothic", Meiryo, sans-serif;
+  color: var(--text-main);
+  background-color: var(--surface-alt);
+  overflow: hidden;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+/* ヘッダー */
+.app-header {
+  height: 56px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  z-index: 1000;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.header-brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.brand-badge {
+  background: #e0f2fe;
+  color: #0369a1;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 9999px;
+  letter-spacing: 0.05em;
+}
+
+.brand-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.header-actions {
+  display: flex;
+  gap: 8px;
+}
+
+/* ボタンスタイル */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  height: 38px;
+  padding: 0 14px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: all 0.15s ease;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: white;
+}
+
+.btn-primary:hover {
+  background: var(--primary-hover);
+}
+
+.btn-warning {
+  background: #ea580c;
+  color: white;
+  box-shadow: 0 2px 4px rgba(234, 88, 12, 0.3);
+}
+
+.btn-warning:hover {
+  background: #c2410c;
+}
+
+.btn-warning.loading, .btn-primary.loading {
+  opacity: 0.8;
+  pointer-events: none;
+}
+
+.btn-secondary {
+  background: var(--surface-alt);
+  color: var(--text-main);
+  border: 1px solid var(--border);
+}
+
+.btn-secondary:hover {
+  background: #f1f5f9;
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+.btn-sm {
+  height: 32px;
+  padding: 0 10px;
+  font-size: 12px;
+}
+
+/* フィルターバー */
+.filter-bar {
+  background: #ffffff;
+  border-bottom: 1px solid var(--border);
+  padding: 6px 12px;
+  z-index: 999;
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.filter-bar::-webkit-scrollbar {
+  display: none;
+}
+
+.filter-scroll {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.filter-group-label {
+  font-size: 11px;
+  font-weight: 700;
+  color: #64748b;
+  margin-right: -2px;
+}
+
+.filter-separator {
+  color: #cbd5e1;
+  font-size: 14px;
+  margin: 0 4px;
+}
+
+.filter-chip {
+  padding: 6px 12px;
+  border-radius: 9999px;
+  font-size: 13px;
+  font-weight: 500;
+  background: #f1f5f9;
+  color: #475569;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.filter-chip.active {
+  background: #0284c7;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.filter-chip.chip-toggle.active[data-target-layer="aed"] {
+  background: #d97706;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.filter-chip.chip-toggle.active[data-target-layer="medical"] {
+  background: #e11d48;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.filter-chip.chip-toggle.active[data-target-layer="toilets"] {
+  background: #4f46e5;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.filter-chip.chip-toggle.active[data-target-layer="parks"] {
+  background: #059669;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.filter-chip:hover:not(.active) {
+  background: #e2e8f0;
+}
+
+/* 地図コンテナ */
+#map-container {
+  flex: 1;
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 105px);
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+/* ハザード操作パネル */
+.hazard-control-panel {
+  position: absolute;
+  bottom: 20px;
+  right: 14px;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+  padding: 12px 14px;
+  border-radius: 12px;
+  box-shadow: var(--shadow-lg);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  max-width: 320px;
+  width: calc(100vw - 32px);
+}
+
+.panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.switch-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.opacity-slider-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
+.opacity-slider-box input[type="range"] {
+  flex: 1;
+  accent-color: var(--primary);
+  cursor: pointer;
+}
+
+/* 凡例バー */
+.flood-legend {
+  margin-top: 6px;
+}
+
+.legend-scale {
+  display: flex;
+  border-radius: 4px;
+  overflow: hidden;
+  font-size: 9px;
+  text-align: center;
+  font-weight: 600;
+  line-height: 16px;
+  color: #111;
+}
+
+.legend-scale .bar {
+  flex: 1;
+  padding: 1px 2px;
+  white-space: nowrap;
+}
+
+.c-05  { background: #ffffb2; } /* 0.5m未満 (黄色) */
+.c-30  { background: #fecc5c; } /* 0.5〜3.0m (オレンジ) */
+.c-50  { background: #fd8d3c; color: #fff; } /* 3.0〜5.0m (濃いオレンジ) */
+.c-100 { background: #f03b20; color: #fff; } /* 5〜10m (赤) */
+.c-200 { background: #bd0026; color: #fff; } /* 10m以上 (深紫/深紅) */
+
+/* 最寄り避難所カード */
+.nearest-card {
+  position: absolute;
+  top: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.98);
+  backdrop-filter: blur(8px);
+  padding: 12px 16px;
+  border-radius: 12px;
+  box-shadow: var(--shadow-lg);
+  border: 2px solid #0284c7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  max-width: 480px;
+  width: calc(100vw - 28px);
+  transition: all 0.3s ease;
+}
+
+.nearest-badge {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  color: #0284c7;
+  background: #e0f2fe;
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-bottom: 2px;
+}
+
+.nearest-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #0f172a;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 240px;
+}
+
+.nearest-meta {
+  font-size: 12px;
+  color: #64748b;
+  display: flex;
+  gap: 8px;
+}
+
+.nearest-actions {
+  display: flex;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.hidden {
+  display: none !important;
+}
+
+/* ハイライト用マーカーと波紋エフェクト */
+.nearest-highlight-marker {
+  z-index: 1200 !important;
+}
+
+.highlight-ring-container {
+  position: relative;
+  width: 36px;
+  height: 36px;
+}
+
+.highlight-pulse-ring {
+  position: absolute;
+  top: -12px;
+  left: -12px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgba(234, 88, 12, 0.35);
+  border: 2px solid #ea580c;
+  animation: pulse-ring 1.6s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+  pointer-events: none;
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.4);
+    opacity: 1;
+  }
+  75%, 100% {
+    transform: scale(2.0);
+    opacity: 0;
+  }
+}
+
+/* クロス集計情報（避難所周辺インフラ） */
+.cross-analysis-box {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 8px 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.cross-title {
+  font-size: 11px;
+  font-weight: 700;
+  color: #475569;
+  border-bottom: 1px dashed #cbd5e1;
+  padding-bottom: 3px;
+  margin-bottom: 6px;
+}
+
+.cross-item {
+  font-size: 11px;
+  color: #334155;
+  line-height: 1.5;
+  margin-bottom: 4px;
+}
+
+.cross-item strong {
+  color: #0f172a;
+}
+
+.cross-item .badge {
+  display: inline-block;
+  font-size: 9px;
+  padding: 1px 4px;
+  border-radius: 3px;
+  background: #e2e8f0;
+  color: #475569;
+  margin-left: 2px;
+}
+
+/* ポップアップ装飾 */
+.leaflet-popup-content-wrapper {
+  border-radius: 10px;
+  padding: 4px;
+  box-shadow: var(--shadow-lg);
+}
+
+.shelter-popup h3 {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  color: #0f172a;
+}
+
+.shelter-popup .popup-address {
+  font-size: 12px;
+  color: #64748b;
+  margin-bottom: 8px;
+}
+
+.disaster-badge-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.disaster-tag {
+  font-size: 10px;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.disaster-tag.supported {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.disaster-tag.unsupported {
+  background: #fee2e2;
+  color: #991b1b;
+  opacity: 0.6;
+}
+
+.popup-actions {
+  display: flex;
+  gap: 6px;
+}
+
+/* モーダル */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.modal-card {
+  background: white;
+  border-radius: 16px;
+  max-width: 500px;
+  width: 100%;
+  max-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.modal-header {
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal-header h2 {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.btn-close {
+  background: none;
+  border: none;
+  font-size: 24px;
+  line-height: 1;
+  color: #64748b;
+  cursor: pointer;
+}
+
+.modal-body {
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.modal-section {
+  margin-bottom: 20px;
+}
+
+.modal-section h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #334155;
+  margin-bottom: 8px;
+}
+
+.contact-list, .link-list {
+  list-style: none;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.contact-list a, .link-list a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.contact-list a:hover, .link-list a:hover {
+  text-decoration: underline;
+}
+
+.text-sm {
+  font-size: 12px;
+  color: #64748b;
+  line-height: 1.6;
+}
+
+/* スマホ表示の最適化 */
+@media (max-width: 480px) {
+  .app-header {
+    padding: 0 10px;
+  }
+  .brand-title {
+    font-size: 16px;
+  }
+  .btn {
+    padding: 0 10px;
+    font-size: 13px;
+  }
+  .btn-warning .btn-text {
+    font-size: 12px;
+  }
+}
+

@@ -1,0 +1,3707 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "栃木県小山市 AED設置場所一覧",
+    "author": "栃木県小山市",
+    "source": "Code for OYAMA API (/aed_locations)",
+    "count": 176
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "aed-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.800732,
+          36.314502
+        ]
+      },
+      "properties": {
+        "id": "aed-001",
+        "name": "小山市役所",
+        "address": "栃木県小山市中央町1-1ｰ1",
+        "location": "1階",
+        "phone": "(0285)23-1111",
+        "has_pediatric": true,
+        "available_time": "8:30～17:15",
+        "remarks": "祝日、年末年始を除く。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.760202,
+          36.308174
+        ]
+      },
+      "properties": {
+        "id": "aed-002",
+        "name": "道の駅思川",
+        "address": "栃木県小山市下国府塚25-1",
+        "location": "事務室",
+        "phone": "(0285)38-0201",
+        "has_pediatric": true,
+        "available_time": "9:00～18:00",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.800381,
+          36.313359
+        ]
+      },
+      "properties": {
+        "id": "aed-003",
+        "name": "小山市立文化センター",
+        "address": "栃木県小山市中央町1-1-1",
+        "location": "1階事務室",
+        "phone": "(0285)22-9552",
+        "has_pediatric": true,
+        "available_time": "9:00～21:30",
+        "remarks": "年末年始を除く。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.851128,
+          36.313166
+        ]
+      },
+      "properties": {
+        "id": "aed-004",
+        "name": "小山運動公園",
+        "address": "栃木県小山市向野187",
+        "location": "事務室",
+        "phone": "(0285)49-3523",
+        "has_pediatric": true,
+        "available_time": "8:00～22:00",
+        "remarks": "祝日、年末年始を除く。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.805274,
+          36.312618
+        ]
+      },
+      "properties": {
+        "id": "aed-005",
+        "name": "小山市生涯学習センター",
+        "address": "栃木県小山市中央町3-7-1",
+        "location": "事務室",
+        "phone": "(0285)22-9111",
+        "has_pediatric": true,
+        "available_time": "9:00～21:30",
+        "remarks": "年末年始を除く。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.807779,
+          36.293212
+        ]
+      },
+      "properties": {
+        "id": "aed-006",
+        "name": "小山城南出張所",
+        "address": "栃木県小山市東城南4-1-12",
+        "location": "窓口",
+        "phone": "(0285)31-3650",
+        "has_pediatric": true,
+        "available_time": "8:30～17:15",
+        "remarks": "土曜日、第1・３・５日曜日、祝日、年末年始を除く。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.832118,
+          36.277686
+        ]
+      },
+      "properties": {
+        "id": "aed-007",
+        "name": "大谷出張所",
+        "address": "栃木県小山市横倉499-6",
+        "location": "入口",
+        "phone": "(0285)28-0004",
+        "has_pediatric": true,
+        "available_time": "8:30～17:15",
+        "remarks": "祝日、年末年始を除く。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.761119,
+          36.270918
+        ]
+      },
+      "properties": {
+        "id": "aed-008",
+        "name": "間々田出張所",
+        "address": "栃木県小山市間々田1960-1",
+        "location": "窓口",
+        "phone": "(0285)45-1335",
+        "has_pediatric": true,
+        "available_time": "8:30～17:15",
+        "remarks": "祝日、年末年始を除く。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.835638,
+          36.350425
+        ]
+      },
+      "properties": {
+        "id": "aed-009",
+        "name": "桑出張所",
+        "address": "栃木県小山市羽川858-1",
+        "location": "窓口",
+        "phone": "(0285)22-4545",
+        "has_pediatric": true,
+        "available_time": "8:30～17:15",
+        "remarks": "祝日、年末年始を除く。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.72861,
+          36.261157
+        ]
+      },
+      "properties": {
+        "id": "aed-010",
+        "name": "生井出張所",
+        "address": "栃木県小山市大字生良1054-2",
+        "location": "窓口",
+        "phone": "(0285)45-4004",
+        "has_pediatric": true,
+        "available_time": "8:30～17:15",
+        "remarks": "祝日、年末年始を除く。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.734981,
+          36.291426
+        ]
+      },
+      "properties": {
+        "id": "aed-011",
+        "name": "寒川出張所",
+        "address": "栃木県小山市大字中里869-1",
+        "location": "窓口",
+        "phone": "(0285)38-1002",
+        "has_pediatric": true,
+        "available_time": "8:30～17:15",
+        "remarks": "祝日、年末年始を除く。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.781084,
+          36.348852
+        ]
+      },
+      "properties": {
+        "id": "aed-012",
+        "name": "豊田出張所",
+        "address": "栃木県小山市大字松沼467番地",
+        "location": "窓口",
+        "phone": "(0285)37-1002",
+        "has_pediatric": true,
+        "available_time": "8:30～17:15",
+        "remarks": "祝日、年末年始を除く。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-013",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.742056,
+          36.314793
+        ]
+      },
+      "properties": {
+        "id": "aed-013",
+        "name": "中出張所",
+        "address": "栃木県小山市下河原田864",
+        "location": "窓口",
+        "phone": "(0285)38-0002",
+        "has_pediatric": true,
+        "available_time": "8:30～17:15",
+        "remarks": "祝日、年末年始を除く。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.77335,
+          36.313247
+        ]
+      },
+      "properties": {
+        "id": "aed-014",
+        "name": "穂積出張所",
+        "address": "栃木県小山市萩島61",
+        "location": "窓口",
+        "phone": "(0285)38-2004",
+        "has_pediatric": true,
+        "available_time": "8:30～17:15",
+        "remarks": "祝日、年末年始を除く。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-015",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.896283,
+          36.328049
+        ]
+      },
+      "properties": {
+        "id": "aed-015",
+        "name": "絹出張所",
+        "address": "栃木県小山市福良1119-1",
+        "location": "窓口",
+        "phone": "(0285)49-0027",
+        "has_pediatric": true,
+        "available_time": "8:30～17:15",
+        "remarks": "祝日、年末年始を除く。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-016",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.80175,
+          36.313804
+        ]
+      },
+      "properties": {
+        "id": "aed-016",
+        "name": "小山市社会福祉協議会",
+        "address": "栃木県小山市中央町2-2-21",
+        "location": "1階社会福祉協議会窓口",
+        "phone": "(0285)22-9501",
+        "has_pediatric": true,
+        "available_time": "8:30～17:15",
+        "remarks": "祝日、年末年始を除く。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-017",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.801796,
+          36.276009
+        ]
+      },
+      "properties": {
+        "id": "aed-017",
+        "name": "健康医療介護総合支援センター",
+        "address": "栃木県小山市神鳥谷2251-7",
+        "location": "事務室",
+        "phone": "",
+        "has_pediatric": true,
+        "available_time": "8:30～17:15",
+        "remarks": "祝日、年末年始を除く。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-018",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.817268,
+          36.310487
+        ]
+      },
+      "properties": {
+        "id": "aed-018",
+        "name": "小山市立中央図書館",
+        "address": "栃木県小山市城東1-19-40",
+        "location": "１階フロアー",
+        "phone": "(0285)21-0753",
+        "has_pediatric": true,
+        "available_time": "9:00～19:00",
+        "remarks": "図書館の開館日に従う。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-019",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.755535,
+          36.261525
+        ]
+      },
+      "properties": {
+        "id": "aed-019",
+        "name": "小山市立博物館",
+        "address": "栃木県小山市乙女1-31-7",
+        "location": "事務室",
+        "phone": "(0285)45-5331",
+        "has_pediatric": true,
+        "available_time": "9:00～17:00",
+        "remarks": "第四金曜日休館。博物館の開館日に従う。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-020",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.797492,
+          36.308682
+        ]
+      },
+      "properties": {
+        "id": "aed-020",
+        "name": "やはた保育所",
+        "address": "栃木県小山市八幡町2-8-8",
+        "location": "事務室",
+        "phone": "(0285)21-2725",
+        "has_pediatric": true,
+        "available_time": "8:30～17:15",
+        "remarks": "祝日、年末年始を除く。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-021",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.811878,
+          36.317845
+        ]
+      },
+      "properties": {
+        "id": "aed-021",
+        "name": "城北保育所",
+        "address": "栃木県小山市駅東通り3-15-1",
+        "location": "事務室",
+        "phone": "(0285)24-1197",
+        "has_pediatric": true,
+        "available_time": "8:30～17:15",
+        "remarks": "祝日、年末年始を除く。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-022",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.892718,
+          36.336637
+        ]
+      },
+      "properties": {
+        "id": "aed-022",
+        "name": "絹保育所",
+        "address": "栃木県小山市大字高椅482-1",
+        "location": "事務室",
+        "phone": "(0285)49-0046",
+        "has_pediatric": true,
+        "available_time": "8:30～17:15",
+        "remarks": "祝日、年末年始を除く。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-023",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.808962,
+          36.374233
+        ]
+      },
+      "properties": {
+        "id": "aed-023",
+        "name": "摩利支天塚・琵琶塚古墳資料館",
+        "address": "栃木県小山市飯塚335",
+        "location": "事務室",
+        "phone": "(0285)24-5501",
+        "has_pediatric": true,
+        "available_time": "9:00～16:30",
+        "remarks": "資料館の開館日に従う。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-024",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.76266,
+          36.254258
+        ]
+      },
+      "properties": {
+        "id": "aed-024",
+        "name": "もみじ保育所",
+        "address": "栃木県小山市暁3-11-2",
+        "location": "事務室",
+        "phone": "(0285)45-3238",
+        "has_pediatric": true,
+        "available_time": "8:30～17:15",
+        "remarks": "祝日、年末年始を除く。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-025",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.84502,
+          36.31486
+        ]
+      },
+      "properties": {
+        "id": "aed-025",
+        "name": "中久喜保育所",
+        "address": "栃木県小山市中久喜1093-1",
+        "location": "事務室",
+        "phone": "(0285)25-4782",
+        "has_pediatric": true,
+        "available_time": "8:30～17:15",
+        "remarks": "祝日、年末年始を除く。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-026",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.748835,
+          36.277168
+        ]
+      },
+      "properties": {
+        "id": "aed-026",
+        "name": "網戸保育所",
+        "address": "栃木県小山市網戸758-1",
+        "location": "事務室",
+        "phone": "(0285)45-5016",
+        "has_pediatric": true,
+        "available_time": "8:30～17:15",
+        "remarks": "祝日、年末年始を除く。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-027",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.850994,
+          36.329396
+        ]
+      },
+      "properties": {
+        "id": "aed-027",
+        "name": "出井保育所",
+        "address": "栃木県小山市大字出井1060-1",
+        "location": "事務室",
+        "phone": "(0285)23-3047",
+        "has_pediatric": true,
+        "available_time": "8:30～17:15",
+        "remarks": "祝日、年末年始を除く。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-028",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.77131,
+          36.276936
+        ]
+      },
+      "properties": {
+        "id": "aed-028",
+        "name": "間々田北保育所",
+        "address": "栃木県小山市大字間々田2443-1",
+        "location": "事務室",
+        "phone": "(0285)45-4749",
+        "has_pediatric": true,
+        "available_time": "8:30～17:15",
+        "remarks": "祝日、年末年始を除く。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-029",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.814521,
+          36.321576
+        ]
+      },
+      "properties": {
+        "id": "aed-029",
+        "name": "城北児童センター",
+        "address": "栃木県小山市駅東通り3-25-2",
+        "location": "事務室",
+        "phone": "(0285)24-0629",
+        "has_pediatric": true,
+        "available_time": "9:30～18:00",
+        "remarks": "児童センターの開館日に従う。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-030",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.805688,
+          36.302693
+        ]
+      },
+      "properties": {
+        "id": "aed-030",
+        "name": "駅南児童センター",
+        "address": "栃木県駅南町2-11-5",
+        "location": "事務室",
+        "phone": "(0285)27-0594",
+        "has_pediatric": true,
+        "available_time": "9:30～18:00",
+        "remarks": "児童センターの開館日に従う。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-031",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.827314,
+          36.313855
+        ]
+      },
+      "properties": {
+        "id": "aed-031",
+        "name": "勤労青少年ホーム",
+        "address": "栃木県小山市犬塚3-1-2",
+        "location": "事務室",
+        "phone": "(0285)23-3402",
+        "has_pediatric": true,
+        "available_time": "9:00～21:00",
+        "remarks": "土、日、祝日は9:00～17:00。年末年始を除く。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-032",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.780338,
+          36.295309
+        ]
+      },
+      "properties": {
+        "id": "aed-032",
+        "name": "小山市ふれあい健康センター",
+        "address": "栃木県小山市大字外城546",
+        "location": "事務室",
+        "phone": "(0285)30-3700",
+        "has_pediatric": true,
+        "available_time": "9:30～19:30",
+        "remarks": "年末年始を除く。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-033",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.805023,
+          36.315228
+        ]
+      },
+      "properties": {
+        "id": "aed-033",
+        "name": "市民活動センター",
+        "address": "栃木県小山市城山町3-7-5",
+        "location": "2階事務室",
+        "phone": "(0285)20-5562",
+        "has_pediatric": true,
+        "available_time": "9:00～21:00",
+        "remarks": "年末年始を除く。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-034",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.781438,
+          36.30305
+        ]
+      },
+      "properties": {
+        "id": "aed-034",
+        "name": "小山総合公園",
+        "address": "栃木県小山市外城371-1",
+        "location": "サイクルセンター事務室",
+        "phone": "(0285)21-3190",
+        "has_pediatric": true,
+        "available_time": "8:30～16:00",
+        "remarks": "年末年始を除く。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-035",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.810989,
+          36.287064
+        ]
+      },
+      "properties": {
+        "id": "aed-035",
+        "name": "シルバー人材センター",
+        "address": "栃木県小山市東城南5-15-8",
+        "location": "事務室",
+        "phone": "(0285)28-4130",
+        "has_pediatric": true,
+        "available_time": "8:30～17:15",
+        "remarks": "祝日、年末年始を除く。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-036",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.851986,
+          36.345314
+        ]
+      },
+      "properties": {
+        "id": "aed-036",
+        "name": "ファミリーマート小山出井北店",
+        "address": "栃木県小山市出井1252-10",
+        "location": "カウウンター裏バックヤード",
+        "phone": "(0285)30-3113",
+        "has_pediatric": true,
+        "available_time": "",
+        "remarks": "店舗の営業時間に従う"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-037",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.803163,
+          36.258158
+        ]
+      },
+      "properties": {
+        "id": "aed-037",
+        "name": "ファミリーマート小山東野田店",
+        "address": "栃木県小山市東野田2221-1",
+        "location": "カウウンター裏バックヤード",
+        "phone": "(0285)31-3800",
+        "has_pediatric": true,
+        "available_time": "",
+        "remarks": "店舗の営業時間に従う"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-038",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.822656,
+          36.328329
+        ]
+      },
+      "properties": {
+        "id": "aed-038",
+        "name": "ファミリーマート小山稲葉郷店",
+        "address": "栃木県小山市大字稲葉郷63-6",
+        "location": "カウウンター裏バックヤード",
+        "phone": "(0285)20-3009",
+        "has_pediatric": true,
+        "available_time": "",
+        "remarks": "店舗の営業時間に従う"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-039",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.746224,
+          36.277302
+        ]
+      },
+      "properties": {
+        "id": "aed-039",
+        "name": "ファミリーマートあじと店",
+        "address": "栃木県小山市大字網戸1098-5",
+        "location": "カウウンター裏バックヤード",
+        "phone": "(0285)41-7050",
+        "has_pediatric": true,
+        "available_time": "",
+        "remarks": "店舗の営業時間に従う"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-040",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.795517,
+          36.357224
+        ]
+      },
+      "properties": {
+        "id": "aed-040",
+        "name": "ファミリーマート黒本店",
+        "address": "栃木県小山市大字黒本127-1",
+        "location": "カウウンター裏バックヤード",
+        "phone": "(0285)32-1561",
+        "has_pediatric": true,
+        "available_time": "",
+        "remarks": "店舗の営業時間に従う"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-041",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.735287,
+          36.290061
+        ]
+      },
+      "properties": {
+        "id": "aed-041",
+        "name": "セブンイレブン小山中里店",
+        "address": "栃木県小山市大字中里988-2",
+        "location": "カウウンター裏バックヤード",
+        "phone": "(0285)38-1265",
+        "has_pediatric": true,
+        "available_time": "",
+        "remarks": "店舗の営業時間に従う"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-042",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.806316,
+          36.3135
+        ]
+      },
+      "properties": {
+        "id": "aed-042",
+        "name": "セブンイレブン小山駅西口店",
+        "address": "栃木県小山市城山町3-3-32",
+        "location": "カウウンター裏バックヤード",
+        "phone": "(0285)22-0581",
+        "has_pediatric": true,
+        "available_time": "",
+        "remarks": "店舗の営業時間に従う"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-043",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.81307,
+          36.315478
+        ]
+      },
+      "properties": {
+        "id": "aed-043",
+        "name": "セブンイレブン小山城東店",
+        "address": "栃木県小山市城東2-５-20",
+        "location": "カウウンター裏バックヤード",
+        "phone": "(0285)23-4447",
+        "has_pediatric": true,
+        "available_time": "",
+        "remarks": "店舗の営業時間に従う"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-044",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.755336,
+          36.318536
+        ]
+      },
+      "properties": {
+        "id": "aed-044",
+        "name": "セブンイレブン小山生駒店",
+        "address": "栃木県小山市大字生駒51",
+        "location": "カウウンター裏バックヤード",
+        "phone": "(0285)38-2770",
+        "has_pediatric": true,
+        "available_time": "",
+        "remarks": "店舗の営業時間に従う"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-045",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.825174,
+          36.265733
+        ]
+      },
+      "properties": {
+        "id": "aed-045",
+        "name": "セブンイレブン小山田間店",
+        "address": "栃木県小山市田間847-3",
+        "location": "カウウンター裏バックヤード",
+        "phone": "(0285)28-1172",
+        "has_pediatric": true,
+        "available_time": "",
+        "remarks": "店舗の営業時間に従う"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-046",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.807011,
+          36.312144
+        ]
+      },
+      "properties": {
+        "id": "aed-046",
+        "name": "セブンイレブン白鷗大学本キャンパス店",
+        "address": "栃木県小山市駅東通り2-2-2",
+        "location": "カウウンター裏バックヤード",
+        "phone": "(0285)22-8568",
+        "has_pediatric": true,
+        "available_time": "",
+        "remarks": "店舗の営業時間に従う"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-047",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.802448,
+          36.302992
+        ]
+      },
+      "properties": {
+        "id": "aed-047",
+        "name": "セブンイレブン小山神山店",
+        "address": "栃木県小山市神山2-915-1",
+        "location": "カウウンター裏バックヤード",
+        "phone": "(0285)28-5053",
+        "has_pediatric": true,
+        "available_time": "",
+        "remarks": "店舗の営業時間に従う"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-048",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.764044,
+          36.256054
+        ]
+      },
+      "properties": {
+        "id": "aed-048",
+        "name": "セブンイレブン小山平和店",
+        "address": "栃木県小山市平和94-1",
+        "location": "カウウンター裏バックヤード",
+        "phone": "(0285)45-9030",
+        "has_pediatric": true,
+        "available_time": "",
+        "remarks": "店舗の営業時間に従う"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-049",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.821791,
+          36.301774
+        ]
+      },
+      "properties": {
+        "id": "aed-049",
+        "name": "セブンイレブン小山土塔店",
+        "address": "栃木県小山市土塔234-1",
+        "location": "カウウンター裏バックヤード",
+        "phone": "(0285)27-7548",
+        "has_pediatric": true,
+        "available_time": "",
+        "remarks": "店舗の営業時間に従う"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-050",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.796171,
+          36.308334
+        ]
+      },
+      "properties": {
+        "id": "aed-050",
+        "name": "ファミリーマート小山八幡町店",
+        "address": "栃木県小山市八幡町1-17-5",
+        "location": "カウウンター裏バックヤード",
+        "phone": "(0285)20-5808",
+        "has_pediatric": true,
+        "available_time": "",
+        "remarks": "店舗の営業時間に従う"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-051",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.793348,
+          36.298289
+        ]
+      },
+      "properties": {
+        "id": "aed-051",
+        "name": "ファミリーマート小山神鳥谷店",
+        "address": "栃木県小山市神鳥谷2-33-23",
+        "location": "カウウンター裏バックヤード",
+        "phone": "(0285)20-0018",
+        "has_pediatric": true,
+        "available_time": "",
+        "remarks": "店舗の営業時間に従う"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-052",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.826688,
+          36.267765
+        ]
+      },
+      "properties": {
+        "id": "aed-052",
+        "name": "ファミリーマート小山田間店",
+        "address": "栃木県小山市田間691-4",
+        "location": "カウウンター裏バックヤード",
+        "phone": "(0285)31-5050",
+        "has_pediatric": true,
+        "available_time": "",
+        "remarks": "店舗の営業時間に従う"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-053",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.802774,
+          36.317569
+        ]
+      },
+      "properties": {
+        "id": "aed-053",
+        "name": "ミニストップ小山本郷店",
+        "address": "栃木県小山市本郷町2-1-1",
+        "location": "カウウンター裏バックヤード",
+        "phone": "(0285)22-9166",
+        "has_pediatric": true,
+        "available_time": "",
+        "remarks": "店舗の営業時間に従う"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-054",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.84352,
+          36.333103
+        ]
+      },
+      "properties": {
+        "id": "aed-054",
+        "name": "ミニストップ小山出井店",
+        "address": "栃木県小山市出井805-22",
+        "location": "カウウンター裏バックヤード",
+        "phone": "(0285)23-3000",
+        "has_pediatric": true,
+        "available_time": "",
+        "remarks": "店舗の営業時間に従う"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-055",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.812527,
+          36.289947
+        ]
+      },
+      "properties": {
+        "id": "aed-055",
+        "name": "ミニストップ小山東城南店",
+        "address": "栃木県小山市東城南3-21-4",
+        "location": "カウウンター裏バックヤード",
+        "phone": "(0285)28-2407",
+        "has_pediatric": true,
+        "available_time": "",
+        "remarks": "店舗の営業時間に従う"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-056",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.761562,
+          36.352133
+        ]
+      },
+      "properties": {
+        "id": "aed-056",
+        "name": "セブンイレブン小山卒島店",
+        "address": "栃木県小山市卒島1276-3",
+        "location": "カウウンター裏バックヤード",
+        "phone": "(0285)37-2081",
+        "has_pediatric": true,
+        "available_time": "",
+        "remarks": "店舗の営業時間に従う"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-057",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.740974,
+          36.31311
+        ]
+      },
+      "properties": {
+        "id": "aed-057",
+        "name": "セブンイレブン小山下河原田店",
+        "address": "栃木県小山市下河原田989-3",
+        "location": "カウウンター裏バックヤード",
+        "phone": "(0285)38-0080",
+        "has_pediatric": true,
+        "available_time": "4:00～23:00",
+        "remarks": "店舗の営業時間に従う"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-058",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.837199,
+          36.369495
+        ]
+      },
+      "properties": {
+        "id": "aed-058",
+        "name": "セブンイレブン小山羽川北店",
+        "address": "栃木県小山市羽川517-13",
+        "location": "カウウンター裏バックヤード",
+        "phone": "(0285)25-7755",
+        "has_pediatric": true,
+        "available_time": "",
+        "remarks": "店舗の営業時間に従う"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-059",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.896901,
+          36.318793
+        ]
+      },
+      "properties": {
+        "id": "aed-059",
+        "name": "セブンイレブン小山中島橋西店",
+        "address": "栃木県小山市福良字請地前602-1",
+        "location": "カウウンター裏バックヤード",
+        "phone": "(0296)32-4758",
+        "has_pediatric": true,
+        "available_time": "",
+        "remarks": "店舗の営業時間に従う"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-060",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.806683,
+          36.322593
+        ]
+      },
+      "properties": {
+        "id": "aed-060",
+        "name": "セブンイレブン小山花垣店",
+        "address": "栃木県小山市花垣町1-4-22",
+        "location": "カウウンター裏バックヤード",
+        "phone": "(0285)24-1711",
+        "has_pediatric": true,
+        "available_time": "",
+        "remarks": "店舗の営業時間に従う"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-061",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.814218,
+          36.302617
+        ]
+      },
+      "properties": {
+        "id": "aed-061",
+        "name": "セブンイレブン小山駅南5丁目店",
+        "address": "栃木県小山市駅南町5-16-25",
+        "location": "カウウンター裏バックヤード",
+        "phone": "(0285)28-7525",
+        "has_pediatric": true,
+        "available_time": "",
+        "remarks": "店舗の営業時間に従う"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-062",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.846842,
+          36.318428
+        ]
+      },
+      "properties": {
+        "id": "aed-062",
+        "name": "ファミリーマート小山中久喜店",
+        "address": "栃木県小山市中久喜1113-4",
+        "location": "カウウンター裏バックヤード",
+        "phone": "(0285)30-2232",
+        "has_pediatric": true,
+        "available_time": "",
+        "remarks": "店舗の営業時間に従う"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-063",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.775848,
+          36.25881
+        ]
+      },
+      "properties": {
+        "id": "aed-063",
+        "name": "ファミリーマート小山美しが丘店",
+        "address": "栃木県小山市美しが丘3-35-1",
+        "location": "カウウンター裏バックヤード",
+        "phone": "(0285)41-0313",
+        "has_pediatric": true,
+        "available_time": "",
+        "remarks": "店舗の営業時間に従う"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-064",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.753115,
+          36.255655
+        ]
+      },
+      "properties": {
+        "id": "aed-064",
+        "name": "ファミリーマート小山南乙女店",
+        "address": "栃木県小山市南乙女2-1-2",
+        "location": "カウウンター裏バックヤード",
+        "phone": "(0285)41-1606",
+        "has_pediatric": true,
+        "available_time": "",
+        "remarks": "店舗の営業時間に従う"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-065",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.818211,
+          36.312953
+        ]
+      },
+      "properties": {
+        "id": "aed-065",
+        "name": "ミニストップ小山城東2丁目店",
+        "address": "栃木県小山市城東2-35-15",
+        "location": "カウウンター裏バックヤード",
+        "phone": "(0285)24-6671",
+        "has_pediatric": true,
+        "available_time": "",
+        "remarks": "店舗の営業時間に従う"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-066",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.79835,
+          36.313578
+        ]
+      },
+      "properties": {
+        "id": "aed-066",
+        "name": "小山市立小山第一小学校",
+        "address": "栃木県小山市宮本町1-3-1",
+        "location": "保健室",
+        "phone": "(0285)22-0074",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-067",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.799846,
+          36.31013
+        ]
+      },
+      "properties": {
+        "id": "aed-067",
+        "name": "小山市立小山第二小学校",
+        "address": "栃木県小山市宮本町2-9-20",
+        "location": "職員室前廊下",
+        "phone": "(0285)22-0079",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-068",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.788469,
+          36.296672
+        ]
+      },
+      "properties": {
+        "id": "aed-068",
+        "name": "小山市立小山第三小学校",
+        "address": "栃木県小山市神鳥谷4-7-51",
+        "location": "保健室",
+        "phone": "(0285)24-2355",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-069",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.797935,
+          36.294128
+        ]
+      },
+      "properties": {
+        "id": "aed-069",
+        "name": "小山市立小山城南小学校",
+        "address": "栃木県小山市西城南5-29-1",
+        "location": "保健室",
+        "phone": "(0285)27-7162",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-070",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.81449,
+          36.304752
+        ]
+      },
+      "properties": {
+        "id": "aed-070",
+        "name": "小山市立旭小学校",
+        "address": "栃木県小山市駅南町5-6-69",
+        "location": "職員室",
+        "phone": "(0285)27-6883",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-071",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.820149,
+          36.324157
+        ]
+      },
+      "properties": {
+        "id": "aed-071",
+        "name": "小山市立小山城北小学校",
+        "address": "栃木県小山市城北5-18-1",
+        "location": "保健室",
+        "phone": "(0285)22-3081",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-072",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.805309,
+          36.326453
+        ]
+      },
+      "properties": {
+        "id": "aed-072",
+        "name": "小山市立若木小学校",
+        "address": "栃木県小山市若木町2-6-44",
+        "location": "職員室",
+        "phone": "(0285)25-6467",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-073",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.814705,
+          36.292661
+        ]
+      },
+      "properties": {
+        "id": "aed-073",
+        "name": "小山市立東城南小学校",
+        "address": "栃木県小山市東城南3-9-5",
+        "location": "保健室",
+        "phone": "(0285)38-6328",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-074",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.81639,
+          36.307502
+        ]
+      },
+      "properties": {
+        "id": "aed-074",
+        "name": "小山市立小山城東小学校",
+        "address": "栃木県小山市城東1-16-1",
+        "location": "職員室",
+        "phone": "(0285)25-2882",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-075",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.822451,
+          36.279138
+        ]
+      },
+      "properties": {
+        "id": "aed-075",
+        "name": "小山市立大谷東小学校",
+        "address": "栃木県小山市大字横倉新田271",
+        "location": "職員室",
+        "phone": "(0285)27-0694",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-076",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.822473,
+          36.279114
+        ]
+      },
+      "properties": {
+        "id": "aed-076",
+        "name": "小山市立大谷東小学校",
+        "address": "栃木県小山市大字横倉新田271",
+        "location": "第二職員室",
+        "phone": "(0285)27-0694",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-077",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.805341,
+          36.253094
+        ]
+      },
+      "properties": {
+        "id": "aed-077",
+        "name": "小山市立大谷南小学校",
+        "address": "栃木県小山市大字東野田2147",
+        "location": "保健室",
+        "phone": "(0285)28-0009",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-078",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.833121,
+          36.306718
+        ]
+      },
+      "properties": {
+        "id": "aed-078",
+        "name": "小山市立大谷北小学校",
+        "address": "栃木県小山市犬塚5-6-10",
+        "location": "職員室",
+        "phone": "(0285)22-0268",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-079",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.763915,
+          36.269135
+        ]
+      },
+      "properties": {
+        "id": "aed-079",
+        "name": "小山市立間々田小学校",
+        "address": "栃木県小山市大字間々田1512",
+        "location": "保健室",
+        "phone": "(0285)45-0022",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-080",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.749443,
+          36.262598
+        ]
+      },
+      "properties": {
+        "id": "aed-080",
+        "name": "小山市立乙女小学校",
+        "address": "栃木県小山市大字乙女1954",
+        "location": "保健室",
+        "phone": "(0285)45-4114",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-081",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.777042,
+          36.257186
+        ]
+      },
+      "properties": {
+        "id": "aed-081",
+        "name": "小山市立間々田東小学校",
+        "address": "栃木県小山市大字間々田57-2",
+        "location": "職員室",
+        "phone": "(0285)45-1720",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-082",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.709154,
+          36.247279
+        ]
+      },
+      "properties": {
+        "id": "aed-082",
+        "name": "小山市立下生井小学校",
+        "address": "栃木県小山市大字下生井1546",
+        "location": "職員室",
+        "phone": "0280-55-0372",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-083",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.743275,
+          36.270705
+        ]
+      },
+      "properties": {
+        "id": "aed-083",
+        "name": "小山市立網戸小学校",
+        "address": "栃木県小山市大字網戸1514",
+        "location": "職員室",
+        "phone": "(0285)45-1732",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-084",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.735781,
+          36.293097
+        ]
+      },
+      "properties": {
+        "id": "aed-084",
+        "name": "小山市立寒川小学校",
+        "address": "栃木県小山市大字中里861",
+        "location": "職員室",
+        "phone": "(0285)38-1009",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-085",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.783641,
+          36.348022
+        ]
+      },
+      "properties": {
+        "id": "aed-085",
+        "name": "小山市立豊田小学校",
+        "address": "栃木県小山市大字松沼416-1",
+        "location": "保健室",
+        "phone": "(0285)38-9901",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-086",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.771927,
+          36.312004
+        ]
+      },
+      "properties": {
+        "id": "aed-086",
+        "name": "小山市立穂積小学校",
+        "address": "栃木県小山市大字萩島27",
+        "location": "職員室",
+        "phone": "(0285)38-2005",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-087",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.738191,
+          36.318376
+        ]
+      },
+      "properties": {
+        "id": "aed-087",
+        "name": "小山市立中小学校",
+        "address": "栃木県小山市大字南小林109",
+        "location": "職員室",
+        "phone": "(0285)38-0649",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-088",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.828128,
+          36.354155
+        ]
+      },
+      "properties": {
+        "id": "aed-088",
+        "name": "小山市立羽川小学校",
+        "address": "栃木県小山市大字羽川125",
+        "location": "保健室",
+        "phone": "(0285)22-0186",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-089",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.809287,
+          36.357215
+        ]
+      },
+      "properties": {
+        "id": "aed-089",
+        "name": "小山市立羽川西小学校",
+        "address": "栃木県小山市大字黒本771-2",
+        "location": "職員室前廊下",
+        "phone": "(0285)25-3022",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-090",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.867991,
+          36.329411
+        ]
+      },
+      "properties": {
+        "id": "aed-090",
+        "name": "小山市立萱橋小学校",
+        "address": "栃木県小山市大字萱橋1169-１",
+        "location": "保健室",
+        "phone": "(0285)49-1185",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-091",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.80179,
+          36.332304
+        ]
+      },
+      "properties": {
+        "id": "aed-091",
+        "name": "小山市立小山中学校",
+        "address": "栃木県小山市大字渋井779-1",
+        "location": "職員室",
+        "phone": "(0285)22-0168",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-092",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.798499,
+          36.305964
+        ]
+      },
+      "properties": {
+        "id": "aed-092",
+        "name": "小山市立小山第二中学校",
+        "address": "栃木県小山市天神町1-6-36",
+        "location": "職員室",
+        "phone": "(0285)22-0089",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-093",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.832341,
+          36.314742
+        ]
+      },
+      "properties": {
+        "id": "aed-093",
+        "name": "小山市立小山第三中学校",
+        "address": "栃木県小山市犬塚3-29-1",
+        "location": "保健室",
+        "phone": "(0285)25-5745",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-094",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.811349,
+          36.295311
+        ]
+      },
+      "properties": {
+        "id": "aed-094",
+        "name": "小山市立小山城南中学校",
+        "address": "栃木県小山市東城南1-22-9",
+        "location": "保健室",
+        "phone": "(0285)27-5800",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-095",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.821791,
+          36.275324
+        ]
+      },
+      "properties": {
+        "id": "aed-095",
+        "name": "小山市立大谷中学校",
+        "address": "栃木県小山市大字横倉新田97",
+        "location": "職員室",
+        "phone": "(0285)27-0252",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-096",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.766487,
+          36.276205
+        ]
+      },
+      "properties": {
+        "id": "aed-096",
+        "name": "小山市立間々田中学校",
+        "address": "栃木県小山市大字間々田2364",
+        "location": "職員室",
+        "phone": "(0285)45-0062",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-097",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.754673,
+          36.262881
+        ]
+      },
+      "properties": {
+        "id": "aed-097",
+        "name": "小山市立乙女中学校",
+        "address": "栃木県小山市大字乙女1731",
+        "location": "職員室",
+        "phone": "(0285)45-3600",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-098",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.781896,
+          36.346614
+        ]
+      },
+      "properties": {
+        "id": "aed-098",
+        "name": "小山市立豊田中学校",
+        "address": "栃木県小山市大字松沼397",
+        "location": "保健室",
+        "phone": "(0285)37-0004",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-099",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.761211,
+          36.31735
+        ]
+      },
+      "properties": {
+        "id": "aed-099",
+        "name": "小山市立美田中学校",
+        "address": "栃木県小山市大字下国府塚287",
+        "location": "職員室前廊下",
+        "phone": "(0285)38-2006",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-100",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.830442,
+          36.34522
+        ]
+      },
+      "properties": {
+        "id": "aed-100",
+        "name": "小山市立桑中学校",
+        "address": "栃木県小山市大字出井1859",
+        "location": "職員室",
+        "phone": "(0285)22-0187",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-101",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.896114,
+          36.330206
+        ]
+      },
+      "properties": {
+        "id": "aed-101",
+        "name": "小山市立絹義務教育学校",
+        "address": "栃木県小山市大字福良2240-1",
+        "location": "（東校舎）職員室前廊下",
+        "phone": "(0285)49-0141",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-102",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.89548,
+          36.329115
+        ]
+      },
+      "properties": {
+        "id": "aed-102",
+        "name": "小山市立絹義務教育学校",
+        "address": "栃木県小山市大字福良2240-1",
+        "location": "（西校舎）保健室前廊下",
+        "phone": "(0285)49-0141",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-103",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.796878,
+          36.310975
+        ]
+      },
+      "properties": {
+        "id": "aed-103",
+        "name": "小山市教育支援センター（アルカディア）",
+        "address": "栃木県小山市八幡町1-5-15",
+        "location": "職員室",
+        "phone": "(0285)24-5531",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-104",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.815268,
+          36.307239
+        ]
+      },
+      "properties": {
+        "id": "aed-104",
+        "name": "小山市外国人児童生徒適応指導教室（かけはし）",
+        "address": "栃木県小山市城東1-16-1",
+        "location": "職員室",
+        "phone": "(0285)25-3721",
+        "has_pediatric": true,
+        "available_time": "8:15～16:30",
+        "remarks": "学校閉庁日（夏季休業期間、冬季休業期間）は除く"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-105",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.800091,
+          36.316917
+        ]
+      },
+      "properties": {
+        "id": "aed-105",
+        "name": "角田歯科医院",
+        "address": "栃木県小山市城山町1-2-10",
+        "location": "",
+        "phone": "(0285)24-3138",
+        "has_pediatric": false,
+        "available_time": "8:30～18:00",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-106",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.804613,
+          36.316071
+        ]
+      },
+      "properties": {
+        "id": "aed-106",
+        "name": "友井タクシー有限会社（小山コミュニティーバス間々田路線）",
+        "address": "栃木県小山市城山町2-12-25",
+        "location": "",
+        "phone": "(0285)22-0840",
+        "has_pediatric": false,
+        "available_time": "6:25～21:10",
+        "remarks": "土日祝祭日については6:40から20:45まで。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-107",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.804613,
+          36.316071
+        ]
+      },
+      "properties": {
+        "id": "aed-107",
+        "name": "友井タクシー有限会社（小山コミュニティーバス市民病院線）",
+        "address": "栃木県小山市城山町2-12-25",
+        "location": "",
+        "phone": "(0285)22-0840",
+        "has_pediatric": false,
+        "available_time": "7:35～18:50",
+        "remarks": "土日祝祭日については9:35から17:20まで。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-108",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.804613,
+          36.316071
+        ]
+      },
+      "properties": {
+        "id": "aed-108",
+        "name": "友井タクシー有限会社（小山コミュニティーバス羽川路線）",
+        "address": "栃木県小山市城山町2-12-25",
+        "location": "",
+        "phone": "(0285)22-0840",
+        "has_pediatric": false,
+        "available_time": "6:25～21:09",
+        "remarks": "土日祝祭日については6:44から21:41まで。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-109",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.803856,
+          36.31455
+        ]
+      },
+      "properties": {
+        "id": "aed-109",
+        "name": "足利銀行小山支店",
+        "address": "栃木県小山市城山町2-9-23",
+        "location": "",
+        "phone": "(0285)39-7815",
+        "has_pediatric": false,
+        "available_time": "9:00～15:00",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-110",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.806512,
+          36.313069
+        ]
+      },
+      "properties": {
+        "id": "aed-110",
+        "name": "東日本旅客鉄道㈱小山駅",
+        "address": "栃木県小山市城山町3-3-22",
+        "location": "",
+        "phone": "(0285)22-6548",
+        "has_pediatric": false,
+        "available_time": "4:30～1:00",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-111",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.804995,
+          36.327749
+        ]
+      },
+      "properties": {
+        "id": "aed-111",
+        "name": "田村歯科医院",
+        "address": "栃木県小山市若木町1-19-2",
+        "location": "",
+        "phone": "(0285)24-4180",
+        "has_pediatric": false,
+        "available_time": "9:00～18:30",
+        "remarks": "12:00から15:00は休憩時間。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-112",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.805011,
+          36.322387
+        ]
+      },
+      "properties": {
+        "id": "aed-112",
+        "name": "岩﨑歯科クリニック",
+        "address": "栃木県小山市花垣町1-5-33",
+        "location": "",
+        "phone": "(0285)22-8211",
+        "has_pediatric": false,
+        "available_time": "9:00～18:00",
+        "remarks": "土日祝祭日は9:00から17:00まで。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-113",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.810211,
+          36.322711
+        ]
+      },
+      "properties": {
+        "id": "aed-113",
+        "name": "SWS東日本株式会社小山工場",
+        "address": "栃木県小山市花垣町2-7-16",
+        "location": "",
+        "phone": "(0285)22-0775",
+        "has_pediatric": false,
+        "available_time": "8:00～17:00",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-114",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.807316,
+          36.322303
+        ]
+      },
+      "properties": {
+        "id": "aed-114",
+        "name": "長井歯科医院",
+        "address": "栃木県小山市花垣町2-9-31",
+        "location": "",
+        "phone": "(0285)22-1059",
+        "has_pediatric": false,
+        "available_time": "9:00～19:00",
+        "remarks": "土日祝祭日は9:00から17:00まで。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-115",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.790591,
+          36.302959
+        ]
+      },
+      "properties": {
+        "id": "aed-115",
+        "name": "ネッツトヨタ栃木株式会社VWサザン小山",
+        "address": "栃木県小山市大字神鳥谷290-1",
+        "location": "",
+        "phone": "(0285)35-5001",
+        "has_pediatric": false,
+        "available_time": "9:30～18:00",
+        "remarks": "月曜日が祝日の場合、翌日火曜日定休。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-116",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.786483,
+          36.2975
+        ]
+      },
+      "properties": {
+        "id": "aed-116",
+        "name": "トヨタカローラ栃木株式会社小山神鳥谷店",
+        "address": "栃木県小山市大字神鳥谷309",
+        "location": "",
+        "phone": "(0285)35-5001",
+        "has_pediatric": false,
+        "available_time": "9:30～19:00",
+        "remarks": "月曜日が祝日の場合、翌日火曜日定休。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-117",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.786129,
+          36.297374
+        ]
+      },
+      "properties": {
+        "id": "aed-117",
+        "name": "ネッツトヨタ栃木株式会社小山店",
+        "address": "栃木県小山市大字神鳥谷309-1",
+        "location": "",
+        "phone": "(0285)23-3511",
+        "has_pediatric": false,
+        "available_time": "9:00～18:00",
+        "remarks": "月曜日が祝日の場合、翌日火曜日定休。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-118",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.797029,
+          36.301962
+        ]
+      },
+      "properties": {
+        "id": "aed-118",
+        "name": "関東自動車株式会社県南営業所（小山コミュニティーバス小山駅東口循環線1447号車）",
+        "address": "栃木県小山市神鳥谷2-3-17",
+        "location": "",
+        "phone": "(0285)22-1518",
+        "has_pediatric": false,
+        "available_time": "12:00～21:00",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-119",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.797029,
+          36.301962
+        ]
+      },
+      "properties": {
+        "id": "aed-119",
+        "name": "関東自動車株式会社県南営業所（小山コミュニティーバス小山駅東口循環線54号車）",
+        "address": "栃木県小山市神鳥谷2-3-17",
+        "location": "",
+        "phone": "(0285)22-1518",
+        "has_pediatric": false,
+        "available_time": "6:00～15:00",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-120",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.797029,
+          36.301962
+        ]
+      },
+      "properties": {
+        "id": "aed-120",
+        "name": "関東自動車株式会社県南営業所（小山コミュニティーバス新小山市民病院循環線）",
+        "address": "栃木県小山市神鳥谷2-3-17",
+        "location": "",
+        "phone": "(0285)22-1518",
+        "has_pediatric": false,
+        "available_time": "7:00～17:00",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-121",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.786545,
+          36.296234
+        ]
+      },
+      "properties": {
+        "id": "aed-121",
+        "name": "ネッツトヨタ栃木株式会社レクサス小山",
+        "address": "栃木県小山市神鳥谷4-13-35",
+        "location": "",
+        "phone": "(0285)23-7555",
+        "has_pediatric": false,
+        "available_time": "9:00～18:00",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-122",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.78607,
+          36.289663
+        ]
+      },
+      "properties": {
+        "id": "aed-122",
+        "name": "ライブガーデン小山粟宮スタンダード",
+        "address": "栃木県小山市大字粟宮915-1",
+        "location": "",
+        "phone": "(0285)25-8102",
+        "has_pediatric": false,
+        "available_time": "9:00～23:00",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-123",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.786715,
+          36.291249
+        ]
+      },
+      "properties": {
+        "id": "aed-123",
+        "name": "栃木トヨタ自動車株式会社粟宮店",
+        "address": "栃木県小山市粟宮1-14-23",
+        "location": "",
+        "phone": "(0285)25-2515",
+        "has_pediatric": false,
+        "available_time": "9:00～19:00",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-124",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.804297,
+          36.298473
+        ]
+      },
+      "properties": {
+        "id": "aed-124",
+        "name": "平山歯科医院",
+        "address": "栃木県小山市西城南2-9-23",
+        "location": "",
+        "phone": "(0285)31-6118",
+        "has_pediatric": false,
+        "available_time": "8:30～19:00",
+        "remarks": "土曜日は8:30から18:00まで。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-125",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.812674,
+          36.297453
+        ]
+      },
+      "properties": {
+        "id": "aed-125",
+        "name": "医療法人城南やぎ歯科医院",
+        "address": "栃木県小山市東城南1-6-7",
+        "location": "",
+        "phone": "(0285)27-8049",
+        "has_pediatric": false,
+        "available_time": "9:00～18:30",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-126",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.808098,
+          36.305018
+        ]
+      },
+      "properties": {
+        "id": "aed-126",
+        "name": "斎藤歯科クリニック",
+        "address": "栃木県小山市駅南町1-12-6",
+        "location": "",
+        "phone": "(0285)27-1234",
+        "has_pediatric": false,
+        "available_time": "9:00～19:00",
+        "remarks": "土日祝祭日は9:00から18:30まで。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-127",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.809547,
+          36.303283
+        ]
+      },
+      "properties": {
+        "id": "aed-127",
+        "name": "覚本歯科医院",
+        "address": "栃木県小山市駅南町3-26-18",
+        "location": "",
+        "phone": "(0285)27-8148",
+        "has_pediatric": false,
+        "available_time": "9:00～19:00",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-128",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.816961,
+          36.303064
+        ]
+      },
+      "properties": {
+        "id": "aed-128",
+        "name": "井上歯科医院",
+        "address": "栃木県小山市駅南町5-13-7",
+        "location": "",
+        "phone": "(0285)27-1141",
+        "has_pediatric": false,
+        "available_time": "9:00～19:00",
+        "remarks": "12:00から14:00は提供不可。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-129",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.810962,
+          36.307808
+        ]
+      },
+      "properties": {
+        "id": "aed-129",
+        "name": "石川歯科医院",
+        "address": "栃木県小山市駅東通り1-29-12",
+        "location": "",
+        "phone": "(0285)22-4182",
+        "has_pediatric": false,
+        "available_time": "9:00～18:00",
+        "remarks": "12:00から14:00は提供不可。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-130",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.808688,
+          36.314333
+        ]
+      },
+      "properties": {
+        "id": "aed-130",
+        "name": "イーグルスポーツプラザ小山",
+        "address": "栃木県小山市駅東通り2-4-1",
+        "location": "",
+        "phone": "(0285)23-8011",
+        "has_pediatric": false,
+        "available_time": "9:30～23:00",
+        "remarks": "土曜日は9:30から21:00まで。日祝祭日は9:30から20:00まで。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-131",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.817879,
+          36.326862
+        ]
+      },
+      "properties": {
+        "id": "aed-131",
+        "name": "医療法人社団悠徳会城北歯科医院",
+        "address": "栃木県小山市城北2-14-7",
+        "location": "",
+        "phone": "(0285)25-8049",
+        "has_pediatric": false,
+        "available_time": "9:00～19:00",
+        "remarks": "土日祝祭日は9:00から17:30まで。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-132",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.823879,
+          36.320747
+        ]
+      },
+      "properties": {
+        "id": "aed-132",
+        "name": "東京鋼鐵株式会社小山工場",
+        "address": "栃木県小山市城北4-38-1",
+        "location": "",
+        "phone": "(0285)22-1335",
+        "has_pediatric": false,
+        "available_time": "8:00～8:00",
+        "remarks": "事業所の公開時間は8:00から17:00。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-133",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.820587,
+          36.329037
+        ]
+      },
+      "properties": {
+        "id": "aed-133",
+        "name": "医療法人岳心会岩井歯科クリニック",
+        "address": "栃木県小山市大字稲葉郷67-27",
+        "location": "",
+        "phone": "(0285)25-8761",
+        "has_pediatric": false,
+        "available_time": "9:00～19:00",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-134",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.805712,
+          36.330106
+        ]
+      },
+      "properties": {
+        "id": "aed-134",
+        "name": "古河産機システムズ株式会社",
+        "address": "栃木県小山市若木町1-23-15",
+        "location": "",
+        "phone": "(0285)23-8650",
+        "has_pediatric": false,
+        "available_time": "5:30～22:30",
+        "remarks": "正門を閉鎖するため、10:00から10:30,15:00から15:30,18:00から1830,21:00から21:30は提供不可。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-135",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.810723,
+          36.329791
+        ]
+      },
+      "properties": {
+        "id": "aed-135",
+        "name": "スーパーライブガーデン小山喜沢店",
+        "address": "栃木県小山市大字稲葉郷1341-4",
+        "location": "",
+        "phone": "0284-24-0005",
+        "has_pediatric": false,
+        "available_time": "9:00～23:00",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-136",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.816728,
+          36.282364
+        ]
+      },
+      "properties": {
+        "id": "aed-136",
+        "name": "株式会社小山中央観光バス（小山コミュニティーバス思川駅・道の駅線）",
+        "address": "栃木県小山市大字雨ヶ谷741-1",
+        "location": "",
+        "phone": "(0285)31-1313",
+        "has_pediatric": false,
+        "available_time": "6:55～19:00",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-137",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.816728,
+          36.282364
+        ]
+      },
+      "properties": {
+        "id": "aed-137",
+        "name": "株式会社小山中央観光バス（小山コミュニティーバス間々田東西線）",
+        "address": "栃木県小山市大字雨ヶ谷741-1",
+        "location": "",
+        "phone": "(0285)31-1313",
+        "has_pediatric": false,
+        "available_time": "6:05～19:25",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-138",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.811912,
+          36.284533
+        ]
+      },
+      "properties": {
+        "id": "aed-138",
+        "name": "JOYFITヨークタウン雨ヶ谷",
+        "address": "栃木県小山市大字雨ケ谷町60",
+        "location": "",
+        "phone": "(0285)39-6070",
+        "has_pediatric": false,
+        "available_time": "6:00～0:00",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-139",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.823676,
+          36.282125
+        ]
+      },
+      "properties": {
+        "id": "aed-139",
+        "name": "サヤップゴルフフィットネス",
+        "address": "栃木県小山市大字横倉新田102-1",
+        "location": "",
+        "phone": "(0285)37-8460",
+        "has_pediatric": false,
+        "available_time": "10:30～22:30",
+        "remarks": "土日祝祭日は8:30から18:30。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-140",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.827139,
+          36.30176
+        ]
+      },
+      "properties": {
+        "id": "aed-140",
+        "name": "吉浜歯科",
+        "address": "栃木県小山市大字土塔247-27",
+        "location": "",
+        "phone": "(0285)28-7555",
+        "has_pediatric": false,
+        "available_time": "9:00～19:00",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-141",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.814295,
+          36.310902
+        ]
+      },
+      "properties": {
+        "id": "aed-141",
+        "name": "城東にこにこ保育所",
+        "address": "栃木県小山市城東1-9-23",
+        "location": "",
+        "phone": "(0285)37-8505",
+        "has_pediatric": false,
+        "available_time": "7:00～19:00",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-142",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.817988,
+          36.309372
+        ]
+      },
+      "properties": {
+        "id": "aed-142",
+        "name": "城東内海歯科医院",
+        "address": "栃木県小山市城東6-1-45",
+        "location": "",
+        "phone": "(0285)25-5000",
+        "has_pediatric": false,
+        "available_time": "9:00～19:00",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-143",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.827356,
+          36.326117
+        ]
+      },
+      "properties": {
+        "id": "aed-143",
+        "name": "トヨタカローラ栃木株式会社小山犬塚店",
+        "address": "栃木県小山市大字犬塚32-14",
+        "location": "",
+        "phone": "(0285)23-1877",
+        "has_pediatric": false,
+        "available_time": "9:30～19:00",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-144",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.832402,
+          36.32348
+        ]
+      },
+      "properties": {
+        "id": "aed-144",
+        "name": "医療法人社団星野会星野歯科医院",
+        "address": "栃木県小山市大字犬塚60-1",
+        "location": "",
+        "phone": "(0285)25-3533",
+        "has_pediatric": false,
+        "available_time": "9:00～19:00",
+        "remarks": "土曜日は9:00から18:00。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-145",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.837212,
+          36.310838
+        ]
+      },
+      "properties": {
+        "id": "aed-145",
+        "name": "入江歯科医院",
+        "address": "栃木県小山市大字犬塚732",
+        "location": "",
+        "phone": "(0285)24-5582",
+        "has_pediatric": false,
+        "available_time": "9:00～19:00",
+        "remarks": "土曜日は9:00から12:00。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-146",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.833578,
+          36.310476
+        ]
+      },
+      "properties": {
+        "id": "aed-146",
+        "name": "大山タクシー有限会社（小山コミュニティーバス城東中久喜路線）",
+        "address": "栃木県小山市犬塚2-8-5",
+        "location": "",
+        "phone": "(0285)22-0947",
+        "has_pediatric": false,
+        "available_time": "5:55～21:00",
+        "remarks": "土日祝祭日は6:20から20:30。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-147",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.833578,
+          36.310476
+        ]
+      },
+      "properties": {
+        "id": "aed-147",
+        "name": "大山タクシー有限会社（小山コミュニティーバス土塔平成通り線・デマンド大谷）",
+        "address": "栃木県小山市犬塚2-8-5",
+        "location": "",
+        "phone": "(0285)22-0947",
+        "has_pediatric": false,
+        "available_time": "6:40～19:51",
+        "remarks": "土日祝祭日は7:10から19:51。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-148",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.833578,
+          36.310476
+        ]
+      },
+      "properties": {
+        "id": "aed-148",
+        "name": "大山タクシー有限会社（小山コミュニティーバス高岳路線）",
+        "address": "栃木県小山市犬塚2-8-5",
+        "location": "",
+        "phone": "(0285)22-0947",
+        "has_pediatric": false,
+        "available_time": "6:30～21:00",
+        "remarks": "土日祝祭日は7:00から20:50。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-149",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.833578,
+          36.310476
+        ]
+      },
+      "properties": {
+        "id": "aed-149",
+        "name": "大山タクシー有限会社（小山コミュニティーバス大谷中央路線）",
+        "address": "栃木県小山市犬塚2-8-5",
+        "location": "",
+        "phone": "(0285)22-0947",
+        "has_pediatric": false,
+        "available_time": "6:30～21:00",
+        "remarks": "土日祝祭日は6:40から21:00。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-150",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.833793,
+          36.309819
+        ]
+      },
+      "properties": {
+        "id": "aed-150",
+        "name": "ＦＩＴ３６５小山犬塚",
+        "address": "栃木県小山市犬塚4-10-10",
+        "location": "",
+        "phone": "(0285)37-7255",
+        "has_pediatric": false,
+        "available_time": "9:00～18:00",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-151",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.825727,
+          36.325931
+        ]
+      },
+      "properties": {
+        "id": "aed-151",
+        "name": "渡邉金属運輸株式会社",
+        "address": "栃木県小山市大字犬塚32",
+        "location": "",
+        "phone": "(0285)23-8877",
+        "has_pediatric": false,
+        "available_time": "8:00～18:00",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-152",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.824806,
+          36.280467
+        ]
+      },
+      "properties": {
+        "id": "aed-152",
+        "name": "学校法人ひまわり学園ひまわり保育所",
+        "address": "栃木県小山市大字横倉新田287-2",
+        "location": "",
+        "phone": "(0285)28-6355",
+        "has_pediatric": false,
+        "available_time": "7:00～18:00",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-153",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.826325,
+          36.313838
+        ]
+      },
+      "properties": {
+        "id": "aed-153",
+        "name": "栃木県庁小山庁舎",
+        "address": "栃木県小山市犬塚3-1-1",
+        "location": "",
+        "phone": "(0285)22-0302",
+        "has_pediatric": false,
+        "available_time": "8:30～17:15",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-154",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.87931,
+          36.327374
+        ]
+      },
+      "properties": {
+        "id": "aed-154",
+        "name": "株式会社ツルオカ小山事業所",
+        "address": "栃木県小山市大字萱橋1085",
+        "location": "",
+        "phone": "(0285)49-3330",
+        "has_pediatric": false,
+        "available_time": "8:20～17:20",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-155",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.854436,
+          36.315147
+        ]
+      },
+      "properties": {
+        "id": "aed-155",
+        "name": "小山市開運スポーツ合宿所",
+        "address": "栃木県小山市大字向野187",
+        "location": "",
+        "phone": "(0285)49-3522",
+        "has_pediatric": false,
+        "available_time": "8:30～21:00",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-156",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.892494,
+          36.342029
+        ]
+      },
+      "properties": {
+        "id": "aed-156",
+        "name": "有限会社小山環境美化センター",
+        "address": "栃木県小山市大字高椅1242",
+        "location": "",
+        "phone": "(0285)49-0149",
+        "has_pediatric": false,
+        "available_time": "7:00～17:30",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-157",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.882176,
+          36.330475
+        ]
+      },
+      "properties": {
+        "id": "aed-157",
+        "name": "メルテック株式会社",
+        "address": "栃木県小山市大字梁2333-29",
+        "location": "",
+        "phone": "(0285)49-1080",
+        "has_pediatric": false,
+        "available_time": "8:00～17:00",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-158",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.789607,
+          36.315316
+        ]
+      },
+      "properties": {
+        "id": "aed-158",
+        "name": "栃木信用金庫思川支店",
+        "address": "栃木県小山市大字大行寺974-10",
+        "location": "",
+        "phone": "(0285)25-1111",
+        "has_pediatric": false,
+        "available_time": "8:00～15:00",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-159",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.793258,
+          36.318126
+        ]
+      },
+      "properties": {
+        "id": "aed-159",
+        "name": "大森歯科医院",
+        "address": "栃木県小山市大字大行寺1066-1",
+        "location": "",
+        "phone": "(0285)24-5455",
+        "has_pediatric": false,
+        "available_time": "15:00～19:00",
+        "remarks": "土曜日は14:30から18:00まで。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-160",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.793559,
+          36.31569
+        ]
+      },
+      "properties": {
+        "id": "aed-160",
+        "name": "白鴎大学",
+        "address": "栃木県小山市大字大行寺1117",
+        "location": "",
+        "phone": "(0285)22-1111",
+        "has_pediatric": false,
+        "available_time": "8:00～21:00",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-161",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.775271,
+          36.328862
+        ]
+      },
+      "properties": {
+        "id": "aed-161",
+        "name": "文化シャッター株式会社 ライフイン環境防災研究所",
+        "address": "栃木県小山市大字上石塚644-1",
+        "location": "",
+        "phone": "(0285)33-3151",
+        "has_pediatric": false,
+        "available_time": "9:00～17:00",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-162",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.739669,
+          36.324841
+        ]
+      },
+      "properties": {
+        "id": "aed-162",
+        "name": "クロス歯科医院",
+        "address": "栃木県小山市大字南小林651-1",
+        "location": "",
+        "phone": "(0285)38-0733",
+        "has_pediatric": false,
+        "available_time": "9:00～18:00",
+        "remarks": "土日祝祭日は9:30から16:00まで。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-163",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.768644,
+          36.352257
+        ]
+      },
+      "properties": {
+        "id": "aed-163",
+        "name": "栃木県立小山西高等学校",
+        "address": "栃木県小山市大字松沼741",
+        "location": "",
+        "phone": "(0285)37-1188",
+        "has_pediatric": false,
+        "available_time": "8:15～16:45",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-164",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.821006,
+          36.34267
+        ]
+      },
+      "properties": {
+        "id": "aed-164",
+        "name": "ネッツトヨタ栃木株式会社トヨタ認定中古車小山店",
+        "address": "栃木県小山市大字喜沢667",
+        "location": "",
+        "phone": "(0285)22-8050",
+        "has_pediatric": false,
+        "available_time": "10:00～19:00",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-165",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.833811,
+          36.36608
+        ]
+      },
+      "properties": {
+        "id": "aed-165",
+        "name": "栃木トヨタ自動車株式会社　小山羽川店",
+        "address": "栃木県小山市大字羽川495-1",
+        "location": "",
+        "phone": "(0285)25-7788",
+        "has_pediatric": false,
+        "available_time": "9:00～19:00",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-166",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.823132,
+          36.344938
+        ]
+      },
+      "properties": {
+        "id": "aed-166",
+        "name": "ネッツトヨタ栃木株式会社　小山喜沢店",
+        "address": "栃木県小山市大字喜沢660-130",
+        "location": "",
+        "phone": "(0285)25-7788",
+        "has_pediatric": false,
+        "available_time": "9:30～18:00",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-167",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.847664,
+          36.346875
+        ]
+      },
+      "properties": {
+        "id": "aed-167",
+        "name": "協栄流通株式会社小山物流センター",
+        "address": "栃木県小山市大字出井1523-19",
+        "location": "",
+        "phone": "(0285)22-8100",
+        "has_pediatric": false,
+        "available_time": "9:00～17:00",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-168",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.865173,
+          36.355999
+        ]
+      },
+      "properties": {
+        "id": "aed-168",
+        "name": "栃木県立小山北桜高等学校",
+        "address": "栃木県小山市大字東山田448-29",
+        "location": "",
+        "phone": "(0285)49-2932",
+        "has_pediatric": false,
+        "available_time": "8:15～16:45",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-169",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.830145,
+          36.367136
+        ]
+      },
+      "properties": {
+        "id": "aed-169",
+        "name": "永井歯科医院",
+        "address": "栃木県小山市大字南半田2041-5",
+        "location": "",
+        "phone": "(0285)25-4182",
+        "has_pediatric": false,
+        "available_time": "9:00～19:00",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-170",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.830142,
+          36.339695
+        ]
+      },
+      "properties": {
+        "id": "aed-170",
+        "name": "日本たばこ産業株式会社葉たばこ研究所",
+        "address": "栃木県小山市大字出井1900",
+        "location": "",
+        "phone": "(0285)23-3142",
+        "has_pediatric": false,
+        "available_time": "9:00～17:00",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-171",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.847256,
+          36.348201
+        ]
+      },
+      "properties": {
+        "id": "aed-171",
+        "name": "森永製菓株式会社小山工場",
+        "address": "栃木県小山市大字出井1523-1",
+        "location": "",
+        "phone": "(0285)22-1475",
+        "has_pediatric": false,
+        "available_time": "5:00～1:00",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-172",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.779793,
+          36.258574
+        ]
+      },
+      "properties": {
+        "id": "aed-172",
+        "name": "栃木県立小山南高等学校",
+        "address": "栃木県小山市大字間々田23-1",
+        "location": "",
+        "phone": "(0285)45-2424",
+        "has_pediatric": false,
+        "available_time": "8:00～17:30",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-173",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.766673,
+          36.254893
+        ]
+      },
+      "properties": {
+        "id": "aed-173",
+        "name": "かきのき歯科クリニック",
+        "address": "栃木県小山市大字南飯田494-3",
+        "location": "",
+        "phone": "(0285)38-6716",
+        "has_pediatric": false,
+        "available_time": "9:30～17:00",
+        "remarks": "土曜日は9:30から17:00まで。"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-174",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.736437,
+          36.260148
+        ]
+      },
+      "properties": {
+        "id": "aed-174",
+        "name": "有限会社菜匠",
+        "address": "栃木県小山市大字楢木275-12",
+        "location": "",
+        "phone": "(0285)41-0751",
+        "has_pediatric": false,
+        "available_time": "9:00～18:00",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-175",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.760909,
+          36.257945
+        ]
+      },
+      "properties": {
+        "id": "aed-175",
+        "name": "東日本旅客鉄道㈱間々田駅",
+        "address": "栃木県小山市乙女3-16",
+        "location": "",
+        "phone": "(0285)45-0610",
+        "has_pediatric": false,
+        "available_time": "5:00～1:00",
+        "remarks": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aed-176",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.762619,
+          36.256181
+        ]
+      },
+      "properties": {
+        "id": "aed-176",
+        "name": "オリジン電気株式会社間々田工場",
+        "address": "栃木県小山市暁3-10-5",
+        "location": "",
+        "phone": "(0285)45-1111",
+        "has_pediatric": false,
+        "available_time": "8:30～17:00",
+        "remarks": ""
+      }
+    }
+  ]
+}

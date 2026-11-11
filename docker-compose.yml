@@ -1,0 +1,22 @@
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+    restart: unless-stopped
+
+  data-pipeline:
+    build:
+      context: .
+      dockerfile: data_pipeline/Dockerfile
+    volumes:
+      - ./data_pipeline:/app/data_pipeline
+      - ./frontend/public/data:/app/frontend/public/data
+    profiles: ["tools"] # 必要時のみ `docker compose run data-pipeline` で実行

@@ -1,0 +1,5978 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "栃木県小山市 公園施設一覧",
+    "author": "栃木県小山市",
+    "source": "Code for OYAMA API (/park_facilities)",
+    "count": 351
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "park-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.78604,
+          36.28414
+        ]
+      },
+      "properties": {
+        "id": "park-001",
+        "name": "東道上1号公園",
+        "address": "栃木県小山市粟宮1027-14",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.784017,
+          36.285612
+        ]
+      },
+      "properties": {
+        "id": "park-002",
+        "name": "粟宮第一公園",
+        "address": "栃木県小山市粟宮1038-1",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.78709,
+          36.292756
+        ]
+      },
+      "properties": {
+        "id": "park-003",
+        "name": "宮内公園",
+        "address": "栃木県小山市粟宮1-12",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.785434,
+          36.281881
+        ]
+      },
+      "properties": {
+        "id": "park-004",
+        "name": "東道上3号公園",
+        "address": "栃木県小山市粟宮1134-28",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.783238,
+          36.281574
+        ]
+      },
+      "properties": {
+        "id": "park-005",
+        "name": "東道上公園",
+        "address": "栃木県小山市粟宮1238-17",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.777485,
+          36.28358
+        ]
+      },
+      "properties": {
+        "id": "park-006",
+        "name": "西道上公園",
+        "address": "栃木県小山市粟宮1407-14",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.784332,
+          36.291002
+        ]
+      },
+      "properties": {
+        "id": "park-007",
+        "name": "宮内3号公園",
+        "address": "栃木県小山市粟宮1585-19",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.779344,
+          36.288123
+        ]
+      },
+      "properties": {
+        "id": "park-008",
+        "name": "宮内2号公園",
+        "address": "栃木県小山市粟宮1696-8",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.784294,
+          36.294932
+        ]
+      },
+      "properties": {
+        "id": "park-009",
+        "name": "粟宮1号公園",
+        "address": "栃木県小山市粟宮1830-22",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.783427,
+          36.29408
+        ]
+      },
+      "properties": {
+        "id": "park-010",
+        "name": "粟宮2号公園",
+        "address": "栃木県小山市粟宮1970-23",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.778225,
+          36.288612
+        ]
+      },
+      "properties": {
+        "id": "park-011",
+        "name": "西添公園",
+        "address": "栃木県小山市粟宮2348-17",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.777487,
+          36.285781
+        ]
+      },
+      "properties": {
+        "id": "park-012",
+        "name": "西添2号公園",
+        "address": "栃木県小山市粟宮2387-13",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-013",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.775906,
+          36.286244
+        ]
+      },
+      "properties": {
+        "id": "park-013",
+        "name": "西添3号公園",
+        "address": "栃木県小山市粟宮2432-22",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.788296,
+          36.287488
+        ]
+      },
+      "properties": {
+        "id": "park-014",
+        "name": "東道上2号公園",
+        "address": "栃木県小山市粟宮898-19",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-015",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.820681,
+          36.351424
+        ]
+      },
+      "properties": {
+        "id": "park-015",
+        "name": "下田西5号公園",
+        "address": "栃木県小山市羽川1-20",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-016",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.822133,
+          36.353168
+        ]
+      },
+      "properties": {
+        "id": "park-016",
+        "name": "下田西3号公園",
+        "address": "栃木県小山市羽川12-32",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-017",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.822832,
+          36.35264
+        ]
+      },
+      "properties": {
+        "id": "park-017",
+        "name": "下田西1号公園",
+        "address": "栃木県小山市羽川12-41",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-018",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.825764,
+          36.35371
+        ]
+      },
+      "properties": {
+        "id": "park-018",
+        "name": "庚申原公園",
+        "address": "栃木県小山市羽川138-39",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-019",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.826974,
+          36.355565
+        ]
+      },
+      "properties": {
+        "id": "park-019",
+        "name": "下往還西2号公園",
+        "address": "栃木県小山市羽川146-102",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-020",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.82716,
+          36.355516
+        ]
+      },
+      "properties": {
+        "id": "park-020",
+        "name": "下往還西公園",
+        "address": "栃木県小山市羽川146-78",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-021",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.824241,
+          36.353839
+        ]
+      },
+      "properties": {
+        "id": "park-021",
+        "name": "西原下公園",
+        "address": "栃木県小山市羽川191-13",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-022",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.83068,
+          36.364635
+        ]
+      },
+      "properties": {
+        "id": "park-022",
+        "name": "陳場2号公園",
+        "address": "栃木県小山市羽川285-110",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-023",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.831373,
+          36.364608
+        ]
+      },
+      "properties": {
+        "id": "park-023",
+        "name": "陳場公園",
+        "address": "栃木県小山市羽川285-49",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-024",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.832311,
+          36.366108
+        ]
+      },
+      "properties": {
+        "id": "park-024",
+        "name": "古泉道1号公園",
+        "address": "栃木県小山市羽川287-26",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-025",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.832864,
+          36.366966
+        ]
+      },
+      "properties": {
+        "id": "park-025",
+        "name": "古泉道3号公園",
+        "address": "栃木県小山市羽川288-75",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-026",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.832157,
+          36.365566
+        ]
+      },
+      "properties": {
+        "id": "park-026",
+        "name": "古泉道2号公園",
+        "address": "栃木県小山市羽川293-21",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-027",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.831173,
+          36.363373
+        ]
+      },
+      "properties": {
+        "id": "park-027",
+        "name": "上往還西公園",
+        "address": "栃木県小山市羽川313-18",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-028",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.830415,
+          36.361386
+        ]
+      },
+      "properties": {
+        "id": "park-028",
+        "name": "薬師公園",
+        "address": "栃木県小山市羽川362-5",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-029",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.827738,
+          36.36090156
+        ]
+      },
+      "properties": {
+        "id": "park-029",
+        "name": "西屋敷裏3号公園",
+        "address": "栃木県小山市羽川370-32",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-030",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.827395,
+          36.360549
+        ]
+      },
+      "properties": {
+        "id": "park-030",
+        "name": "西屋敷裏2号公園",
+        "address": "栃木県小山市羽川384-18",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-031",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.826995,
+          36.359872
+        ]
+      },
+      "properties": {
+        "id": "park-031",
+        "name": "西屋敷裏公園",
+        "address": "栃木県小山市羽川385-29",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-032",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.829341,
+          36.359284
+        ]
+      },
+      "properties": {
+        "id": "park-032",
+        "name": "西屋敷裏4号公園",
+        "address": "栃木県小山市羽川385-68",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-033",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.82752,
+          36.358524
+        ]
+      },
+      "properties": {
+        "id": "park-033",
+        "name": "西屋敷裏7号公園",
+        "address": "栃木県小山市羽川388-14",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-034",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.828693,
+          36.359239
+        ]
+      },
+      "properties": {
+        "id": "park-034",
+        "name": "くらしのみち公園",
+        "address": "栃木県小山市羽川389-1",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-035",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.828591,
+          36.359163
+        ]
+      },
+      "properties": {
+        "id": "park-035",
+        "name": "西屋敷裏5号公園",
+        "address": "栃木県小山市羽川389-8",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-036",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.829044,
+          36.358428
+        ]
+      },
+      "properties": {
+        "id": "park-036",
+        "name": "西屋敷裏6号公園",
+        "address": "栃木県小山市羽川394-21",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-037",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.827166,
+          36.357402
+        ]
+      },
+      "properties": {
+        "id": "park-037",
+        "name": "羽川広場",
+        "address": "栃木県小山市羽川397-1",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-038",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.834677,
+          36.362453
+        ]
+      },
+      "properties": {
+        "id": "park-038",
+        "name": "上往還東公園",
+        "address": "栃木県小山市羽川452-16",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-039",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.833322,
+          36.362809
+        ]
+      },
+      "properties": {
+        "id": "park-039",
+        "name": "上往還東2号公園",
+        "address": "栃木県小山市羽川455-5",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-040",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.822559,
+          36.348912
+        ]
+      },
+      "properties": {
+        "id": "park-040",
+        "name": "下田2号公園",
+        "address": "栃木県小山市羽川46-29",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-041",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.837057,
+          36.367946
+        ]
+      },
+      "properties": {
+        "id": "park-041",
+        "name": "コブタ島3号公園",
+        "address": "栃木県小山市羽川517-268",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-042",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.836493,
+          36.365344
+        ]
+      },
+      "properties": {
+        "id": "park-042",
+        "name": "コブタ島2号公園",
+        "address": "栃木県小山市羽川522-39",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-043",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8359,
+          36.365098
+        ]
+      },
+      "properties": {
+        "id": "park-043",
+        "name": "コブタ島公園",
+        "address": "栃木県小山市羽川527-38",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-044",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.824157,
+          36.349931
+        ]
+      },
+      "properties": {
+        "id": "park-044",
+        "name": "下田3号公園",
+        "address": "栃木県小山市羽川53-19",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-045",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.835328,
+          36.365518
+        ]
+      },
+      "properties": {
+        "id": "park-045",
+        "name": "赤堀公園",
+        "address": "栃木県小山市羽川543-21",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-046",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.83422,
+          36.363748
+        ]
+      },
+      "properties": {
+        "id": "park-046",
+        "name": "赤堀4号公園",
+        "address": "栃木県小山市羽川553-24",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-047",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.835195,
+          36.364107
+        ]
+      },
+      "properties": {
+        "id": "park-047",
+        "name": "赤堀3号公園",
+        "address": "栃木県小山市羽川558-33",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-048",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.835288,
+          36.363227
+        ]
+      },
+      "properties": {
+        "id": "park-048",
+        "name": "赤堀2号公園",
+        "address": "栃木県小山市羽川570-18",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-049",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.835916,
+          36.364368
+        ]
+      },
+      "properties": {
+        "id": "park-049",
+        "name": "山ノ内公園",
+        "address": "栃木県小山市羽川576-32",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-050",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.825185,
+          36.351486
+        ]
+      },
+      "properties": {
+        "id": "park-050",
+        "name": "下田1号公園",
+        "address": "栃木県小山市羽川60-76",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-051",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.823399,
+          36.350944
+        ]
+      },
+      "properties": {
+        "id": "park-051",
+        "name": "下田西4号公園",
+        "address": "栃木県小山市羽川7-25",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-052",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.825751,
+          36.346911
+        ]
+      },
+      "properties": {
+        "id": "park-052",
+        "name": "二ノ窪公園",
+        "address": "栃木県小山市羽川834-39",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-053",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.821466,
+          36.351862
+        ]
+      },
+      "properties": {
+        "id": "park-053",
+        "name": "下田西2号公園",
+        "address": "栃木県小山市羽川9-40",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-054",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.827279,
+          36.350301
+        ]
+      },
+      "properties": {
+        "id": "park-054",
+        "name": "羽川ふれあい公園（下田公園）",
+        "address": "栃木県小山市羽川94-1",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-055",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.83001,
+          36.364153
+        ]
+      },
+      "properties": {
+        "id": "park-055",
+        "name": "上往還西2号公園",
+        "address": "栃木県小山市羽川字上往還284-35",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-056",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.818376,
+          36.283265
+        ]
+      },
+      "properties": {
+        "id": "park-056",
+        "name": "本田10号公園",
+        "address": "栃木県小山市雨ヶ谷772-55",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-057",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.811035,
+          36.286023
+        ]
+      },
+      "properties": {
+        "id": "park-057",
+        "name": "愛宕前公園",
+        "address": "栃木県小山市雨ヶ谷17",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-058",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.821749,
+          36.284015
+        ]
+      },
+      "properties": {
+        "id": "park-058",
+        "name": "本田9号公園",
+        "address": "栃木県小山市雨ヶ谷716-11",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-059",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.818756,
+          36.283041
+        ]
+      },
+      "properties": {
+        "id": "park-059",
+        "name": "本田5号公園",
+        "address": "栃木県小山市雨ヶ谷772-18",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-060",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.813844,
+          36.284172
+        ]
+      },
+      "properties": {
+        "id": "park-060",
+        "name": "本田8号公園",
+        "address": "栃木県小山市雨ヶ谷785-22",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-061",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.814428,
+          36.285947
+        ]
+      },
+      "properties": {
+        "id": "park-061",
+        "name": "本田4号公園",
+        "address": "栃木県小山市雨ヶ谷796-15",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-062",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.819552,
+          36.283781
+        ]
+      },
+      "properties": {
+        "id": "park-062",
+        "name": "本田6号公園",
+        "address": "栃木県小山市雨ヶ谷801-31",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-063",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.819872,
+          36.284196
+        ]
+      },
+      "properties": {
+        "id": "park-063",
+        "name": "本田公園",
+        "address": "栃木県小山市雨ヶ谷820-23",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-064",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.820572,
+          36.28423
+        ]
+      },
+      "properties": {
+        "id": "park-064",
+        "name": "本田3号公園",
+        "address": "栃木県小山市雨ヶ谷826-18",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-065",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.818194,
+          36.285694
+        ]
+      },
+      "properties": {
+        "id": "park-065",
+        "name": "本田7号公園",
+        "address": "栃木県小山市雨ヶ谷830-25",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-066",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.815508,
+          36.287256
+        ]
+      },
+      "properties": {
+        "id": "park-066",
+        "name": "木島谷公園",
+        "address": "栃木県小山市雨ヶ谷858-19",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-067",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.81578,
+          36.28777
+        ]
+      },
+      "properties": {
+        "id": "park-067",
+        "name": "稲荷前公園",
+        "address": "栃木県小山市雨ヶ谷新田27-15",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-068",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.815843,
+          36.288024
+        ]
+      },
+      "properties": {
+        "id": "park-068",
+        "name": "稲荷前2号公園",
+        "address": "栃木県小山市雨ヶ谷新田27-22",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-069",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.816489,
+          36.289496
+        ]
+      },
+      "properties": {
+        "id": "park-069",
+        "name": "屋敷下4号公園",
+        "address": "栃木県小山市雨ヶ谷新田43-29",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-070",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.816401,
+          36.29051
+        ]
+      },
+      "properties": {
+        "id": "park-070",
+        "name": "屋敷下3号公園",
+        "address": "栃木県小山市雨ヶ谷新田47-1",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-071",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.817516,
+          36.29088
+        ]
+      },
+      "properties": {
+        "id": "park-071",
+        "name": "屋敷下6号公園",
+        "address": "栃木県小山市雨ヶ谷新田50-6",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-072",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.818089,
+          36.29208
+        ]
+      },
+      "properties": {
+        "id": "park-072",
+        "name": "屋敷下2号公園",
+        "address": "栃木県小山市雨ヶ谷新田52-3",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-073",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.818596,
+          36.292558
+        ]
+      },
+      "properties": {
+        "id": "park-073",
+        "name": "屋敷下1号公園",
+        "address": "栃木県小山市雨ヶ谷新田53-30",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-074",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.821347,
+          36.294663
+        ]
+      },
+      "properties": {
+        "id": "park-074",
+        "name": "渡辺東1号公園",
+        "address": "栃木県小山市雨ヶ谷新田73-98",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-075",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.821371,
+          36.290408
+        ]
+      },
+      "properties": {
+        "id": "park-075",
+        "name": "東畑公園",
+        "address": "栃木県小山市雨ヶ谷新田78-24",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-076",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.822758,
+          36.290677
+        ]
+      },
+      "properties": {
+        "id": "park-076",
+        "name": "東畑2号公園",
+        "address": "栃木県小山市雨ヶ谷新田79-63",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-077",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.82147,
+          36.287662
+        ]
+      },
+      "properties": {
+        "id": "park-077",
+        "name": "牛ヶ渕2号公園",
+        "address": "栃木県小山市雨ヶ谷新田82-19",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-078",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.823041,
+          36.284572
+        ]
+      },
+      "properties": {
+        "id": "park-078",
+        "name": "牛ヶ渕公園",
+        "address": "栃木県小山市雨ヶ谷新田83-34",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-079",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.819879,
+          36.291758
+        ]
+      },
+      "properties": {
+        "id": "park-079",
+        "name": "屋敷下5号公園",
+        "address": "栃木県小山市雨ヶ谷新田8-6",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-080",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.813071,
+          36.285275
+        ]
+      },
+      "properties": {
+        "id": "park-080",
+        "name": "雨ヶ谷町公園",
+        "address": "栃木県小山市雨ヶ谷町26",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-081",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.804908,
+          36.308816
+        ]
+      },
+      "properties": {
+        "id": "park-081",
+        "name": "駅東通り公園",
+        "address": "栃木県小山市駅東通り1-1020-59",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-082",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.808464,
+          36.308955
+        ]
+      },
+      "properties": {
+        "id": "park-082",
+        "name": "さつき公園",
+        "address": "栃木県小山市駅東通り1-14",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-083",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.812216,
+          36.308474
+        ]
+      },
+      "properties": {
+        "id": "park-083",
+        "name": "やよい公園",
+        "address": "栃木県小山市駅東通り1-44",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-084",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.809811,
+          36.311078
+        ]
+      },
+      "properties": {
+        "id": "park-084",
+        "name": "駅東公園",
+        "address": "栃木県小山市駅東通り2-25",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-085",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.812049,
+          36.318105
+        ]
+      },
+      "properties": {
+        "id": "park-085",
+        "name": "白仲公園",
+        "address": "栃木県小山市駅東通り3-15-2",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-086",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.814132,
+          36.32105
+        ]
+      },
+      "properties": {
+        "id": "park-086",
+        "name": "星ノ宮公園",
+        "address": "栃木県小山市駅東通り3-25-1",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-087",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.809949,
+          36.316838
+        ]
+      },
+      "properties": {
+        "id": "park-087",
+        "name": "駅東通り3丁目公園",
+        "address": "栃木県小山市駅東通り3-965-4",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-088",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.809088,
+          36.305326
+        ]
+      },
+      "properties": {
+        "id": "park-088",
+        "name": "祝町公園",
+        "address": "栃木県小山市駅南町1-10",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-089",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.806427,
+          36.302077
+        ]
+      },
+      "properties": {
+        "id": "park-089",
+        "name": "高辻第一公園",
+        "address": "栃木県小山市駅南町2-13",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-090",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.809905,
+          36.301728
+        ]
+      },
+      "properties": {
+        "id": "park-090",
+        "name": "高辻第二公園",
+        "address": "栃木県小山市駅南町4-12",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-091",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.814606,
+          36.303189
+        ]
+      },
+      "properties": {
+        "id": "park-091",
+        "name": "あさひ公園",
+        "address": "栃木県小山市駅南町5-6",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-092",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.814338,
+          36.30075
+        ]
+      },
+      "properties": {
+        "id": "park-092",
+        "name": "森子塚公園",
+        "address": "栃木県小山市駅南町6-11",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-093",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.879343,
+          36.344933
+        ]
+      },
+      "properties": {
+        "id": "park-093",
+        "name": "南原公園",
+        "address": "栃木県小山市延島2399-11",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-094",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.82113,
+          36.29695
+        ]
+      },
+      "properties": {
+        "id": "park-094",
+        "name": "渡辺公園",
+        "address": "栃木県小山市横倉1298-4",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-095",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.820392,
+          36.296076
+        ]
+      },
+      "properties": {
+        "id": "park-095",
+        "name": "西田7号公園",
+        "address": "栃木県小山市横倉1303-4",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-096",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.820066,
+          36.295302
+        ]
+      },
+      "properties": {
+        "id": "park-096",
+        "name": "渡辺2号公園",
+        "address": "栃木県小山市横倉1310-3",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-097",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.820346,
+          36.294688
+        ]
+      },
+      "properties": {
+        "id": "park-097",
+        "name": "西田公園",
+        "address": "栃木県小山市横倉1311-14",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-098",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.819872,
+          36.293949
+        ]
+      },
+      "properties": {
+        "id": "park-098",
+        "name": "西田4号公園",
+        "address": "栃木県小山市横倉1317-18",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-099",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.819816,
+          36.29333
+        ]
+      },
+      "properties": {
+        "id": "park-099",
+        "name": "西田2号公園",
+        "address": "栃木県小山市横倉1321-16",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-100",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.819263,
+          36.293292
+        ]
+      },
+      "properties": {
+        "id": "park-100",
+        "name": "西田5号公園",
+        "address": "栃木県小山市横倉1325-6",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-101",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.81571,
+          36.290683
+        ]
+      },
+      "properties": {
+        "id": "park-101",
+        "name": "西田6号公園",
+        "address": "栃木県小山市横倉1349-9",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-102",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.81442,
+          36.288116
+        ]
+      },
+      "properties": {
+        "id": "park-102",
+        "name": "西田3号公園",
+        "address": "栃木県小山市横倉1364-27",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-103",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.829622,
+          36.272724
+        ]
+      },
+      "properties": {
+        "id": "park-103",
+        "name": "横倉本郷公園",
+        "address": "栃木県小山市横倉20-7",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-104",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.828451,
+          36.275292
+        ]
+      },
+      "properties": {
+        "id": "park-104",
+        "name": "宮ノ内2号公園",
+        "address": "栃木県小山市横倉464-2",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-105",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.82712,
+          36.27594
+        ]
+      },
+      "properties": {
+        "id": "park-105",
+        "name": "宮ノ内公園",
+        "address": "栃木県小山市横倉466-13",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-106",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.82772,
+          36.274626
+        ]
+      },
+      "properties": {
+        "id": "park-106",
+        "name": "宮ノ内3号公園",
+        "address": "栃木県小山市横倉474-50",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-107",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.826382,
+          36.279723
+        ]
+      },
+      "properties": {
+        "id": "park-107",
+        "name": "中林3号公園",
+        "address": "栃木県小山市横倉481-41",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-108",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.827293,
+          36.278264
+        ]
+      },
+      "properties": {
+        "id": "park-108",
+        "name": "中林2号公園",
+        "address": "栃木県小山市横倉482-31",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-109",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.827208,
+          36.278869
+        ]
+      },
+      "properties": {
+        "id": "park-109",
+        "name": "中林1号公園",
+        "address": "栃木県小山市横倉484-10",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-110",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.827704,
+          36.278489
+        ]
+      },
+      "properties": {
+        "id": "park-110",
+        "name": "中林5号公園",
+        "address": "栃木県小山市横倉487-5",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-111",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.833262,
+          36.277602
+        ]
+      },
+      "properties": {
+        "id": "park-111",
+        "name": "中林4号公園",
+        "address": "栃木県小山市横倉502-26",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-112",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.833276,
+          36.278914
+        ]
+      },
+      "properties": {
+        "id": "park-112",
+        "name": "県道公園",
+        "address": "栃木県小山市横倉509-17",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-113",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.835544,
+          36.27779
+        ]
+      },
+      "properties": {
+        "id": "park-113",
+        "name": "戸館公園",
+        "address": "栃木県小山市横倉787-34",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-114",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.835467,
+          36.277823
+        ]
+      },
+      "properties": {
+        "id": "park-114",
+        "name": "戸舘2号公園",
+        "address": "栃木県小山市横倉794-7",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-115",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.822839,
+          36.288459
+        ]
+      },
+      "properties": {
+        "id": "park-115",
+        "name": "街道北2号公園",
+        "address": "栃木県小山市横倉新田362-11",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-116",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.822298,
+          36.283179
+        ]
+      },
+      "properties": {
+        "id": "park-116",
+        "name": "窪公園",
+        "address": "栃木県小山市横倉新田112-3",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-117",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.821225,
+          36.272614
+        ]
+      },
+      "properties": {
+        "id": "park-117",
+        "name": "砂久保3号公園",
+        "address": "栃木県小山市横倉新田12-113",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-118",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.820541,
+          36.272274
+        ]
+      },
+      "properties": {
+        "id": "park-118",
+        "name": "砂久保公園",
+        "address": "栃木県小山市横倉新田12-50",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-119",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.819963,
+          36.280776
+        ]
+      },
+      "properties": {
+        "id": "park-119",
+        "name": "下谷2号公園",
+        "address": "栃木県小山市横倉新田134-18",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-120",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.818105,
+          36.280808
+        ]
+      },
+      "properties": {
+        "id": "park-120",
+        "name": "下谷公園",
+        "address": "栃木県小山市横倉新田155-25",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-121",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8196,
+          36.281689
+        ]
+      },
+      "properties": {
+        "id": "park-121",
+        "name": "下谷3号公園",
+        "address": "栃木県小山市横倉新田170-13",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-122",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.822191,
+          36.283751
+        ]
+      },
+      "properties": {
+        "id": "park-122",
+        "name": "街道南公園",
+        "address": "栃木県小山市横倉新田177-42",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-123",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.82254,
+          36.287143
+        ]
+      },
+      "properties": {
+        "id": "park-123",
+        "name": "街道南3号公園",
+        "address": "栃木県小山市横倉新田188-34",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-124",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.822667,
+          36.286269
+        ]
+      },
+      "properties": {
+        "id": "park-124",
+        "name": "街道南2号公園",
+        "address": "栃木県小山市横倉新田192-13",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-125",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.822515,
+          36.289382
+        ]
+      },
+      "properties": {
+        "id": "park-125",
+        "name": "街道北1号公園",
+        "address": "栃木県小山市横倉新田226-32",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-126",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.820603,
+          36.273735
+        ]
+      },
+      "properties": {
+        "id": "park-126",
+        "name": "砂久保2号公園",
+        "address": "栃木県小山市横倉新田23-26",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-127",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.824916,
+          36.275182
+        ]
+      },
+      "properties": {
+        "id": "park-127",
+        "name": "守武2号公園",
+        "address": "栃木県小山市横倉新田253-28",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-128",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.825234,
+          36.276051
+        ]
+      },
+      "properties": {
+        "id": "park-128",
+        "name": "守武4号公園",
+        "address": "栃木県小山市横倉新田259-28",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-129",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.825427,
+          36.27638
+        ]
+      },
+      "properties": {
+        "id": "park-129",
+        "name": "守武7号公園",
+        "address": "栃木県小山市横倉新田259-45",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-130",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.82348,
+          36.27686
+        ]
+      },
+      "properties": {
+        "id": "park-130",
+        "name": "青木2号公園",
+        "address": "栃木県小山市横倉新田266-106",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-131",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.821846,
+          36.277116
+        ]
+      },
+      "properties": {
+        "id": "park-131",
+        "name": "青木公園",
+        "address": "栃木県小山市横倉新田268-11",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-132",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.823674,
+          36.279324
+        ]
+      },
+      "properties": {
+        "id": "park-132",
+        "name": "萩原2号公園",
+        "address": "栃木県小山市横倉新田283-32",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-133",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.824036,
+          36.279793
+        ]
+      },
+      "properties": {
+        "id": "park-133",
+        "name": "萩原公園",
+        "address": "栃木県小山市横倉新田285-66",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-134",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.82748,
+          36.280963
+        ]
+      },
+      "properties": {
+        "id": "park-134",
+        "name": "欠塚公園",
+        "address": "栃木県小山市横倉新田311-14",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-135",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.830673,
+          36.292478
+        ]
+      },
+      "properties": {
+        "id": "park-135",
+        "name": "あけぼの公園",
+        "address": "栃木県小山市横倉新田465",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-136",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.825798,
+          36.275177
+        ]
+      },
+      "properties": {
+        "id": "park-136",
+        "name": "守武1号公園",
+        "address": "栃木県小山市横倉新田5-35",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-137",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.827013,
+          36.274461
+        ]
+      },
+      "properties": {
+        "id": "park-137",
+        "name": "守武6号公園",
+        "address": "栃木県小山市横倉新田5-98",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-138",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.824194,
+          36.273972
+        ]
+      },
+      "properties": {
+        "id": "park-138",
+        "name": "守武5号公園",
+        "address": "栃木県小山市横倉新田7-175",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-139",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.818576,
+          36.277619
+        ]
+      },
+      "properties": {
+        "id": "park-139",
+        "name": "守藤2号公園",
+        "address": "栃木県小山市横倉新田94-43",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-140",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.819234,
+          36.276019
+        ]
+      },
+      "properties": {
+        "id": "park-140",
+        "name": "守藤3号公園",
+        "address": "栃木県小山市横倉新田95-147",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-141",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.819352,
+          36.276683
+        ]
+      },
+      "properties": {
+        "id": "park-141",
+        "name": "守藤1号公園",
+        "address": "栃木県小山市横倉新田95-76",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-142",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.82051,
+          36.277864
+        ]
+      },
+      "properties": {
+        "id": "park-142",
+        "name": "青木4号公園",
+        "address": "栃木県小山市横倉新田98-114",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-143",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.82063,
+          36.277953
+        ]
+      },
+      "properties": {
+        "id": "park-143",
+        "name": "青木3号公園",
+        "address": "栃木県小山市横倉新田98-78",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-144",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.756285,
+          36.262292
+        ]
+      },
+      "properties": {
+        "id": "park-144",
+        "name": "乙女かわらの里公園",
+        "address": "栃木県小山市乙女1-126-1",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-145",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.74968,
+          36.258882
+        ]
+      },
+      "properties": {
+        "id": "park-145",
+        "name": "町谷公園",
+        "address": "栃木県小山市乙女1176-87",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-146",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.756995,
+          36.264018
+        ]
+      },
+      "properties": {
+        "id": "park-146",
+        "name": "北浦公園",
+        "address": "栃木県小山市乙女1-22",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-147",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.754741,
+          36.261355
+        ]
+      },
+      "properties": {
+        "id": "park-147",
+        "name": "亀田公園",
+        "address": "栃木県小山市乙女1-32",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-148",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.752467,
+          36.258142
+        ]
+      },
+      "properties": {
+        "id": "park-148",
+        "name": "乙女八幡宮公園",
+        "address": "栃木県小山市乙女1343",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-149",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.759264,
+          36.261255
+        ]
+      },
+      "properties": {
+        "id": "park-149",
+        "name": "乙女上町公園",
+        "address": "栃木県小山市乙女2-18",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-150",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7617,
+          36.259744
+        ]
+      },
+      "properties": {
+        "id": "park-150",
+        "name": "あさひの公園",
+        "address": "栃木県小山市乙女3-106-14",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-151",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.758933,
+          36.257048
+        ]
+      },
+      "properties": {
+        "id": "park-151",
+        "name": "乙女公園",
+        "address": "栃木県小山市乙女3-29",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-152",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.758905,
+          36.24994
+        ]
+      },
+      "properties": {
+        "id": "park-152",
+        "name": "楓山公園",
+        "address": "栃木県小山市乙女425-4",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-153",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.759681,
+          36.253679
+        ]
+      },
+      "properties": {
+        "id": "park-153",
+        "name": "楓山3号公園",
+        "address": "栃木県小山市乙女445-145",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-154",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.762604,
+          36.253355
+        ]
+      },
+      "properties": {
+        "id": "park-154",
+        "name": "楓山2号公園",
+        "address": "栃木県小山市乙女453-43",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-155",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.747545,
+          36.262168
+        ]
+      },
+      "properties": {
+        "id": "park-155",
+        "name": "乙女河岸",
+        "address": "栃木県小山市乙女字川岸1924-5",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-156",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.761217,
+          36.251482
+        ]
+      },
+      "properties": {
+        "id": "park-156",
+        "name": "楓山4号公園",
+        "address": "栃木県小山市乙女字楓山463-15",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-157",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.707038,
+          36.240534
+        ]
+      },
+      "properties": {
+        "id": "park-157",
+        "name": "旧思川公園（生井ふるさと公園）",
+        "address": "栃木県小山市下生井1886",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-158",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.806462,
+          36.324236
+        ]
+      },
+      "properties": {
+        "id": "park-158",
+        "name": "花垣町1丁目公園",
+        "address": "栃木県小山市花垣町1-1842-2",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-159",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.808749,
+          36.320473
+        ]
+      },
+      "properties": {
+        "id": "park-159",
+        "name": "花垣町2丁目公園",
+        "address": "栃木県小山市花垣町2-2547-28",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-160",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.788627,
+          36.301628
+        ]
+      },
+      "properties": {
+        "id": "park-160",
+        "name": "上台2号公園",
+        "address": "栃木県小山市外城208-21",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-161",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.785797,
+          36.302055
+        ]
+      },
+      "properties": {
+        "id": "park-161",
+        "name": "上台公園",
+        "address": "栃木県小山市外城152-4",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-162",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.781613,
+          36.294871
+        ]
+      },
+      "properties": {
+        "id": "park-162",
+        "name": "下台公園",
+        "address": "栃木県小山市外城2-7",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-163",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.782337,
+          36.301696
+        ]
+      },
+      "properties": {
+        "id": "park-163",
+        "name": "小山総合公園",
+        "address": "栃木県小山市外城371-1",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-164",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.723849,
+          36.277335
+        ]
+      },
+      "properties": {
+        "id": "park-164",
+        "name": "巴波川決壊口祈念公園",
+        "address": "栃木県小山市寒川937",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-165",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.763648,
+          36.262162
+        ]
+      },
+      "properties": {
+        "id": "park-165",
+        "name": "富士見2号公園",
+        "address": "栃木県小山市間々田1118-6",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-166",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.772943,
+          36.259842
+        ]
+      },
+      "properties": {
+        "id": "park-166",
+        "name": "六本木2号公園",
+        "address": "栃木県小山市間々田136-31",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-167",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.767886,
+          36.274416
+        ]
+      },
+      "properties": {
+        "id": "park-167",
+        "name": "間々田八幡公園",
+        "address": "栃木県小山市間々田2369",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-168",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.770051,
+          36.273769
+        ]
+      },
+      "properties": {
+        "id": "park-168",
+        "name": "愛宕北公園",
+        "address": "栃木県小山市間々田2407-10",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-169",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.772258,
+          36.277418
+        ]
+      },
+      "properties": {
+        "id": "park-169",
+        "name": "牧ノ内公園",
+        "address": "栃木県小山市間々田2450-50",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-170",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.767369,
+          36.279356
+        ]
+      },
+      "properties": {
+        "id": "park-170",
+        "name": "牧ノ内6号公園",
+        "address": "栃木県小山市間々田2454-104",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-171",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.769075,
+          36.279019
+        ]
+      },
+      "properties": {
+        "id": "park-171",
+        "name": "牧ノ内3号公園",
+        "address": "栃木県小山市間々田2454-45",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-172",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.768371,
+          36.279286
+        ]
+      },
+      "properties": {
+        "id": "park-172",
+        "name": "牧ノ内5号公園",
+        "address": "栃木県小山市間々田2454-95",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-173",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.766488,
+          36.278121
+        ]
+      },
+      "properties": {
+        "id": "park-173",
+        "name": "学校北公園",
+        "address": "栃木県小山市間々田2461-1",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-174",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.772124,
+          36.279926
+        ]
+      },
+      "properties": {
+        "id": "park-174",
+        "name": "牧ノ内4号公園",
+        "address": "栃木県小山市間々田2510-53",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-175",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.772006,
+          36.281378
+        ]
+      },
+      "properties": {
+        "id": "park-175",
+        "name": "牧ノ内7号公園",
+        "address": "栃木県小山市間々田2512-49",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-176",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.771203,
+          36.280533
+        ]
+      },
+      "properties": {
+        "id": "park-176",
+        "name": "牧の内8号公園",
+        "address": "栃木県小山市間々田2512-77",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-177",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.77253,
+          36.279198
+        ]
+      },
+      "properties": {
+        "id": "park-177",
+        "name": "牧ノ内2号公園",
+        "address": "栃木県小山市間々田2516-41",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-178",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.776821,
+          36.271126
+        ]
+      },
+      "properties": {
+        "id": "park-178",
+        "name": "五料4号公園",
+        "address": "栃木県小山市間々田752-8",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-179",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.777763,
+          36.273561
+        ]
+      },
+      "properties": {
+        "id": "park-179",
+        "name": "五料3号公園",
+        "address": "栃木県小山市間々田776-42",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-180",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.77737,
+          36.273054
+        ]
+      },
+      "properties": {
+        "id": "park-180",
+        "name": "五料2号公園",
+        "address": "栃木県小山市間々田776-84",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-181",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.815764,
+          36.33877
+        ]
+      },
+      "properties": {
+        "id": "park-181",
+        "name": "日光道西公園",
+        "address": "栃木県小山市喜沢1140-63",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-182",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.816193,
+          36.337839
+        ]
+      },
+      "properties": {
+        "id": "park-182",
+        "name": "日光道西2号公園",
+        "address": "栃木県小山市喜沢1148-5",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-183",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.81515,
+          36.337819
+        ]
+      },
+      "properties": {
+        "id": "park-183",
+        "name": "海道西公園",
+        "address": "栃木県小山市喜沢1272-3",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-184",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.815333,
+          36.331727
+        ]
+      },
+      "properties": {
+        "id": "park-184",
+        "name": "海道東公園",
+        "address": "栃木県小山市喜沢179-15",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-185",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.816108,
+          36.333874
+        ]
+      },
+      "properties": {
+        "id": "park-185",
+        "name": "海道東2号公園",
+        "address": "栃木県小山市喜沢190-6",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-186",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.821782,
+          36.341268
+        ]
+      },
+      "properties": {
+        "id": "park-186",
+        "name": "陸羽道東2号公園",
+        "address": "栃木県小山市喜沢588-8",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-187",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.822521,
+          36.341568
+        ]
+      },
+      "properties": {
+        "id": "park-187",
+        "name": "陸羽道東公園",
+        "address": "栃木県小山市喜沢590-30",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-188",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.814013,
+          36.328775
+        ]
+      },
+      "properties": {
+        "id": "park-188",
+        "name": "海道東3号公園",
+        "address": "栃木県小山市喜沢6-28",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-189",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.824966,
+          36.345605
+        ]
+      },
+      "properties": {
+        "id": "park-189",
+        "name": "海道間2号公園",
+        "address": "栃木県小山市喜沢656-17",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-190",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.821495,
+          36.344403
+        ]
+      },
+      "properties": {
+        "id": "park-190",
+        "name": "海道間3号公園",
+        "address": "栃木県小山市喜沢660-142",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-191",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.823318,
+          36.343521
+        ]
+      },
+      "properties": {
+        "id": "park-191",
+        "name": "海道間1号公園",
+        "address": "栃木県小山市喜沢662-20",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-192",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.819269,
+          36.341481
+        ]
+      },
+      "properties": {
+        "id": "park-192",
+        "name": "海道間5号公園",
+        "address": "栃木県小山市喜沢684-12",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-193",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.817221,
+          36.341788
+        ]
+      },
+      "properties": {
+        "id": "park-193",
+        "name": "海道間4号公園",
+        "address": "栃木県小山市喜沢778-31",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-194",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.819757,
+          36.341836
+        ]
+      },
+      "properties": {
+        "id": "park-194",
+        "name": "海道間6号公園",
+        "address": "栃木県小山市喜沢648-47",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-195",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.765664,
+          36.26071
+        ]
+      },
+      "properties": {
+        "id": "park-195",
+        "name": "富士見公園",
+        "address": "栃木県小山市暁1-5",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-196",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.760662,
+          36.255716
+        ]
+      },
+      "properties": {
+        "id": "park-196",
+        "name": "もみじ公園",
+        "address": "栃木県小山市暁3-3",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-197",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.827694,
+          36.300497
+        ]
+      },
+      "properties": {
+        "id": "park-197",
+        "name": "犬塚南公園",
+        "address": "栃木県小山市犬塚",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-198",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.828441,
+          36.302855
+        ]
+      },
+      "properties": {
+        "id": "park-198",
+        "name": "ひばり公園",
+        "address": "栃木県小山市犬塚",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-199",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.822179,
+          36.301187
+        ]
+      },
+      "properties": {
+        "id": "park-199",
+        "name": "どんぐり公園",
+        "address": "栃木県小山市犬塚",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-200",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.830927,
+          36.307051
+        ]
+      },
+      "properties": {
+        "id": "park-200",
+        "name": "犬塚公園",
+        "address": "栃木県小山市犬塚1-24",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-201",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.83277,
+          36.310668
+        ]
+      },
+      "properties": {
+        "id": "park-201",
+        "name": "中ノ浦公園",
+        "address": "栃木県小山市犬塚2-9",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-202",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.82755,
+          36.313105
+        ]
+      },
+      "properties": {
+        "id": "park-202",
+        "name": "青葉公園",
+        "address": "栃木県小山市犬塚3-1",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-203",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.831298,
+          36.313165
+        ]
+      },
+      "properties": {
+        "id": "park-203",
+        "name": "やまみち公園",
+        "address": "栃木県小山市犬塚3-16",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-204",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.827084,
+          36.327157
+        ]
+      },
+      "properties": {
+        "id": "park-204",
+        "name": "大丸公園",
+        "address": "栃木県小山市犬塚32-116",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-205",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.835546,
+          36.311164
+        ]
+      },
+      "properties": {
+        "id": "park-205",
+        "name": "どんぐり山公園",
+        "address": "栃木県小山市犬塚4-14",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-206",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.832785,
+          36.304945
+        ]
+      },
+      "properties": {
+        "id": "park-206",
+        "name": "谷ノ中公園",
+        "address": "栃木県小山市犬塚5-21",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-207",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.834435,
+          36.301289
+        ]
+      },
+      "properties": {
+        "id": "park-207",
+        "name": "平成公園",
+        "address": "栃木県小山市犬塚6-10-3",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-208",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.836471,
+          36.298401
+        ]
+      },
+      "properties": {
+        "id": "park-208",
+        "name": "さくら台公園",
+        "address": "栃木県小山市犬塚7-12-3",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-209",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.83528,
+          36.298062
+        ]
+      },
+      "properties": {
+        "id": "park-209",
+        "name": "山ざくら公園",
+        "address": "栃木県小山市犬塚7-13-18",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-210",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.836894,
+          36.30028
+        ]
+      },
+      "properties": {
+        "id": "park-210",
+        "name": "犬塚東公園",
+        "address": "栃木県小山市犬塚7-4-1",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-211",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.832959,
+          36.299505
+        ]
+      },
+      "properties": {
+        "id": "park-211",
+        "name": "2・9まち小径",
+        "address": "栃木県小山市犬塚8-16-9",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-212",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.832869,
+          36.303138
+        ]
+      },
+      "properties": {
+        "id": "park-212",
+        "name": "ひだまりの丘公園",
+        "address": "栃木県小山市犬塚8-1-7",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-213",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.831312,
+          36.300475
+        ]
+      },
+      "properties": {
+        "id": "park-213",
+        "name": "悠遊公園",
+        "address": "栃木県小山市犬塚8-7-7",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-214",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.851283,
+          36.313351
+        ]
+      },
+      "properties": {
+        "id": "park-214",
+        "name": "小山運動公園",
+        "address": "栃木県小山市向野187",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-215",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.839122,
+          36.351189
+        ]
+      },
+      "properties": {
+        "id": "park-215",
+        "name": "四性公園",
+        "address": "栃木県小山市荒井171-8",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-216",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.837503,
+          36.348298
+        ]
+      },
+      "properties": {
+        "id": "park-216",
+        "name": "荒井団地公園",
+        "address": "栃木県小山市荒井78-38",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-217",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.883552,
+          36.341246
+        ]
+      },
+      "properties": {
+        "id": "park-217",
+        "name": "やすらぎの森",
+        "address": "栃木県小山市高椅1717",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-218",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.805582,
+          36.306679
+        ]
+      },
+      "properties": {
+        "id": "park-218",
+        "name": "三峯2号公園",
+        "address": "栃木県小山市三峯2-1090-35",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-219",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.804417,
+          36.304233
+        ]
+      },
+      "properties": {
+        "id": "park-219",
+        "name": "三峯1号公園",
+        "address": "栃木県小山市三峯2-1107-23",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-220",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.807861,
+          36.330088
+        ]
+      },
+      "properties": {
+        "id": "park-220",
+        "name": "若木町2丁目公園",
+        "address": "栃木県小山市若木町2-1594-100",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-221",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.810973,
+          36.325914
+        ]
+      },
+      "properties": {
+        "id": "park-221",
+        "name": "若木町3丁目公園",
+        "address": "栃木県小山市若木町3-1273-3",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-222",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.80958,
+          36.328867
+        ]
+      },
+      "properties": {
+        "id": "park-222",
+        "name": "若木町さくら公園",
+        "address": "栃木県小山市若木町3-1344-77",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-223",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.792809,
+          36.329116
+        ]
+      },
+      "properties": {
+        "id": "park-223",
+        "name": "折元公園",
+        "address": "栃木県小山市渋井617-1",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-224",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.85146,
+          36.328969
+        ]
+      },
+      "properties": {
+        "id": "park-224",
+        "name": "出井公園",
+        "address": "栃木県小山市出井1035-95",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-225",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.814554,
+          36.290324
+        ]
+      },
+      "properties": {
+        "id": "park-225",
+        "name": "七反2号公園",
+        "address": "栃木県小山市小山28-16",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-226",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.813285,
+          36.286942
+        ]
+      },
+      "properties": {
+        "id": "park-226",
+        "name": "七反公園",
+        "address": "栃木県小山市小山8-7",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-227",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.781038,
+          36.348545
+        ]
+      },
+      "properties": {
+        "id": "park-227",
+        "name": "豊田公民館前広場",
+        "address": "栃木県小山市松沼489",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-228",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.799593,
+          36.318741
+        ]
+      },
+      "properties": {
+        "id": "park-228",
+        "name": "城山公園",
+        "address": "栃木県小山市城山町1-1",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-229",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.805903,
+          36.316351
+        ]
+      },
+      "properties": {
+        "id": "park-229",
+        "name": "千手観音公園",
+        "address": "栃木県小山市城山町3-1752-19",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-230",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.805137,
+          36.314892
+        ]
+      },
+      "properties": {
+        "id": "park-230",
+        "name": "城山・サクラ・コモン公園",
+        "address": "栃木県小山市城山町3-1993-13",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-231",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.816296,
+          36.310517
+        ]
+      },
+      "properties": {
+        "id": "park-231",
+        "name": "城東公園",
+        "address": "栃木県小山市城東1-19",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-232",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.813349,
+          36.313385
+        ]
+      },
+      "properties": {
+        "id": "park-232",
+        "name": "いずみ公園",
+        "address": "栃木県小山市城東2-9",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-233",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.81441,
+          36.316036
+        ]
+      },
+      "properties": {
+        "id": "park-233",
+        "name": "大橋公園",
+        "address": "栃木県小山市城東3-3",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-234",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.822945,
+          36.314254
+        ]
+      },
+      "properties": {
+        "id": "park-234",
+        "name": "城東4丁目公園",
+        "address": "栃木県小山市城東4-498-16",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-235",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.823691,
+          36.309638
+        ]
+      },
+      "properties": {
+        "id": "park-235",
+        "name": "横町公園",
+        "address": "栃木県小山市城東6-32",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-236",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.82262,
+          36.306776
+        ]
+      },
+      "properties": {
+        "id": "park-236",
+        "name": "さくら公園",
+        "address": "栃木県小山市城東7-31",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-237",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.814338,
+          36.323932
+        ]
+      },
+      "properties": {
+        "id": "park-237",
+        "name": "中丸公園",
+        "address": "栃木県小山市城北1-9-5",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-238",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.816668,
+          36.328622
+        ]
+      },
+      "properties": {
+        "id": "park-238",
+        "name": "喜沢公園",
+        "address": "栃木県小山市城北2-9-6",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-239",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.823614,
+          36.326059
+        ]
+      },
+      "properties": {
+        "id": "park-239",
+        "name": "向原北公園",
+        "address": "栃木県小山市城北3-18-10",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-240",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.82198,
+          36.322451
+        ]
+      },
+      "properties": {
+        "id": "park-240",
+        "name": "向原南公園",
+        "address": "栃木県小山市城北4-21-6",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-241",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.799894,
+          36.302655
+        ]
+      },
+      "properties": {
+        "id": "park-241",
+        "name": "神山公園",
+        "address": "栃木県小山市神山1-1098",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-242",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.791296,
+          36.307709
+        ]
+      },
+      "properties": {
+        "id": "park-242",
+        "name": "思川公園",
+        "address": "栃木県小山市神鳥谷108-1",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-243",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.792605,
+          36.302192
+        ]
+      },
+      "properties": {
+        "id": "park-243",
+        "name": "一ノ久保公園",
+        "address": "栃木県小山市神鳥谷1-7",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-244",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.804423,
+          36.286561
+        ]
+      },
+      "properties": {
+        "id": "park-244",
+        "name": "原之内公園",
+        "address": "栃木県小山市神鳥谷1864-1",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-245",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.802392,
+          36.274894
+        ]
+      },
+      "properties": {
+        "id": "park-245",
+        "name": "小山思いの森",
+        "address": "栃木県小山市神鳥谷2251-9",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-246",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.792169,
+          36.299427
+        ]
+      },
+      "properties": {
+        "id": "park-246",
+        "name": "神久保公園",
+        "address": "栃木県小山市神鳥谷2-29",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-247",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.795942,
+          36.301681
+        ]
+      },
+      "properties": {
+        "id": "park-247",
+        "name": "柴内公園",
+        "address": "栃木県小山市神鳥谷2-5",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-248",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.787461,
+          36.296868
+        ]
+      },
+      "properties": {
+        "id": "park-248",
+        "name": "通り宿公園（通宿公園）",
+        "address": "栃木県小山市神鳥谷4-8",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-249",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.791456,
+          36.293784
+        ]
+      },
+      "properties": {
+        "id": "park-249",
+        "name": "中渋辺公園",
+        "address": "栃木県小山市神鳥谷6-11",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-250",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.794011,
+          36.304391
+        ]
+      },
+      "properties": {
+        "id": "park-250",
+        "name": "ひまわり広場",
+        "address": "栃木県小山市神鳥谷677-13",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-251",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.799888,
+          36.303788
+        ]
+      },
+      "properties": {
+        "id": "park-251",
+        "name": "曲輪公園",
+        "address": "栃木県小山市神鳥谷曲輪",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-252",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.779278,
+          36.266278
+        ]
+      },
+      "properties": {
+        "id": "park-252",
+        "name": "治松公園",
+        "address": "栃木県小山市西黒田115-4",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-253",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.779278,
+          36.266278
+        ]
+      },
+      "properties": {
+        "id": "park-253",
+        "name": "治松2号公園",
+        "address": "栃木県小山市西黒田127-28",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-254",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.780048,
+          36.268089
+        ]
+      },
+      "properties": {
+        "id": "park-254",
+        "name": "九八幡公園",
+        "address": "栃木県小山市西黒田296-42",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-255",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.779766,
+          36.261828
+        ]
+      },
+      "properties": {
+        "id": "park-255",
+        "name": "明亀公園",
+        "address": "栃木県小山市西黒田67-14",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-256",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.779766,
+          36.261828
+        ]
+      },
+      "properties": {
+        "id": "park-256",
+        "name": "明亀公園",
+        "address": "栃木県小山市西黒田89-27",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-257",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.79949,
+          36.298215
+        ]
+      },
+      "properties": {
+        "id": "park-257",
+        "name": "稲荷公園",
+        "address": "栃木県小山市西城南1-19",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-258",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.804033,
+          36.29628
+        ]
+      },
+      "properties": {
+        "id": "park-258",
+        "name": "大正寺公園",
+        "address": "栃木県小山市西城南2-27",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-259",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.802539,
+          36.299393
+        ]
+      },
+      "properties": {
+        "id": "park-259",
+        "name": "青蓮寺公園",
+        "address": "栃木県小山市西城南2-7",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-260",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.793948,
+          36.292954
+        ]
+      },
+      "properties": {
+        "id": "park-260",
+        "name": "八幡公園",
+        "address": "栃木県小山市西城南5-25",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-261",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.797971,
+          36.29121
+        ]
+      },
+      "properties": {
+        "id": "park-261",
+        "name": "田端公園",
+        "address": "栃木県小山市西城南5-42",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-262",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.799388,
+          36.294141
+        ]
+      },
+      "properties": {
+        "id": "park-262",
+        "name": "希望ヶ丘公園",
+        "address": "栃木県小山市西城南5-5",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-263",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.800399,
+          36.289803
+        ]
+      },
+      "properties": {
+        "id": "park-263",
+        "name": "大割公園",
+        "address": "栃木県小山市西城南6-30",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-264",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.805456,
+          36.290316
+        ]
+      },
+      "properties": {
+        "id": "park-264",
+        "name": "大聖寺公園",
+        "address": "栃木県小山市西城南6-7",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-265",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.778156,
+          36.303193
+        ]
+      },
+      "properties": {
+        "id": "park-265",
+        "name": "石ノ上河川広場",
+        "address": "栃木県小山市石ノ上1062-2",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-266",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.774015,
+          36.286451
+        ]
+      },
+      "properties": {
+        "id": "park-266",
+        "name": "十二所2号公園",
+        "address": "栃木県小山市千駄塚522-19",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-267",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.773481,
+          36.285704
+        ]
+      },
+      "properties": {
+        "id": "park-267",
+        "name": "十二所公園",
+        "address": "栃木県小山市千駄塚543-11",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-268",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.771199,
+          36.28255
+        ]
+      },
+      "properties": {
+        "id": "park-268",
+        "name": "西久保公園",
+        "address": "栃木県小山市千駄塚576-14",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-269",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.793472,
+          36.313189
+        ]
+      },
+      "properties": {
+        "id": "park-269",
+        "name": "思川緑地",
+        "address": "栃木県小山市大行寺1289",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-270",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.789151,
+          36.319415
+        ]
+      },
+      "properties": {
+        "id": "park-270",
+        "name": "上川原公園",
+        "address": "栃木県小山市大行寺1380-55",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-271",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.798315,
+          36.315952
+        ]
+      },
+      "properties": {
+        "id": "park-271",
+        "name": "思川アプローチ",
+        "address": "栃木県小山市大字小山2374",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-272",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.781897,
+          36.350991
+        ]
+      },
+      "properties": {
+        "id": "park-272",
+        "name": "谷新田公園",
+        "address": "栃木県小山市大本136-11",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-273",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.735003,
+          36.25995
+        ]
+      },
+      "properties": {
+        "id": "park-273",
+        "name": "蔵前公園",
+        "address": "栃木県小山市樽木293-1",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-274",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.735743,
+          36.259652
+        ]
+      },
+      "properties": {
+        "id": "park-274",
+        "name": "楢木公園",
+        "address": "栃木県小山市樽木293-17",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-275",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.800501,
+          36.315459
+        ]
+      },
+      "properties": {
+        "id": "park-275",
+        "name": "小山御殿広場",
+        "address": "栃木県小山市中央町1-3",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-276",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.84689,
+          36.316518
+        ]
+      },
+      "properties": {
+        "id": "park-276",
+        "name": "陣場公園",
+        "address": "栃木県小山市中久喜1104-14外",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-277",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.84689,
+          36.316518
+        ]
+      },
+      "properties": {
+        "id": "park-277",
+        "name": "陣場公園",
+        "address": "栃木県小山市中久喜1110-2",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-278",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.848551,
+          36.319992
+        ]
+      },
+      "properties": {
+        "id": "park-278",
+        "name": "陣場3号公園",
+        "address": "栃木県小山市中久喜1152-38",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-279",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.844234,
+          36.320932
+        ]
+      },
+      "properties": {
+        "id": "park-279",
+        "name": "陣場4号公園",
+        "address": "栃木県小山市中久喜1166-34",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-280",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.846313,
+          36.318469
+        ]
+      },
+      "properties": {
+        "id": "park-280",
+        "name": "陣場2号公園",
+        "address": "栃木県小山市中久喜1175-20",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-281",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.840243,
+          36.317813
+        ]
+      },
+      "properties": {
+        "id": "park-281",
+        "name": "中道公園",
+        "address": "栃木県小山市中久喜1237-7",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-282",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.838623,
+          36.32717
+        ]
+      },
+      "properties": {
+        "id": "park-282",
+        "name": "西山2号公園",
+        "address": "栃木県小山市中久喜1312-99",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-283",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.850614,
+          36.322591
+        ]
+      },
+      "properties": {
+        "id": "park-283",
+        "name": "上野原公園",
+        "address": "栃木県小山市中久喜1522-59",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-284",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.836044,
+          36.318605
+        ]
+      },
+      "properties": {
+        "id": "park-284",
+        "name": "西山南公園",
+        "address": "栃木県小山市中久喜1-9",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-285",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.840909,
+          36.306081
+        ]
+      },
+      "properties": {
+        "id": "park-285",
+        "name": "通宿1号公園",
+        "address": "栃木県小山市中久喜291-26",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-286",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.836607,
+          36.32259
+        ]
+      },
+      "properties": {
+        "id": "park-286",
+        "name": "西山公園",
+        "address": "栃木県小山市中久喜4-11",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-287",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.808153,
+          36.27691
+        ]
+      },
+      "properties": {
+        "id": "park-287",
+        "name": "大シベ5号公園",
+        "address": "栃木県小山市塚崎1475-25",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-288",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.806859,
+          36.277936
+        ]
+      },
+      "properties": {
+        "id": "park-288",
+        "name": "大シベ4号公園",
+        "address": "栃木県小山市塚崎1481-3",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-289",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.806131,
+          36.278321
+        ]
+      },
+      "properties": {
+        "id": "park-289",
+        "name": "大シベ6号公園",
+        "address": "栃木県小山市塚崎1481-38",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-290",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.806946,
+          36.278915
+        ]
+      },
+      "properties": {
+        "id": "park-290",
+        "name": "大シベ2号公園",
+        "address": "栃木県小山市塚崎1482-25",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-291",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.806162,
+          36.279243
+        ]
+      },
+      "properties": {
+        "id": "park-291",
+        "name": "大シベ3号公園",
+        "address": "栃木県小山市塚崎1488-22",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-292",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.805347,
+          36.283161
+        ]
+      },
+      "properties": {
+        "id": "park-292",
+        "name": "大シベ1号公園",
+        "address": "栃木県小山市塚崎1500-25",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-293",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.798832,
+          36.30531
+        ]
+      },
+      "properties": {
+        "id": "park-293",
+        "name": "天神公園",
+        "address": "栃木県小山市天神町1-2985",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-294",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.801331,
+          36.307679
+        ]
+      },
+      "properties": {
+        "id": "park-294",
+        "name": "天神ふれあい公園",
+        "address": "栃木県小山市天神町2-2070-2",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-295",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.823982,
+          36.271064
+        ]
+      },
+      "properties": {
+        "id": "park-295",
+        "name": "宿尻公園",
+        "address": "栃木県小山市田間717-5",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-296",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.821845,
+          36.271482
+        ]
+      },
+      "properties": {
+        "id": "park-296",
+        "name": "小山道西2号公園",
+        "address": "栃木県小山市田間723-36",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-297",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.821105,
+          36.271574
+        ]
+      },
+      "properties": {
+        "id": "park-297",
+        "name": "小山道西公園",
+        "address": "栃木県小山市田間726-27",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-298",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.823665,
+          36.303864
+        ]
+      },
+      "properties": {
+        "id": "park-298",
+        "name": "なかよし公園",
+        "address": "栃木県小山市土塔",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-299",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.81687,
+          36.305518
+        ]
+      },
+      "properties": {
+        "id": "park-299",
+        "name": "あおぞら公園",
+        "address": "栃木県小山市土塔",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-300",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.82435,
+          36.301353
+        ]
+      },
+      "properties": {
+        "id": "park-300",
+        "name": "土塔二グラウンド公園",
+        "address": "栃木県小山市土塔",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-301",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.81995,
+          36.304572
+        ]
+      },
+      "properties": {
+        "id": "park-301",
+        "name": "東谷2号公園",
+        "address": "栃木県小山市土塔",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-302",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.776526,
+          36.275408
+        ]
+      },
+      "properties": {
+        "id": "park-302",
+        "name": "五料公園",
+        "address": "栃木県小山市東間々田1-1",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-303",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.774326,
+          36.270484
+        ]
+      },
+      "properties": {
+        "id": "park-303",
+        "name": "東雲公園",
+        "address": "栃木県小山市東間々田1-12",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-304",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.770538,
+          36.266416
+        ]
+      },
+      "properties": {
+        "id": "park-304",
+        "name": "学校南公園",
+        "address": "栃木県小山市東間々田2-14",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-305",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.768904,
+          36.264293
+        ]
+      },
+      "properties": {
+        "id": "park-305",
+        "name": "おさんみち公園（小原公園）",
+        "address": "栃木県小山市東間々田2-28",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-306",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.772321,
+          36.265333
+        ]
+      },
+      "properties": {
+        "id": "park-306",
+        "name": "谷端公園",
+        "address": "栃木県小山市東間々田3-3",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-307",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.769245,
+          36.259243
+        ]
+      },
+      "properties": {
+        "id": "park-307",
+        "name": "浅間東公園",
+        "address": "栃木県小山市東間々田3-40",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-308",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.810452,
+          36.297288
+        ]
+      },
+      "properties": {
+        "id": "park-308",
+        "name": "萩山公園",
+        "address": "栃木県小山市東城南1-14",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-309",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.816688,
+          36.296259
+        ]
+      },
+      "properties": {
+        "id": "park-309",
+        "name": "中山公園",
+        "address": "栃木県小山市東城南2-18",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-310",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.816249,
+          36.29268
+        ]
+      },
+      "properties": {
+        "id": "park-310",
+        "name": "自由ヶ丘公園",
+        "address": "栃木県小山市東城南3-8",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-311",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.808518,
+          36.292293
+        ]
+      },
+      "properties": {
+        "id": "park-311",
+        "name": "城南公園",
+        "address": "栃木県小山市東城南4-17",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-312",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.809756,
+          36.288264
+        ]
+      },
+      "properties": {
+        "id": "park-312",
+        "name": "西坪公園",
+        "address": "栃木県小山市東城南5-20",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-313",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.756482,
+          36.254974
+        ]
+      },
+      "properties": {
+        "id": "park-313",
+        "name": "観音公園",
+        "address": "栃木県小山市南乙女1-12-11",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-314",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.755264,
+          36.255679
+        ]
+      },
+      "properties": {
+        "id": "park-314",
+        "name": "乙女下町公園",
+        "address": "栃木県小山市南乙女1-5",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-315",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.754138,
+          36.253708
+        ]
+      },
+      "properties": {
+        "id": "park-315",
+        "name": "春日野公園",
+        "address": "栃木県小山市南乙女2-7-16",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-316",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.83068,
+          36.366948
+        ]
+      },
+      "properties": {
+        "id": "park-316",
+        "name": "東原2号公園",
+        "address": "栃木県小山市南半田2046-6",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-317",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.833382,
+          36.367765
+        ]
+      },
+      "properties": {
+        "id": "park-317",
+        "name": "東原公園",
+        "address": "栃木県小山市南半田2054-26",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-318",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.82043,
+          36.360334
+        ]
+      },
+      "properties": {
+        "id": "park-318",
+        "name": "牛ヶ久保公園",
+        "address": "栃木県小山市南半田413-22",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-319",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.762129,
+          36.248338
+        ]
+      },
+      "properties": {
+        "id": "park-319",
+        "name": "前新田1号公園",
+        "address": "栃木県小山市南飯田664-278",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-320",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.700893,
+          36.245647
+        ]
+      },
+      "properties": {
+        "id": "park-320",
+        "name": "生井桜づつみ",
+        "address": "栃木県小山市白鳥350-2",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-321",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.795011,
+          36.309511
+        ]
+      },
+      "properties": {
+        "id": "park-321",
+        "name": "やはた公園",
+        "address": "栃木県小山市八幡町1-134-10",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-322",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.856438,
+          36.338288
+        ]
+      },
+      "properties": {
+        "id": "park-322",
+        "name": "鉢形四つ沼公園",
+        "address": "栃木県小山市鉢形1250-6",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-323",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.776995,
+          36.26874
+        ]
+      },
+      "properties": {
+        "id": "park-323",
+        "name": "日の出公園",
+        "address": "栃木県小山市美しが丘1-11",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-324",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.773073,
+          36.263483
+        ]
+      },
+      "properties": {
+        "id": "park-324",
+        "name": "間々田美しが丘公園",
+        "address": "栃木県小山市美しが丘3-1",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-325",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.777626,
+          36.258337
+        ]
+      },
+      "properties": {
+        "id": "park-325",
+        "name": "美しが丘ポケットパーク",
+        "address": "栃木県小山市美しが丘3-105",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-326",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.777287,
+          36.259558
+        ]
+      },
+      "properties": {
+        "id": "park-326",
+        "name": "六本木公園",
+        "address": "栃木県小山市美しが丘3-32",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-327",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.815407,
+          36.356842
+        ]
+      },
+      "properties": {
+        "id": "park-327",
+        "name": "扶桑第一公園",
+        "address": "栃木県小山市扶桑1-11",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-328",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.815488,
+          36.358525
+        ]
+      },
+      "properties": {
+        "id": "park-328",
+        "name": "扶桑第二公園",
+        "address": "栃木県小山市扶桑2-26",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-329",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.765887,
+          36.253193
+        ]
+      },
+      "properties": {
+        "id": "park-329",
+        "name": "中道南2号公園",
+        "address": "栃木県小山市平和132-20",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-330",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.766198,
+          36.254022
+        ]
+      },
+      "properties": {
+        "id": "park-330",
+        "name": "中道南公園",
+        "address": "栃木県小山市平和136-15",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-331",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.766529,
+          36.258103
+        ]
+      },
+      "properties": {
+        "id": "park-331",
+        "name": "中道北公園",
+        "address": "栃木県小山市平和190-4",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-332",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.764763,
+          36.251254
+        ]
+      },
+      "properties": {
+        "id": "park-332",
+        "name": "下道南2号公園",
+        "address": "栃木県小山市平和33-23",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-333",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.764761,
+          36.251247
+        ]
+      },
+      "properties": {
+        "id": "park-333",
+        "name": "下道南公園",
+        "address": "栃木県小山市平和49-21",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-334",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.807838,
+          36.320159
+        ]
+      },
+      "properties": {
+        "id": "park-334",
+        "name": "本郷町3丁目公園",
+        "address": "栃木県小山市本郷町3-2590-22",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-335",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.749131,
+          36.278119
+        ]
+      },
+      "properties": {
+        "id": "park-335",
+        "name": "網戸公園",
+        "address": "栃木県小山市網戸791-2",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-336",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.790339,
+          36.322547
+        ]
+      },
+      "properties": {
+        "id": "park-336",
+        "name": "高芝原公園",
+        "address": "栃木県小山市立木1385-4",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-337",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.881925,
+          36.32619
+        ]
+      },
+      "properties": {
+        "id": "park-337",
+        "name": "おやま縄文まつりの広場",
+        "address": "栃木県小山市梁2075-4",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-338",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7879935,
+          36.32708461
+        ]
+      },
+      "properties": {
+        "id": "park-338",
+        "name": "城西北公園",
+        "address": "栃木県小山市城西2-10-1",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-339",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7883757,
+          36.32476131
+        ]
+      },
+      "properties": {
+        "id": "park-339",
+        "name": "城西中央公園",
+        "address": "栃木県小山市城西1-26-2",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-340",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7662365,
+          36.25979678
+        ]
+      },
+      "properties": {
+        "id": "park-340",
+        "name": "平和天神山公園",
+        "address": "栃木県小山市平和220-1",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-341",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8131352,
+          36.25125078
+        ]
+      },
+      "properties": {
+        "id": "park-341",
+        "name": "反町公園",
+        "address": "栃木県小山市東野田2726-6",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-342",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7890814,
+          36.32234575
+        ]
+      },
+      "properties": {
+        "id": "park-342",
+        "name": "城西南公園",
+        "address": "栃木県小山市城西1-13",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-343",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8149434,
+          36.33040761
+        ]
+      },
+      "properties": {
+        "id": "park-343",
+        "name": "喜沢南かずき公園",
+        "address": "栃木県小山市喜沢133",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-344",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8406442,
+          36.34742944
+        ]
+      },
+      "properties": {
+        "id": "park-344",
+        "name": "西本郷1号公園",
+        "address": "栃木県小山市出井1762-26",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-345",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8493895,
+          36.32267739
+        ]
+      },
+      "properties": {
+        "id": "park-345",
+        "name": "上野原2号公園",
+        "address": "栃木県小山市中久喜1522-65",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-346",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7812694,
+          36.35224678
+        ]
+      },
+      "properties": {
+        "id": "park-346",
+        "name": "板橋1号公園",
+        "address": "栃木県小山市松沼1004-5",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-347",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8287933,
+          36.36409006
+        ]
+      },
+      "properties": {
+        "id": "park-347",
+        "name": "陳場3号公園",
+        "address": "栃木県小山市羽川276-15",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-348",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7586022,
+          36.24922944
+        ]
+      },
+      "properties": {
+        "id": "park-348",
+        "name": "楓山5号公園",
+        "address": "栃木県小山市乙女424-16",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-349",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8424693,
+          36.36540656
+        ]
+      },
+      "properties": {
+        "id": "park-349",
+        "name": "上原1号公園",
+        "address": "栃木県小山市荒井441-31",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-350",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7595637,
+          36.25043194
+        ]
+      },
+      "properties": {
+        "id": "park-350",
+        "name": "もみじ山南公園",
+        "address": "栃木県小山市乙女426-13",
+        "area": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "park-351",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8028672,
+          36.28092478
+        ]
+      },
+      "properties": {
+        "id": "park-351",
+        "name": "原之内2号公園",
+        "address": "栃木県小山市神鳥谷1871-200",
+        "area": ""
+      }
+    }
+  ]
+}

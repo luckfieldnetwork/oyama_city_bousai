@@ -1,0 +1,2311 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "栃木県小山市 公衆トイレ一覧",
+    "author": "栃木県小山市",
+    "source": "Code for OYAMA API (/public_toilets)",
+    "count": 115
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "toilet-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.803776,
+          36.31324
+        ]
+      },
+      "properties": {
+        "id": "toilet-001",
+        "name": "小山市中央公衆トイレ",
+        "address": "栃木県小山市中央町3-3-10",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "1"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.806884,
+          36.312694
+        ]
+      },
+      "properties": {
+        "id": "toilet-002",
+        "name": "小山市駅東口公衆トイレ",
+        "address": "栃木県小山市駅東通り2-1860-6",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "1"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.761248,
+          36.257731
+        ]
+      },
+      "properties": {
+        "id": "toilet-003",
+        "name": "間々田駅東口公衆トイレ",
+        "address": "栃木県小山市暁2-24",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "1"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.760715,
+          36.257955
+        ]
+      },
+      "properties": {
+        "id": "toilet-004",
+        "name": "間々田駅西口公衆トイレ",
+        "address": "栃木県小山市乙女3-104-2",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "1"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.781462,
+          36.350694
+        ]
+      },
+      "properties": {
+        "id": "toilet-005",
+        "name": "思川駅公衆トイレ",
+        "address": "栃木県小山市松沼964-4",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.827408,
+          36.312935
+        ]
+      },
+      "properties": {
+        "id": "toilet-006",
+        "name": "青葉公園",
+        "address": "栃木県小山市犬塚3-1",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.814124,
+          36.302906
+        ]
+      },
+      "properties": {
+        "id": "toilet-007",
+        "name": "あさひ公園",
+        "address": "栃木県小山市駅南町5-6",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.761681,
+          36.259677
+        ]
+      },
+      "properties": {
+        "id": "toilet-008",
+        "name": "あさひの公園",
+        "address": "栃木県小山市乙女3-106-14",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.769395,
+          36.259684
+        ]
+      },
+      "properties": {
+        "id": "toilet-009",
+        "name": "浅間東公園",
+        "address": "栃木県小山市東間々田3-40",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.749319,
+          36.277896
+        ]
+      },
+      "properties": {
+        "id": "toilet-010",
+        "name": "網戸公園",
+        "address": "栃木県小山市網戸791-2",
+        "has_wheelchair": true,
+        "has_baby": true,
+        "has_ostomate": true,
+        "multi_count": "1"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.778685,
+          36.301437
+        ]
+      },
+      "properties": {
+        "id": "toilet-011",
+        "name": "石ノ上河川広場",
+        "address": "栃木県小山市石ノ上1062-2",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.813478,
+          36.313216
+        ]
+      },
+      "properties": {
+        "id": "toilet-012",
+        "name": "いずみ公園",
+        "address": "栃木県小山市城東2-9",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-013",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.792391,
+          36.302204
+        ]
+      },
+      "properties": {
+        "id": "toilet-013",
+        "name": "一ノ久保公園",
+        "address": "栃木県小山市神鳥谷1-7",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.851622,
+          36.329046
+        ]
+      },
+      "properties": {
+        "id": "toilet-014",
+        "name": "出井公園",
+        "address": "栃木県小山市出井1035-95",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-015",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.79934,
+          36.298057
+        ]
+      },
+      "properties": {
+        "id": "toilet-015",
+        "name": "稲荷公園",
+        "address": "栃木県小山市西城南1-19",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-016",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.830715,
+          36.306212
+        ]
+      },
+      "properties": {
+        "id": "toilet-016",
+        "name": "犬塚公園",
+        "address": "栃木県小山市犬塚1-24",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-017",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.831461,
+          36.307102
+        ]
+      },
+      "properties": {
+        "id": "toilet-017",
+        "name": "犬塚公園",
+        "address": "栃木県小山市犬塚1-24",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-018",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.809382,
+          36.305446
+        ]
+      },
+      "properties": {
+        "id": "toilet-018",
+        "name": "祝町公園",
+        "address": "栃木県小山市駅南町1-10",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-019",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.725042,
+          36.277768
+        ]
+      },
+      "properties": {
+        "id": "toilet-019",
+        "name": "巴波川決壊口祈念公園",
+        "address": "栃木県小山市寒川937",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-020",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.723713,
+          36.276876
+        ]
+      },
+      "properties": {
+        "id": "toilet-020",
+        "name": "巴波川決壊口祈念公園",
+        "address": "栃木県小山市寒川937",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-021",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.81021,
+          36.311319
+        ]
+      },
+      "properties": {
+        "id": "toilet-021",
+        "name": "駅東公園",
+        "address": "栃木県小山市駅東通り2-25",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-022",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.814252,
+          36.315916
+        ]
+      },
+      "properties": {
+        "id": "toilet-022",
+        "name": "大橋公園",
+        "address": "栃木県小山市城東3-3",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-023",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.800252,
+          36.289903
+        ]
+      },
+      "properties": {
+        "id": "toilet-023",
+        "name": "大割公園",
+        "address": "栃木県小山市西城南6-30",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-024",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.759099,
+          36.257257
+        ]
+      },
+      "properties": {
+        "id": "toilet-024",
+        "name": "乙女公園",
+        "address": "栃木県小山市乙女3-29",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-025",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.747431,
+          36.262187
+        ]
+      },
+      "properties": {
+        "id": "toilet-025",
+        "name": "乙女河岸",
+        "address": "栃木県小山市乙女字川岸1924-5",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-026",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.758714,
+          36.261165
+        ]
+      },
+      "properties": {
+        "id": "toilet-026",
+        "name": "乙女上町公園",
+        "address": "栃木県小山市乙女2-18",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-027",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.755158,
+          36.255435
+        ]
+      },
+      "properties": {
+        "id": "toilet-027",
+        "name": "乙女下町公園",
+        "address": "栃木県小山市南乙女1-5",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-028",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.752478,
+          36.258292
+        ]
+      },
+      "properties": {
+        "id": "toilet-028",
+        "name": "乙女八幡宮公園",
+        "address": "栃木県小山市乙女1343",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-029",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.799033,
+          36.31712
+        ]
+      },
+      "properties": {
+        "id": "toilet-029",
+        "name": "思川アプローチ広場",
+        "address": "栃木県小山市大字小山2374",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-030",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.802408,
+          36.274896
+        ]
+      },
+      "properties": {
+        "id": "toilet-030",
+        "name": "小山思いの森",
+        "address": "栃木県小山市神鳥谷2251-9",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-031",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.799546,
+          36.273711
+        ]
+      },
+      "properties": {
+        "id": "toilet-031",
+        "name": "小山思いの森",
+        "address": "栃木県小山市神鳥谷2251-9",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-032",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.780199,
+          36.302926
+        ]
+      },
+      "properties": {
+        "id": "toilet-032",
+        "name": "小山総合公園",
+        "address": "栃木県小山市外城371-1",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-033",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.781362,
+          36.303279
+        ]
+      },
+      "properties": {
+        "id": "toilet-033",
+        "name": "小山総合公園",
+        "address": "栃木県小山市外城371-1",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-034",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.781519,
+          36.302463
+        ]
+      },
+      "properties": {
+        "id": "toilet-034",
+        "name": "小山総合公園",
+        "address": "栃木県小山市外城371-1",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-035",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.782822,
+          36.301648
+        ]
+      },
+      "properties": {
+        "id": "toilet-035",
+        "name": "小山総合公園",
+        "address": "栃木県小山市外城371-1",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-036",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.784159,
+          36.303936
+        ]
+      },
+      "properties": {
+        "id": "toilet-036",
+        "name": "小山総合公園",
+        "address": "栃木県小山市外城371-1",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-037",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.766672,
+          36.277996
+        ]
+      },
+      "properties": {
+        "id": "toilet-037",
+        "name": "学校北公園",
+        "address": "栃木県小山市間々田2461-1",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-038",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.792117,
+          36.299913
+        ]
+      },
+      "properties": {
+        "id": "toilet-038",
+        "name": "神久保公園",
+        "address": "栃木県小山市神鳥谷2-29",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": true,
+        "multi_count": "1"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-039",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.799928,
+          36.302535
+        ]
+      },
+      "properties": {
+        "id": "toilet-039",
+        "name": "神山公園",
+        "address": "栃木県小山市神山1-1098",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-040",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.816801,
+          36.328425
+        ]
+      },
+      "properties": {
+        "id": "toilet-040",
+        "name": "喜沢公園",
+        "address": "栃木県小山市城北2-9-6",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-041",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.757045,
+          36.264181
+        ]
+      },
+      "properties": {
+        "id": "toilet-041",
+        "name": "北浦公園",
+        "address": "栃木県小山市乙女1-22",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-042",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.799028,
+          36.294132
+        ]
+      },
+      "properties": {
+        "id": "toilet-042",
+        "name": "希望ヶ丘公園",
+        "address": "栃木県小山市西城南5-5",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-043",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.799758,
+          36.294849
+        ]
+      },
+      "properties": {
+        "id": "toilet-043",
+        "name": "希望ヶ丘公園",
+        "address": "栃木県小山市西城南5-5",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-044",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.776689,
+          36.275305
+        ]
+      },
+      "properties": {
+        "id": "toilet-044",
+        "name": "五料公園",
+        "address": "栃木県小山市東間々田1-1",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-045",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.822864,
+          36.306952
+        ]
+      },
+      "properties": {
+        "id": "toilet-045",
+        "name": "さくら公園",
+        "address": "栃木県小山市城東7-31",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-046",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.808706,
+          36.309007
+        ]
+      },
+      "properties": {
+        "id": "toilet-046",
+        "name": "さつき公園",
+        "address": "栃木県小山市駅東通り1-14",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-047",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.774201,
+          36.270628
+        ]
+      },
+      "properties": {
+        "id": "toilet-047",
+        "name": "東雲公園",
+        "address": "栃木県小山市東間々田1-12",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-048",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.795611,
+          36.301626
+        ]
+      },
+      "properties": {
+        "id": "toilet-048",
+        "name": "柴内公園",
+        "address": "栃木県小山市神鳥谷2-5",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-049",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.81585,
+          36.292671
+        ]
+      },
+      "properties": {
+        "id": "toilet-049",
+        "name": "自由ヶ丘公園",
+        "address": "栃木県小山市東城南3-8",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": true,
+        "multi_count": "1"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-050",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.816697,
+          36.309551
+        ]
+      },
+      "properties": {
+        "id": "toilet-050",
+        "name": "城東公園",
+        "address": "栃木県小山市城東1-19",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-051",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.815714,
+          36.310078
+        ]
+      },
+      "properties": {
+        "id": "toilet-051",
+        "name": "城東公園",
+        "address": "栃木県小山市城東1-19",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-052",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.816648,
+          36.310327
+        ]
+      },
+      "properties": {
+        "id": "toilet-052",
+        "name": "城東公園",
+        "address": "栃木県小山市城東1-19",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-053",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.80788,
+          36.292617
+        ]
+      },
+      "properties": {
+        "id": "toilet-053",
+        "name": "城南公園",
+        "address": "栃木県小山市東城南4-17",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-054",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.809306,
+          36.29193
+        ]
+      },
+      "properties": {
+        "id": "toilet-054",
+        "name": "城南公園",
+        "address": "栃木県小山市東城南4-17",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-055",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8005,
+          36.319085
+        ]
+      },
+      "properties": {
+        "id": "toilet-055",
+        "name": "城山公園",
+        "address": "栃木県小山市城山町1-1",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-056",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.799358,
+          36.318409
+        ]
+      },
+      "properties": {
+        "id": "toilet-056",
+        "name": "城山公園",
+        "address": "栃木県小山市城山町1-1",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-057",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.802393,
+          36.29918
+        ]
+      },
+      "properties": {
+        "id": "toilet-057",
+        "name": "青連寺公園",
+        "address": "栃木県小山市西城南2-7",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-058",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.80596,
+          36.31643
+        ]
+      },
+      "properties": {
+        "id": "toilet-058",
+        "name": "千手観音公園",
+        "address": "栃木県小山市城山町3丁目1752-19",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-059",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.803856,
+          36.296128
+        ]
+      },
+      "properties": {
+        "id": "toilet-059",
+        "name": "大正寺公園",
+        "address": "栃木県小山市西城南2-27",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-060",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.805602,
+          36.290349
+        ]
+      },
+      "properties": {
+        "id": "toilet-060",
+        "name": "大聖寺公園",
+        "address": "栃木県小山市西城南6-7",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-061",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.806659,
+          36.302241
+        ]
+      },
+      "properties": {
+        "id": "toilet-061",
+        "name": "高辻第一公園",
+        "address": "栃木県小山市駅南町4-12",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-062",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.809709,
+          36.301622
+        ]
+      },
+      "properties": {
+        "id": "toilet-062",
+        "name": "高辻第二公園",
+        "address": "栃木県小山市駅南町2-13",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-063",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.787488,
+          36.297102
+        ]
+      },
+      "properties": {
+        "id": "toilet-063",
+        "name": "通宿公園",
+        "address": "栃木県小山市神鳥谷4-8",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-064",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.791632,
+          36.294062
+        ]
+      },
+      "properties": {
+        "id": "toilet-064",
+        "name": "中渋辺公園",
+        "address": "栃木県小山市神鳥谷6-11",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-065",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.814156,
+          36.323935
+        ]
+      },
+      "properties": {
+        "id": "toilet-065",
+        "name": "中丸公園",
+        "address": "栃木県小山市城北1-9-5",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-066",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.81709,
+          36.296414
+        ]
+      },
+      "properties": {
+        "id": "toilet-066",
+        "name": "中山公園",
+        "address": "栃木県小山市東城南2-18",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-067",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.701225,
+          36.245386
+        ]
+      },
+      "properties": {
+        "id": "toilet-067",
+        "name": "生井桜づつみ公園",
+        "address": "栃木県小山市白鳥350-2",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-068",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.707722,
+          36.241095
+        ]
+      },
+      "properties": {
+        "id": "toilet-068",
+        "name": "生井ふるさと公園",
+        "address": "栃木県小山市下生井1886",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-069",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.809242,
+          36.288352
+        ]
+      },
+      "properties": {
+        "id": "toilet-069",
+        "name": "西坪公園",
+        "address": "栃木県小山市東城南5-20",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-070",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.836512,
+          36.322121
+        ]
+      },
+      "properties": {
+        "id": "toilet-070",
+        "name": "西山公園",
+        "address": "栃木県小山市中久喜4-11",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-071",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.835902,
+          36.318517
+        ]
+      },
+      "properties": {
+        "id": "toilet-071",
+        "name": "西山南公園",
+        "address": "栃木県小山市中久喜1-19",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-072",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.810161,
+          36.297457
+        ]
+      },
+      "properties": {
+        "id": "toilet-072",
+        "name": "萩山公園",
+        "address": "栃木県小山市東城南1-14",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-073",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.812144,
+          36.317925
+        ]
+      },
+      "properties": {
+        "id": "toilet-073",
+        "name": "白仲公園",
+        "address": "栃木県小山市駅東通り3-15-2",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-074",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.856718,
+          36.338391
+        ]
+      },
+      "properties": {
+        "id": "toilet-074",
+        "name": "鉢形四ツ沼公園",
+        "address": "栃木県小山市鉢形1250-6",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-075",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.793504,
+          36.292941
+        ]
+      },
+      "properties": {
+        "id": "toilet-075",
+        "name": "八幡公園",
+        "address": "栃木県小山市西城南5-25",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-076",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.826879,
+          36.350317
+        ]
+      },
+      "properties": {
+        "id": "toilet-076",
+        "name": "羽川ふれあい公園",
+        "address": "栃木県小山市羽川96-1",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-077",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.777071,
+          36.268471
+        ]
+      },
+      "properties": {
+        "id": "toilet-077",
+        "name": "日の出公園",
+        "address": "栃木県小山市美しが丘1-11",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-078",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.794037,
+          36.304229
+        ]
+      },
+      "properties": {
+        "id": "toilet-078",
+        "name": "ひまわり広場",
+        "address": "栃木県小山市神鳥谷677-13",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-079",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.766014,
+          36.261218
+        ]
+      },
+      "properties": {
+        "id": "toilet-079",
+        "name": "富士見公園",
+        "address": "栃木県小山市暁1-5",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-080",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.815151,
+          36.356753
+        ]
+      },
+      "properties": {
+        "id": "toilet-080",
+        "name": "扶桑第一公園",
+        "address": "栃木県小山市扶桑1-11",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-081",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.815336,
+          36.358632
+        ]
+      },
+      "properties": {
+        "id": "toilet-081",
+        "name": "扶桑第二公園",
+        "address": "栃木県小山市扶桑2-26",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-082",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.813967,
+          36.321134
+        ]
+      },
+      "properties": {
+        "id": "toilet-082",
+        "name": "星ノ宮公園",
+        "address": "栃木県小山市駅東通り3-25-1",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-083",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.749631,
+          36.259037
+        ]
+      },
+      "properties": {
+        "id": "toilet-083",
+        "name": "町谷公園",
+        "address": "栃木県小山市乙女1176-87",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-084",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.773588,
+          36.264461
+        ]
+      },
+      "properties": {
+        "id": "toilet-084",
+        "name": "間々田美しが丘",
+        "address": "栃木県小山市美しが丘3-1",
+        "has_wheelchair": true,
+        "has_baby": true,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-085",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.767183,
+          36.273547
+        ]
+      },
+      "properties": {
+        "id": "toilet-085",
+        "name": "間々田八幡公園",
+        "address": "栃木県小山市間々田2369",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-086",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.879414,
+          36.344817
+        ]
+      },
+      "properties": {
+        "id": "toilet-086",
+        "name": "南原公園",
+        "address": "栃木県小山市延島2399-11",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-087",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.787088,
+          36.292989
+        ]
+      },
+      "properties": {
+        "id": "toilet-087",
+        "name": "宮内公園",
+        "address": "栃木県小山市粟宮1-12",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-088",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.823545,
+          36.326396
+        ]
+      },
+      "properties": {
+        "id": "toilet-088",
+        "name": "向原北公園",
+        "address": "栃木県小山市城北3-18-10",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-089",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.82182,
+          36.322637
+        ]
+      },
+      "properties": {
+        "id": "toilet-089",
+        "name": "向原南公園",
+        "address": "栃木県小山市城北4-21-6",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-090",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.760404,
+          36.255838
+        ]
+      },
+      "properties": {
+        "id": "toilet-090",
+        "name": "もみじ公園",
+        "address": "栃木県小山市暁3-3",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-091",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.814555,
+          36.30092
+        ]
+      },
+      "properties": {
+        "id": "toilet-091",
+        "name": "森子塚公園",
+        "address": "栃木県小山市駅南町6-11",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-092",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.882242,
+          36.341809
+        ]
+      },
+      "properties": {
+        "id": "toilet-092",
+        "name": "やすらぎの森",
+        "address": "栃木県小山市高椅1739",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-093",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.882869,
+          36.340485
+        ]
+      },
+      "properties": {
+        "id": "toilet-093",
+        "name": "やすらぎの森",
+        "address": "栃木県小山市高椅1739",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-094",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.772169,
+          36.265403
+        ]
+      },
+      "properties": {
+        "id": "toilet-094",
+        "name": "谷端公園",
+        "address": "栃木県小山市東間々田3-3",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-095",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.83306,
+          36.305042
+        ]
+      },
+      "properties": {
+        "id": "toilet-095",
+        "name": "谷ノ中公園",
+        "address": "栃木県小山市犬塚5-21",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-096",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.755555,
+          36.261851
+        ]
+      },
+      "properties": {
+        "id": "toilet-096",
+        "name": "山下通り",
+        "address": "栃木県小山市乙女1-26",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-097",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.831419,
+          36.312981
+        ]
+      },
+      "properties": {
+        "id": "toilet-097",
+        "name": "やまみち公園",
+        "address": "栃木県小山市犬塚3-16",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-098",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.812414,
+          36.308268
+        ]
+      },
+      "properties": {
+        "id": "toilet-098",
+        "name": "やよい公園",
+        "address": "栃木県小山市駅東通り1-44",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-099",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.823552,
+          36.309655
+        ]
+      },
+      "properties": {
+        "id": "toilet-099",
+        "name": "横町公園",
+        "address": "栃木県小山市城東6-32",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-100",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.777574,
+          36.259543
+        ]
+      },
+      "properties": {
+        "id": "toilet-100",
+        "name": "六本木公園",
+        "address": "栃木県小山市美しが丘3-32",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-101",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.80767,
+          36.324516
+        ]
+      },
+      "properties": {
+        "id": "toilet-101",
+        "name": "ひまわり公園",
+        "address": "栃木県小山市花垣町1－1260－8",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-102",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.851174,
+          36.313775
+        ]
+      },
+      "properties": {
+        "id": "toilet-102",
+        "name": "小山運動公園",
+        "address": "栃木県小山市向野187",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-103",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.851607,
+          36.312202
+        ]
+      },
+      "properties": {
+        "id": "toilet-103",
+        "name": "小山運動公園",
+        "address": "栃木県小山市向野187",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-104",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.853085,
+          36.313742
+        ]
+      },
+      "properties": {
+        "id": "toilet-104",
+        "name": "小山運動公園",
+        "address": "栃木県小山市向野187",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-105",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.852459,
+          36.312134
+        ]
+      },
+      "properties": {
+        "id": "toilet-105",
+        "name": "小山運動公園",
+        "address": "栃木県小山市向野187",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-106",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.855285,
+          36.314007
+        ]
+      },
+      "properties": {
+        "id": "toilet-106",
+        "name": "小山運動公園",
+        "address": "栃木県小山市向野187",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-107",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.793047,
+          36.313797
+        ]
+      },
+      "properties": {
+        "id": "toilet-107",
+        "name": "思川緑地",
+        "address": "栃木県小山市大行寺1289",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "1"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-108",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.804404,
+          36.286505
+        ]
+      },
+      "properties": {
+        "id": "toilet-108",
+        "name": "原之内公園",
+        "address": "栃木県小山市神鳥谷1864－1",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-109",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.83095,
+          36.292876
+        ]
+      },
+      "properties": {
+        "id": "toilet-109",
+        "name": "あけぼの公園",
+        "address": "栃木県小山市横倉新田465",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "1"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-110",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.831364,
+          36.292075
+        ]
+      },
+      "properties": {
+        "id": "toilet-110",
+        "name": "あけぼの公園",
+        "address": "栃木県小山市横倉新田465",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-111",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.831396,
+          36.291571
+        ]
+      },
+      "properties": {
+        "id": "toilet-111",
+        "name": "あけぼの公園",
+        "address": "栃木県小山市横倉新田465",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-112",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.830221,
+          36.292077
+        ]
+      },
+      "properties": {
+        "id": "toilet-112",
+        "name": "あけぼの公園",
+        "address": "栃木県小山市横倉新田465",
+        "has_wheelchair": false,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-113",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.804417,
+          36.280552
+        ]
+      },
+      "properties": {
+        "id": "toilet-113",
+        "name": "原之内2号公園",
+        "address": "栃木県小山市神鳥谷1871-200",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-114",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8149434,
+          36.33040761
+        ]
+      },
+      "properties": {
+        "id": "toilet-114",
+        "name": "喜沢南かずき公園",
+        "address": "栃木県小山市喜沢133",
+        "has_wheelchair": true,
+        "has_baby": true,
+        "has_ostomate": true,
+        "multi_count": "1"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "toilet-115",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7979476,
+          36.29125192
+        ]
+      },
+      "properties": {
+        "id": "toilet-115",
+        "name": "田端公園",
+        "address": "栃木県小山市西城南5丁目42",
+        "has_wheelchair": true,
+        "has_baby": false,
+        "has_ostomate": false,
+        "multi_count": "0"
+      }
+    }
+  ]
+}

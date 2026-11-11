@@ -1,0 +1,2771 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "栃木県小山市 医療機関一覧",
+    "author": "栃木県小山市",
+    "source": "Code for OYAMA API (/medical_institutions)",
+    "count": 138
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "med-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.81592,
+          36.31396842
+        ]
+      },
+      "properties": {
+        "id": "med-001",
+        "name": "青い鳥こどもクリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市城東2-19-2",
+        "departments": "小児科；アレルギー科",
+        "beds": "0",
+        "phone": "(0285)37-7111"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7411043,
+          36.26525819
+        ]
+      },
+      "properties": {
+        "id": "med-002",
+        "name": "青木医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市網戸1850",
+        "departments": "内科;消化器内科;外科;内視鏡内科;こう門外科",
+        "beds": "0",
+        "phone": "(0285)45-5545"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8218669,
+          36.29989053
+        ]
+      },
+      "properties": {
+        "id": "med-003",
+        "name": "あかざわクリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市土塔234-47",
+        "departments": "麻酔科；内科",
+        "beds": "0",
+        "phone": "(0285)28-5186"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8328663,
+          36.3230805
+        ]
+      },
+      "properties": {
+        "id": "med-004",
+        "name": "暁クリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市犬塚62",
+        "departments": "消化器内科:内科;外科;小児科;こう門外科;乳腺外科",
+        "beds": "0",
+        "phone": "(0285)24-6868"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8066368,
+          36.29463253
+        ]
+      },
+      "properties": {
+        "id": "med-005",
+        "name": "浅井こどもクリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市西城南4-4-4",
+        "departments": "小児科；アレルギー科",
+        "beds": "",
+        "phone": "(0285)28-3002"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8233321,
+          36.346362
+        ]
+      },
+      "properties": {
+        "id": "med-006",
+        "name": "朝日病院",
+        "type": "病院",
+        "address": "栃木県小山市喜沢660",
+        "departments": "精神科;心療内科;内科",
+        "beds": "221",
+        "phone": "(0285)22-1182"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7932036,
+          36.31844453
+        ]
+      },
+      "properties": {
+        "id": "med-007",
+        "name": "あらやま医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市大行寺1069-1",
+        "departments": "整形外科;内科",
+        "beds": "0",
+        "phone": "(0285)22-1277"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8027901,
+          36.31363319
+        ]
+      },
+      "properties": {
+        "id": "med-008",
+        "name": "安西・古谷クリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市中央町2-8-24",
+        "departments": "内科；循環器内科（循内初診の方は、まずお電話でご相談下さい）",
+        "beds": "0",
+        "phone": "(0285)22-0215"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8316166,
+          36.30759272
+        ]
+      },
+      "properties": {
+        "id": "med-009",
+        "name": "いしい整形外科",
+        "type": "無床診療所",
+        "address": "栃木県小山市犬塚1-21-8",
+        "departments": "整形外科;リウマチ科;リハビリテーション科",
+        "beds": "0",
+        "phone": "(0285)20-3588"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7600821,
+          36.26353208
+        ]
+      },
+      "properties": {
+        "id": "med-010",
+        "name": "石田耳鼻咽喉科クリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市乙女2-7-2",
+        "departments": "耳鼻咽喉科",
+        "beds": "0",
+        "phone": "(0285)41-1718"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.833253,
+          36.30087994
+        ]
+      },
+      "properties": {
+        "id": "med-011",
+        "name": "いぬづか眼科",
+        "type": "無床診療所",
+        "address": "栃木県小山市犬塚8-10-20",
+        "departments": "眼科",
+        "beds": "0",
+        "phone": "(0285)38-7622"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7765021,
+          36.25850892
+        ]
+      },
+      "properties": {
+        "id": "med-012",
+        "name": "おおきこどもクリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市美しが丘3-35-3",
+        "departments": "小児科;アレルギー科",
+        "beds": "0",
+        "phone": "(0285)41-0025"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-013",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8139997,
+          36.30703819
+        ]
+      },
+      "properties": {
+        "id": "med-013",
+        "name": "岡整形外科",
+        "type": "無床診療所",
+        "address": "栃木県小山市駅東通り1-47-18",
+        "departments": "整形外科",
+        "beds": "0",
+        "phone": "(0285)23-5503"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8121374,
+          36.28562322
+        ]
+      },
+      "properties": {
+        "id": "med-014",
+        "name": "おぐら内科・腎クリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市雨ヶ谷町24",
+        "departments": "内科;腎臓内科（人工透析）;糖尿病内科;循環器内科",
+        "beds": "0",
+        "phone": "(0285)39-6505"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-015",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8342777,
+          36.32235858
+        ]
+      },
+      "properties": {
+        "id": "med-015",
+        "name": "小野寺クリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市中久喜1615-3",
+        "departments": "内科;整形外科;麻酔科;漢方内科",
+        "beds": "0",
+        "phone": "(0285)23-4843"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-016",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8113008,
+          36.30948192
+        ]
+      },
+      "properties": {
+        "id": "med-016",
+        "name": "小山イーストクリニック",
+        "type": "",
+        "address": "栃木県小山市駅東通り1-32-1",
+        "departments": "内科；循環器内科；小児科；放射線科；糖尿病内科；内分泌内科",
+        "beds": "",
+        "phone": "(0285)24-2200"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-017",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8025696,
+          36.33042906
+        ]
+      },
+      "properties": {
+        "id": "med-017",
+        "name": "おやま城北クリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市喜沢1475-328",
+        "departments": "内科;外科",
+        "beds": "0",
+        "phone": "(0285)24-6565"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-018",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8464888,
+          36.31780278
+        ]
+      },
+      "properties": {
+        "id": "med-018",
+        "name": "小山すぎの木クリニック",
+        "type": "有床診療所",
+        "address": "栃木県小山市中久喜1113-1",
+        "departments": "内科;消化器内科;胃腸内科;循環器内科;アレルギー科;脳神経外科;皮膚科;腎臓ひ尿器科;リハビリテーション科;放射線科;漢方内科;血液内科;糖尿病内科;老年内科;腎臓内科;内視鏡内科;人工透析内科;内分泌内科;脂質代謝内科;腎臓外科;小児科",
+        "beds": "19",
+        "phone": "(0285)30-3456"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-019",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8062416,
+          36.31086156
+        ]
+      },
+      "properties": {
+        "id": "med-019",
+        "name": "小山ステーション脳神経外科・内科",
+        "type": "無床診療所",
+        "address": "栃木県小山市駅東通り1-2-43",
+        "departments": "脳神経外科;内科;脳神経内科",
+        "beds": "0",
+        "phone": "(0285)25-5500"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-020",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8149754,
+          36.30716283
+        ]
+      },
+      "properties": {
+        "id": "med-020",
+        "name": "小山皮ふ科",
+        "type": "無床診療所",
+        "address": "栃木県小山市城東1-2-31",
+        "departments": "皮膚科",
+        "beds": "0",
+        "phone": "(0285)23-7124"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-021",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8125535,
+          36.29267347
+        ]
+      },
+      "properties": {
+        "id": "med-021",
+        "name": "小山福澤眼科",
+        "type": "無床診療所",
+        "address": "栃木県小山市東城南4-13",
+        "departments": "眼科",
+        "beds": "0",
+        "phone": "(0285)31-0700"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-022",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8090576,
+          36.33436142
+        ]
+      },
+      "properties": {
+        "id": "med-022",
+        "name": "おやまゆうえん眼科",
+        "type": "無床診療所",
+        "address": "栃木県小山市喜沢1475",
+        "departments": "眼科",
+        "beds": "0",
+        "phone": "(0285)37-8500"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-023",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8097499,
+          36.31255122
+        ]
+      },
+      "properties": {
+        "id": "med-023",
+        "name": "柏木耳鼻咽喉科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市駅東通り2-18-18",
+        "departments": "耳鼻・咽喉科",
+        "beds": "0",
+        "phone": "(0285)25-2933"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-024",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8055735,
+          36.28460656
+        ]
+      },
+      "properties": {
+        "id": "med-024",
+        "name": "苅部小山南クリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市塚崎1503",
+        "departments": "胃腸内科；内科；外科；肛門科（循環器内科併設）",
+        "beds": "",
+        "phone": "(0285)31-1188"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-025",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8112189,
+          36.2942245
+        ]
+      },
+      "properties": {
+        "id": "med-025",
+        "name": "川田耳鼻咽喉科クリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市東城南4-6-4",
+        "departments": "耳鼻咽喉科",
+        "beds": "",
+        "phone": "(0285)31-3855"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-026",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8106373,
+          36.31561808
+        ]
+      },
+      "properties": {
+        "id": "med-026",
+        "name": "かわなご女性クリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市駅東通り2-6-10",
+        "departments": "産婦人科",
+        "beds": "0",
+        "phone": "(0285)25-2101"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-027",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8147871,
+          36.30251731
+        ]
+      },
+      "properties": {
+        "id": "med-027",
+        "name": "川村内科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市駅南町5-16-8",
+        "departments": "内科;リウマチ科;アレルギー科;小児科",
+        "beds": "0",
+        "phone": "(0285)28-1332"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-028",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8053004,
+          36.31262719
+        ]
+      },
+      "properties": {
+        "id": "med-028",
+        "name": "keiクリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市中央町3-7-1",
+        "departments": "形成外科;皮膚科;美容皮膚科",
+        "beds": "0",
+        "phone": "(0285)21-2255"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-029",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.789673,
+          36.29462228
+        ]
+      },
+      "properties": {
+        "id": "med-029",
+        "name": "樹レディスクリニック",
+        "type": "有床診療所",
+        "address": "栃木県小山市神鳥谷5-18-15",
+        "departments": "産婦人科",
+        "beds": "11",
+        "phone": "(0285)20-5505"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-030",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8109489,
+          36.31101769
+        ]
+      },
+      "properties": {
+        "id": "med-030",
+        "name": "髙岩内科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市駅東通り2-38-13",
+        "departments": "内科;循環器内科",
+        "beds": "0",
+        "phone": "(0285)22-0170"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-031",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8053004,
+          36.31262719
+        ]
+      },
+      "properties": {
+        "id": "med-031",
+        "name": "こもれび心の診療所",
+        "type": "無床診療所",
+        "address": "栃木県小山市中央町3-7-1",
+        "departments": "精神科;心療内科",
+        "beds": "0",
+        "phone": "(0285)21-3388"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-032",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7994516,
+          36.306339
+        ]
+      },
+      "properties": {
+        "id": "med-032",
+        "name": "近藤クリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市天神町1-9-22",
+        "departments": "神経内科；内科；放射線科；精神科；心療内科",
+        "beds": "",
+        "phone": "(0285)23-2825"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-033",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8105666,
+          36.31288258
+        ]
+      },
+      "properties": {
+        "id": "med-033",
+        "name": "斎藤眼科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市駅東通り2-28-17",
+        "departments": "眼科",
+        "beds": "0",
+        "phone": "(0285)22-0413"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-034",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8355174,
+          36.33538981
+        ]
+      },
+      "properties": {
+        "id": "med-034",
+        "name": "サンフラワークリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市出井1935-1",
+        "departments": "内科;小児科",
+        "beds": "",
+        "phone": "(0285)22-1920"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-035",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.805185,
+          36.32201294
+        ]
+      },
+      "properties": {
+        "id": "med-035",
+        "name": "篠原クリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市花垣町1-2-19",
+        "departments": "外科;呼吸器内科;整形外科;消化器内科",
+        "beds": "0",
+        "phone": "(0285)22-0764"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-036",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.809342,
+          36.28514175
+        ]
+      },
+      "properties": {
+        "id": "med-036",
+        "name": "城南眼科クリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市雨ヶ谷113-1",
+        "departments": "眼科",
+        "beds": "0",
+        "phone": "(0285)31-5888"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-037",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8037413,
+          36.29702811
+        ]
+      },
+      "properties": {
+        "id": "med-037",
+        "name": "城南クリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市西城南2-18-7",
+        "departments": "内科;胃腸内科;外科;整形外科;こう門科",
+        "beds": "0",
+        "phone": "(0285)28-7780"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-038",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8000376,
+          36.27551386
+        ]
+      },
+      "properties": {
+        "id": "med-038",
+        "name": "新小山市民病院",
+        "type": "病院",
+        "address": "栃木県小山市神鳥谷2251-1",
+        "departments": "内科;脳神経内科;消化器内科;アレルギー科;リウマチ科;小児科;外科;整形外科;形成外科;脳神経外科;心臓血管外科;婦人科;眼科;耳鼻咽喉科;皮膚科;ひ尿器科;リハビリテーション科;放射線科;麻酔科;呼吸器内科;循環器内科;腎臓内科;糖尿病・代謝内科;救急科;病理診断科;血液内科;消化器外科；呼吸器外科",
+        "beds": "300",
+        "phone": "(0285)36-0200"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-039",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8033608,
+          36.31497864
+        ]
+      },
+      "properties": {
+        "id": "med-039",
+        "name": "杉村病院",
+        "type": "病院",
+        "address": "栃木県小山市城山町2-7-18",
+        "departments": "内科;外科;ひ尿器科;リハビリテーション科;女性内科;整形外科;皮膚科;循環器内科",
+        "beds": "41",
+        "phone": "(0285)25-5533"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-040",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8255284,
+          36.337118
+        ]
+      },
+      "properties": {
+        "id": "med-040",
+        "name": "すずき整形外科",
+        "type": "有床診療所",
+        "address": "栃木県小山市喜沢438-1",
+        "departments": "整形外科；リウマチ科；リハビリテーション科；脳神経外科；内科",
+        "beds": "",
+        "phone": "(0285)23-2010"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-041",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8370697,
+          36.32217169
+        ]
+      },
+      "properties": {
+        "id": "med-041",
+        "name": "関医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市中久喜5-2-1",
+        "departments": "内科;呼吸器内科；循環器内科；小児科",
+        "beds": "0",
+        "phone": "(0285)22-0285"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-042",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8212372,
+          36.34347169
+        ]
+      },
+      "properties": {
+        "id": "med-042",
+        "name": "せき内科胃腸科クリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市喜沢667-153",
+        "departments": "胃腸科;内科;小児科",
+        "beds": "0",
+        "phone": "(0285)30-5400"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-043",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8089089,
+          36.30567839
+        ]
+      },
+      "properties": {
+        "id": "med-043",
+        "name": "関根整形外科医院",
+        "type": "有床診療所",
+        "address": "栃木県小山市駅南町1-9-15",
+        "departments": "整形外科;リウマチ科;リハビリテーション科",
+        "beds": "3",
+        "phone": "(0285)27-6713"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-044",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.809037,
+          36.32725917
+        ]
+      },
+      "properties": {
+        "id": "med-044",
+        "name": "田村整形外科",
+        "type": "無床診療所",
+        "address": "栃木県小山市若木町2-10-20",
+        "departments": "整形外科;リウマチ科;リハビリテーション科",
+        "beds": "0",
+        "phone": "(0285)24-6161"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-045",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8114596,
+          36.28836681
+        ]
+      },
+      "properties": {
+        "id": "med-045",
+        "name": "ちばクリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市東城南5-6-10",
+        "departments": "内科；消化器科；胃腸科；肛門科；胃腸内科；消化器内科；内視鏡内科；乳腺科",
+        "beds": "0",
+        "phone": "(0285)43ｰ6801"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-046",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.803316,
+          36.31206331
+        ]
+      },
+      "properties": {
+        "id": "med-046",
+        "name": "塚本耳鼻咽喉科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市中央町3-1-25",
+        "departments": "耳鼻科；アレルギー科",
+        "beds": "",
+        "phone": "(0285)22-0152"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-047",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7734546,
+          36.26834789
+        ]
+      },
+      "properties": {
+        "id": "med-047",
+        "name": "つちやカルディオクリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市東間々田2-103-3",
+        "departments": "内科;循環器内科;呼吸器内科;小児科",
+        "beds": "0",
+        "phone": "(0285)41-5551"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-048",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7870259,
+          36.28115675
+        ]
+      },
+      "properties": {
+        "id": "med-048",
+        "name": "寺田クリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市粟宮47",
+        "departments": "循環器内科;内科",
+        "beds": "0",
+        "phone": "(0285)38-7861"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-049",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8055382,
+          36.30562269
+        ]
+      },
+      "properties": {
+        "id": "med-049",
+        "name": "トータルクリニック寺門医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市駅南町1-17-18",
+        "departments": "内科;小児科;消化器内科;外科;こう門科",
+        "beds": "0",
+        "phone": "(0285)27-9776"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-050",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7652126,
+          36.27251969
+        ]
+      },
+      "properties": {
+        "id": "med-050",
+        "name": "所内科胃腸科クリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市間々田1722-2",
+        "departments": "内科;消化器内科;内視鏡内科；小児科",
+        "beds": "",
+        "phone": "(0285)45-9393"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-051",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8099719,
+          36.28972819
+        ]
+      },
+      "properties": {
+        "id": "med-051",
+        "name": "としま内科クリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市東城南5-４-３",
+        "departments": "内科；血液内科；感染症；HIV",
+        "beds": "",
+        "phone": "(0285)38-9191"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-052",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8233547,
+          36.29433772
+        ]
+      },
+      "properties": {
+        "id": "med-052",
+        "name": "とちぎ健診プラザ",
+        "type": "無床診療所",
+        "address": "栃木県小山市向原新田77-3",
+        "departments": "内科；消化器内科；婦人科",
+        "beds": "0",
+        "phone": "(0285)31-5555"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-053",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.817229,
+          36.31892342
+        ]
+      },
+      "properties": {
+        "id": "med-053",
+        "name": "とみやまクリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市城北6-26-5",
+        "departments": "内科;皮膚科;アレルギー科",
+        "beds": "",
+        "phone": "(0285)38-8688"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-054",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8057385,
+          36.31381508
+        ]
+      },
+      "properties": {
+        "id": "med-054",
+        "name": "友井皮フ科クリニック",
+        "type": "",
+        "address": "栃木県小山市城山町3-2-17",
+        "departments": "皮膚科",
+        "beds": "",
+        "phone": "(0285)22-8880"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-055",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7997193,
+          36.30460044
+        ]
+      },
+      "properties": {
+        "id": "med-055",
+        "name": "豊嶋耳鼻咽喉科クリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市神鳥谷1085-4",
+        "departments": "耳鼻咽喉科;気管食道科",
+        "beds": "0",
+        "phone": "(0285)22-1069"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-056",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8007378,
+          36.30570642
+        ]
+      },
+      "properties": {
+        "id": "med-056",
+        "name": "永山医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市天神町2-12-22",
+        "departments": "内科;小児科",
+        "beds": "0",
+        "phone": "(0285)22-0219"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-057",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8218506,
+          36.311938
+        ]
+      },
+      "properties": {
+        "id": "med-057",
+        "name": "沼部医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市城東6-14-9",
+        "departments": "内科;整形外科",
+        "beds": "0",
+        "phone": "(0285)22-2903"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-058",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8039851,
+          36.29119069
+        ]
+      },
+      "properties": {
+        "id": "med-058",
+        "name": "ハンディクリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市西城南6-3-9",
+        "departments": "内科;外科",
+        "beds": "0",
+        "phone": "(0285)28-6777"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-059",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7455799,
+          36.25177644
+        ]
+      },
+      "properties": {
+        "id": "med-059",
+        "name": "光南病院",
+        "type": "病院",
+        "address": "栃木県小山市乙女795",
+        "departments": "内科;外科;整形外科;アレルギー科;リウマチ科;小児科;皮膚科;眼科;リハビリテーション科;放射線科;呼吸器科;消化器科;循環器科;形成外科;こう門科;糖尿病内分泌内科;泌尿器科",
+        "beds": "155",
+        "phone": "(0285)45-7711"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-060",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7905621,
+          36.30025939
+        ]
+      },
+      "properties": {
+        "id": "med-060",
+        "name": "神鳥谷クリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市神鳥谷1-19-1",
+        "departments": "ひ尿器科;内科;小児科;皮膚科;漢方内科",
+        "beds": "0",
+        "phone": "(0285)22-7700"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-061",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8021433,
+          36.31091592
+        ]
+      },
+      "properties": {
+        "id": "med-061",
+        "name": "福田医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市宮本町2-4-6",
+        "departments": "内科;消化器内科;小児科",
+        "beds": "0",
+        "phone": "(0285)25-5511"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-062",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.768202,
+          36.262762
+        ]
+      },
+      "properties": {
+        "id": "med-062",
+        "name": "ふくだ皮フ科クリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市東間々田2-36-2",
+        "departments": "皮膚科",
+        "beds": "0",
+        "phone": "(0285)38-7578"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-063",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8231818,
+          36.29749419
+        ]
+      },
+      "properties": {
+        "id": "med-063",
+        "name": "藤原クリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市雨ヶ谷新田71-1",
+        "departments": "内科;呼吸器科;循環器科;アレルギー内科;小児科",
+        "beds": "0",
+        "phone": "(0285)27-2421"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-064",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8156258,
+          36.35563156
+        ]
+      },
+      "properties": {
+        "id": "med-064",
+        "name": "扶桑医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市扶桑1-2-1",
+        "departments": "内科;消化器科;小児科;外科;整形外科;放射線科",
+        "beds": "0",
+        "phone": "(0285)23-2350"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-065",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7753277,
+          36.34768281
+        ]
+      },
+      "properties": {
+        "id": "med-065",
+        "name": "船田内科歯科医院",
+        "type": "有床診療所",
+        "address": "栃木県小山市松沼578",
+        "departments": "内科;外科;小児科",
+        "beds": "19",
+        "phone": "(0285)37-0010"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-066",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8222466,
+          36.32965453
+        ]
+      },
+      "properties": {
+        "id": "med-066",
+        "name": "星内科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市喜沢399-4",
+        "departments": "内科；呼吸器内科；小児科；アレルギー科；循環器科；消化器科",
+        "beds": "0",
+        "phone": "(0285)22-3283"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-067",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.789352,
+          36.29311581
+        ]
+      },
+      "properties": {
+        "id": "med-067",
+        "name": "星野胃腸科外科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市粟宮745-1",
+        "departments": "内科;消化器科；胃腸科；小児科；外科；肛門科；放射線科；消化器内科;内視鏡内科",
+        "beds": "",
+        "phone": "(0285)25-3533"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-068",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7786303,
+          36.25782558
+        ]
+      },
+      "properties": {
+        "id": "med-068",
+        "name": "三田整形外科",
+        "type": "無床診療所",
+        "address": "栃木県小山市間々田18-1",
+        "departments": "整形外科;リハビリテーション科",
+        "beds": "0",
+        "phone": "(0285)45-8800"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-069",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8654788,
+          36.33649175
+        ]
+      },
+      "properties": {
+        "id": "med-069",
+        "name": "南栃木病院",
+        "type": "病院",
+        "address": "栃木県小山市北飯田74-2",
+        "departments": "呼吸器科;消化器科;リハビリテーション科;リウマチ科;整形外科;内科;皮膚科；アレルギー科",
+        "beds": "158",
+        "phone": "(0285)39-1150"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-070",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8062861,
+          36.29660633
+        ]
+      },
+      "properties": {
+        "id": "med-070",
+        "name": "みなみ整形外科",
+        "type": "無床診療所",
+        "address": "栃木県小山市西城南3-16-7",
+        "departments": "整形外科;リウマチ科;リハビリテーション科",
+        "beds": "0",
+        "phone": "(0285)28-9222"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-071",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7575729,
+          36.26206544
+        ]
+      },
+      "properties": {
+        "id": "med-071",
+        "name": "森岡内科小児科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市乙女1-28-1",
+        "departments": "内科;小児科;消化器内科;循環器内科",
+        "beds": "0",
+        "phone": "(0285)45-7002"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-072",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8083962,
+          36.30859675
+        ]
+      },
+      "properties": {
+        "id": "med-072",
+        "name": "もりや眼科",
+        "type": "無床診療所",
+        "address": "栃木県小山市駅東通り1-15-12",
+        "departments": "眼科",
+        "beds": "0",
+        "phone": "(0285)38-7996"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-073",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7981744,
+          36.28963986
+        ]
+      },
+      "properties": {
+        "id": "med-073",
+        "name": "矢尾板クリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市神鳥谷1799-1",
+        "departments": "内科;胃腸科;整形外科",
+        "beds": "0",
+        "phone": "(0285)28-7755"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-074",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.808689,
+          36.32824892
+        ]
+      },
+      "properties": {
+        "id": "med-074",
+        "name": "やまなかレディースクリニック",
+        "type": "有床診療所",
+        "address": "栃木県小山市若木町2-11-20",
+        "departments": "産婦人科",
+        "beds": "13",
+        "phone": "(0285)37-8020"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-075",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.813374,
+          36.29592989
+        ]
+      },
+      "properties": {
+        "id": "med-075",
+        "name": "ゆうゆうホームクリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市東城南1-17-13",
+        "departments": "内科;外科",
+        "beds": "0",
+        "phone": "(0285)28-5515"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-076",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.800581,
+          36.32267889
+        ]
+      },
+      "properties": {
+        "id": "med-076",
+        "name": "リハビリテーション翼の舎病院",
+        "type": "病院",
+        "address": "栃木県小山市若木町1-1-2",
+        "departments": "リハビリテーション科",
+        "beds": "100",
+        "phone": "(0285)37-6107"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-077",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8148978,
+          36.29398972
+        ]
+      },
+      "properties": {
+        "id": "med-077",
+        "name": "あいだ歯科",
+        "type": "無床診療所",
+        "address": "栃木県小山市東城南3-3-32",
+        "departments": "歯科･歯科口腔外科･矯正歯科･小児歯科",
+        "beds": "0",
+        "phone": "31-3418"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-078",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8175233,
+          36.32114169
+        ]
+      },
+      "properties": {
+        "id": "med-078",
+        "name": "あおぞら歯科",
+        "type": "無床診療所",
+        "address": "栃木県小山市城北6-8-8",
+        "departments": "歯科･小児歯科･歯科口腔外科",
+        "beds": "0",
+        "phone": "29-6480"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-079",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7803414,
+          36.26664214
+        ]
+      },
+      "properties": {
+        "id": "med-079",
+        "name": "暁デンタルクリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市西黒田300-1",
+        "departments": "歯科;小児歯科;歯科口腔外科;矯正歯科",
+        "beds": "",
+        "phone": "37-6730"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-080",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8109316,
+          36.30774089
+        ]
+      },
+      "properties": {
+        "id": "med-080",
+        "name": "石川歯科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市駅東通り1-29-12",
+        "departments": "歯科",
+        "beds": "0",
+        "phone": "22-4182"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-081",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7660613,
+          36.26784183
+        ]
+      },
+      "properties": {
+        "id": "med-081",
+        "name": "石川歯科クリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市間々田1283",
+        "departments": "歯科;小児歯科;矯正歯科",
+        "beds": "0",
+        "phone": "45-0033"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-082",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8115843,
+          36.28867658
+        ]
+      },
+      "properties": {
+        "id": "med-082",
+        "name": "いしわた歯科クリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市東城南5-6-26",
+        "departments": "歯科;小児歯科",
+        "beds": "",
+        "phone": "38-8555"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-083",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8218658,
+          36.29929008
+        ]
+      },
+      "properties": {
+        "id": "med-083",
+        "name": "いとう歯科クリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市土塔236-16",
+        "departments": "歯科;小児歯科",
+        "beds": "0",
+        "phone": "31-4182"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-084",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8169431,
+          36.30308331
+        ]
+      },
+      "properties": {
+        "id": "med-084",
+        "name": "井上歯科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市駅南町5-13-7",
+        "departments": "歯科;小児歯科;歯科口腔外科;矯正歯科",
+        "beds": "0",
+        "phone": "27-1141"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-085",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8371979,
+          36.31076756
+        ]
+      },
+      "properties": {
+        "id": "med-085",
+        "name": "入江歯科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市犬塚732",
+        "departments": "歯科;小児歯科;歯科口腔外科",
+        "beds": "0",
+        "phone": "24-5582"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-086",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8050347,
+          36.32238064
+        ]
+      },
+      "properties": {
+        "id": "med-086",
+        "name": "岩﨑歯科クリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市花垣町1-5-33",
+        "departments": "歯科;小児歯科;歯科口腔外科",
+        "beds": "0",
+        "phone": "22-8211"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-087",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8179784,
+          36.30932447
+        ]
+      },
+      "properties": {
+        "id": "med-087",
+        "name": "内海歯科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市城東6-1-45",
+        "departments": "歯科;小児歯科;歯科口腔外科",
+        "beds": "0",
+        "phone": "25-5000"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-088",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8428264,
+          36.33087872
+        ]
+      },
+      "properties": {
+        "id": "med-088",
+        "name": "海星歯科クリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市出井759-23",
+        "departments": "歯科;小児歯科;矯正歯科;歯科口腔外科",
+        "beds": "",
+        "phone": "22-8706"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-089",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7888809,
+          36.29425883
+        ]
+      },
+      "properties": {
+        "id": "med-089",
+        "name": "大友歯科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市粟宮1-4-1",
+        "departments": "歯科",
+        "beds": "0",
+        "phone": "25-8244"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-090",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.803324,
+          36.31520528
+        ]
+      },
+      "properties": {
+        "id": "med-090",
+        "name": "大橋歯科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市城山町2-7-8",
+        "departments": "歯科;矯正歯科",
+        "beds": "0",
+        "phone": "22-0627"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-091",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7932502,
+          36.31808844
+        ]
+      },
+      "properties": {
+        "id": "med-091",
+        "name": "大森歯科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市大行寺1066-1",
+        "departments": "歯科",
+        "beds": "0",
+        "phone": "24-5455"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-092",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8090254,
+          36.31080489
+        ]
+      },
+      "properties": {
+        "id": "med-092",
+        "name": "オキナ歯科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市駅東通り2-23-19",
+        "departments": "歯科;矯正歯科;小児歯科;歯科口腔外科",
+        "beds": "0",
+        "phone": "22-2668"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-093",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.776922,
+          36.25802406
+        ]
+      },
+      "properties": {
+        "id": "med-093",
+        "name": "荻原歯科クリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市間々田115",
+        "departments": "歯科;小児歯科;矯正歯科;歯科口腔外科",
+        "beds": "0",
+        "phone": "41-5858"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-094",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8095231,
+          36.30328956
+        ]
+      },
+      "properties": {
+        "id": "med-094",
+        "name": "覚本歯科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市駅南町3-26-18",
+        "departments": "歯科;小児歯科;矯正歯科;歯科口腔外科",
+        "beds": "0",
+        "phone": "27-8148"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-095",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8087782,
+          36.28510481
+        ]
+      },
+      "properties": {
+        "id": "med-095",
+        "name": "小山歯科クリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市雨ケ谷119",
+        "departments": "一般歯科;小児歯科;口腔外科;インプラント；予防歯科；歯周病矯正歯科；審美歯科",
+        "beds": "",
+        "phone": "28-1688"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-096",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7895776,
+          36.32871961
+        ]
+      },
+      "properties": {
+        "id": "med-096",
+        "name": "おやまモール歯科",
+        "type": "無床診療所",
+        "address": "栃木県小山市城西2-13-23",
+        "departments": "歯科;小児歯科;矯正歯科;歯科口腔外科",
+        "beds": "0",
+        "phone": "38-8353"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-097",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7666679,
+          36.25489422
+        ]
+      },
+      "properties": {
+        "id": "med-097",
+        "name": "かきのき歯科クリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市南飯田494-3",
+        "departments": "歯科",
+        "beds": "",
+        "phone": "38-6716"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-098",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8039632,
+          36.29542692
+        ]
+      },
+      "properties": {
+        "id": "med-098",
+        "name": "きらり歯科",
+        "type": "無床診療所",
+        "address": "栃木県小山市西城南2-29-12",
+        "departments": "歯科;小児歯科;矯正歯科;歯科口腔外科",
+        "beds": "0",
+        "phone": "37-9366"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-099",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8091338,
+          36.32492931
+        ]
+      },
+      "properties": {
+        "id": "med-099",
+        "name": "くまくぼ歯科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市花垣町2-10-22",
+        "departments": "歯科;矯正歯科",
+        "beds": "0",
+        "phone": "22-2008"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-100",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.739681,
+          36.32477936
+        ]
+      },
+      "properties": {
+        "id": "med-100",
+        "name": "クロス歯科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市南小林651-1",
+        "departments": "歯科;小児歯科;歯科口腔外科",
+        "beds": "0",
+        "phone": "38-0733"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-101",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7918658,
+          36.29860456
+        ]
+      },
+      "properties": {
+        "id": "med-101",
+        "name": "慶野歯科医院",
+        "type": "",
+        "address": "栃木県小山市神鳥谷2-34-15",
+        "departments": "歯科;小児歯科;矯正歯科;歯科口腔外科",
+        "beds": "",
+        "phone": "22-8148"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-102",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7980585,
+          36.30686097
+        ]
+      },
+      "properties": {
+        "id": "med-102",
+        "name": "小林歯科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市天神町1-5-13",
+        "departments": "歯科",
+        "beds": "0",
+        "phone": "22-1208"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-103",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7633831,
+          36.26372444
+        ]
+      },
+      "properties": {
+        "id": "med-103",
+        "name": "小豆畑歯科医院",
+        "type": "",
+        "address": "栃木県小山市間々田1138",
+        "departments": "歯科;小児歯科;矯正歯科",
+        "beds": "",
+        "phone": "45-0123"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-104",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8081007,
+          36.30501011
+        ]
+      },
+      "properties": {
+        "id": "med-104",
+        "name": "斎藤歯科クリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市駅南町1-12-6",
+        "departments": "歯科;小児歯科",
+        "beds": "0",
+        "phone": "27-1234"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-105",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8258611,
+          36.33678964
+        ]
+      },
+      "properties": {
+        "id": "med-105",
+        "name": "さかもと歯科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市喜沢436-4",
+        "departments": "歯科;小児歯科",
+        "beds": "0",
+        "phone": "30-5418"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-106",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8126584,
+          36.29746256
+        ]
+      },
+      "properties": {
+        "id": "med-106",
+        "name": "城南やぎ歯科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市東城南1-6-7",
+        "departments": "歯科",
+        "beds": "0",
+        "phone": "27-8049"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-107",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8178653,
+          36.32685728
+        ]
+      },
+      "properties": {
+        "id": "med-107",
+        "name": "城北歯科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市城北2-14-7",
+        "departments": "歯科;小児歯科;矯正歯科",
+        "beds": "0",
+        "phone": "25-8049"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-108",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.824998,
+          36.27994811
+        ]
+      },
+      "properties": {
+        "id": "med-108",
+        "name": "関口歯科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市横倉新田285-26",
+        "departments": "歯科;小児歯科;歯科口腔外科",
+        "beds": "0",
+        "phone": "27-8911"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-109",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8413446,
+          36.30474128
+        ]
+      },
+      "properties": {
+        "id": "med-109",
+        "name": "セレステデンタルクリニック",
+        "type": "無床診療所",
+        "address": "栃木県小山市中久喜104-1",
+        "departments": "歯科;小児歯科;矯正歯科;歯科口腔外科",
+        "beds": "0",
+        "phone": "30-0690"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-110",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7597534,
+          36.25497939
+        ]
+      },
+      "properties": {
+        "id": "med-110",
+        "name": "武沢歯科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市暁3-6-1",
+        "departments": "歯科一般",
+        "beds": "0",
+        "phone": "45-5555"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-111",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8091535,
+          36.31255536
+        ]
+      },
+      "properties": {
+        "id": "med-111",
+        "name": "たなか歯科",
+        "type": "無床診療所",
+        "address": "栃木県小山市駅東通り2-17-20",
+        "departments": "歯科;小児歯科",
+        "beds": "",
+        "phone": "30-6815"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-112",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8157698,
+          36.33376597
+        ]
+      },
+      "properties": {
+        "id": "med-112",
+        "name": "田中歯科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市喜沢189-6",
+        "departments": "歯科;小児歯科",
+        "beds": "0",
+        "phone": "22-7701"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-113",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8360128,
+          36.31892153
+        ]
+      },
+      "properties": {
+        "id": "med-113",
+        "name": "たむら歯科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市中久喜1-4-12",
+        "departments": "歯科;小児歯科;矯正歯科",
+        "beds": "0",
+        "phone": "22-6441"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-114",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8049329,
+          36.32776931
+        ]
+      },
+      "properties": {
+        "id": "med-114",
+        "name": "田村歯科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市若木町1-19-2",
+        "departments": "歯科;小児歯科;矯正歯科;歯科口腔外科",
+        "beds": "0",
+        "phone": "24-4180"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-115",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8024011,
+          36.31032719
+        ]
+      },
+      "properties": {
+        "id": "med-115",
+        "name": "丹野歯科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市宮本町3-8-29",
+        "departments": "歯科;小児歯科;矯正歯科;歯科口腔外科",
+        "beds": "0",
+        "phone": "22-0164"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-116",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7999899,
+          36.31690208
+        ]
+      },
+      "properties": {
+        "id": "med-116",
+        "name": "角田歯科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市城山町1-2-10",
+        "departments": "歯科;小児歯科",
+        "beds": "0",
+        "phone": "24-3138"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-117",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8191214,
+          36.35504272
+        ]
+      },
+      "properties": {
+        "id": "med-117",
+        "name": "てつか歯科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市三拝川岸175-40",
+        "departments": "歯科;小児歯科;矯正歯科;歯科口腔外科",
+        "beds": "0",
+        "phone": "25-7770"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-118",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8190676,
+          36.29953978
+        ]
+      },
+      "properties": {
+        "id": "med-118",
+        "name": "ともファミリー歯科",
+        "type": "無床診療所",
+        "address": "栃木県小山市小山104-1",
+        "departments": "歯科;歯科口腔外科;小児歯科;矯正歯科",
+        "beds": "0",
+        "phone": "27-7100"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-119",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8301846,
+          36.36705389
+        ]
+      },
+      "properties": {
+        "id": "med-119",
+        "name": "永井歯科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市南半田2041-5",
+        "departments": "歯科;小児歯科",
+        "beds": "0",
+        "phone": "25-4182"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-120",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.807326,
+          36.32230433
+        ]
+      },
+      "properties": {
+        "id": "med-120",
+        "name": "長井歯科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市花垣町2-9-31",
+        "departments": "歯科;小児歯科;矯正歯科;歯科口腔外科",
+        "beds": "0",
+        "phone": "22-1059"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-121",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7923413,
+          36.31743139
+        ]
+      },
+      "properties": {
+        "id": "med-121",
+        "name": "なかの歯科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市大行寺1027-3",
+        "departments": "歯科;小児歯科;歯科口腔外科",
+        "beds": "0",
+        "phone": "21-1182"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-122",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8063138,
+          36.31008822
+        ]
+      },
+      "properties": {
+        "id": "med-122",
+        "name": "にへい矯正歯科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市駅東通り1-3-3",
+        "departments": "矯正歯科",
+        "beds": "0",
+        "phone": "25-1884"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-123",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.807961,
+          36.31026458
+        ]
+      },
+      "properties": {
+        "id": "med-123",
+        "name": "野中歯科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市駅東通り1-6-11",
+        "departments": "歯科",
+        "beds": "0",
+        "phone": "22-0263"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-124",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8148634,
+          36.28246408
+        ]
+      },
+      "properties": {
+        "id": "med-124",
+        "name": "野村歯科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市雨ケ谷483-1",
+        "departments": "歯科;小児歯科;矯正歯科;歯科口腔外科",
+        "beds": "0",
+        "phone": "28-3456"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-125",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8049753,
+          36.31401578
+        ]
+      },
+      "properties": {
+        "id": "med-125",
+        "name": "ひまわり矯正歯科",
+        "type": "",
+        "address": "栃木県小山市城山町3-2-1",
+        "departments": "矯正歯科",
+        "beds": "",
+        "phone": "21-3344"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-126",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8042798,
+          36.29848728
+        ]
+      },
+      "properties": {
+        "id": "med-126",
+        "name": "平山歯科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市西城南2-9-23",
+        "departments": "歯科",
+        "beds": "0",
+        "phone": "31-6118"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-127",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7753277,
+          36.34768281
+        ]
+      },
+      "properties": {
+        "id": "med-127",
+        "name": "船田内科歯科医院",
+        "type": "有床診療所",
+        "address": "栃木県小山市松沼578",
+        "departments": "歯科;小児歯科;歯科口腔外科;矯正歯科",
+        "beds": "0",
+        "phone": "32-6333"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-128",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8328478,
+          36.36370283
+        ]
+      },
+      "properties": {
+        "id": "med-128",
+        "name": "細野歯科医院",
+        "type": "",
+        "address": "栃木県小山市羽川478-1",
+        "departments": "歯科",
+        "beds": "",
+        "phone": "23-5005"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-129",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7551248,
+          36.25902947
+        ]
+      },
+      "properties": {
+        "id": "med-129",
+        "name": "前田歯科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市乙女2-30-31",
+        "departments": "歯科",
+        "beds": "0",
+        "phone": "45-8049"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-130",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8044071,
+          36.28937517
+        ]
+      },
+      "properties": {
+        "id": "med-130",
+        "name": "町田歯科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市神鳥谷1853-15",
+        "departments": "歯科;小児歯科",
+        "beds": "0",
+        "phone": "28-0339"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-131",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.797162,
+          36.30665744
+        ]
+      },
+      "properties": {
+        "id": "med-131",
+        "name": "松田歯科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市八幡町2-11-11",
+        "departments": "歯科;小児歯科",
+        "beds": "0",
+        "phone": "25-3315"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-132",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7741182,
+          36.2651885
+        ]
+      },
+      "properties": {
+        "id": "med-132",
+        "name": "まつのき歯科間々田クリニック",
+        "type": "",
+        "address": "栃木県小山市美しが丘1-19-1",
+        "departments": "歯科;小児歯科;矯正歯科;歯科口腔外科",
+        "beds": "",
+        "phone": "38-6304"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-133",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7832588,
+          36.28697756
+        ]
+      },
+      "properties": {
+        "id": "med-133",
+        "name": "まつや歯科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市粟宮1006-3",
+        "departments": "歯科",
+        "beds": "0",
+        "phone": "45-1541"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-134",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8289507,
+          36.30912583
+        ]
+      },
+      "properties": {
+        "id": "med-134",
+        "name": "宮田歯科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市犬塚1-12-7",
+        "departments": "歯科;小児歯科",
+        "beds": "0",
+        "phone": "24-3718"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-135",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8128602,
+          36.30925494
+        ]
+      },
+      "properties": {
+        "id": "med-135",
+        "name": "山田歯科",
+        "type": "無床診療所",
+        "address": "栃木県小山市駅東通り1-33-13",
+        "departments": "歯科;矯正歯科;小児歯科",
+        "beds": "0",
+        "phone": "23-1333"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-136",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8119144,
+          36.26497908
+        ]
+      },
+      "properties": {
+        "id": "med-136",
+        "name": "やまなか歯科",
+        "type": "無床診療所",
+        "address": "栃木県小山市塚崎780",
+        "departments": "歯科;小児歯科",
+        "beds": "0",
+        "phone": "28-0005"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-137",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8271304,
+          36.30176467
+        ]
+      },
+      "properties": {
+        "id": "med-137",
+        "name": "吉浜歯科",
+        "type": "無床診療所",
+        "address": "栃木県小山市土塔247-27",
+        "departments": "歯科",
+        "beds": "0",
+        "phone": "28-7555"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "med-138",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8176868,
+          36.31440958
+        ]
+      },
+      "properties": {
+        "id": "med-138",
+        "name": "ワカナ歯科医院",
+        "type": "無床診療所",
+        "address": "栃木県小山市城東3-24-3",
+        "departments": "歯科",
+        "beds": "0",
+        "phone": "25-0328"
+      }
+    }
+  ]
+}

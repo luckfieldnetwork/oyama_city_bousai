@@ -1,0 +1,4261 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "栃木県小山市 指定緊急避難場所データ（周辺クロス集計付き）",
+    "author": "栃木県小山市",
+    "source": "Code for OYAMA API / 国土地理院オープンデータ基盤",
+    "count": 74
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "shelter-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.89794,
+          36.349087
+        ]
+      },
+      "properties": {
+        "id": "shelter-001",
+        "name": "アグリの森（旧延島小学校）",
+        "address": "栃木県小山市延島1019",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": false,
+            "inside_location": "",
+            "has_pediatric": false,
+            "nearest_name": "有限会社小山環境美化センター",
+            "nearest_distance_m": 924,
+            "nearest_walk_min": 12,
+            "nearest_location": ""
+          },
+          "nearest_medical": {
+            "name": "南栃木病院",
+            "type": "病院",
+            "distance_m": 3227,
+            "walk_min": 40,
+            "phone": "(0285)39-1150"
+          },
+          "nearby_toilet": {
+            "has_nearby": false,
+            "nearest_name": "やすらぎの森",
+            "distance_m": 1622,
+            "walk_min": 20,
+            "has_wheelchair": false,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "やすらぎの森",
+            "distance_m": 1556,
+            "walk_min": 19,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.827951,
+          36.354187
+        ]
+      },
+      "properties": {
+        "id": "shelter-002",
+        "name": "羽川小学校",
+        "address": "栃木県小山市羽川125",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "保健室",
+            "has_pediatric": true,
+            "nearest_name": "小山市立羽川小学校",
+            "nearest_distance_m": 16,
+            "nearest_walk_min": 1,
+            "nearest_location": "保健室"
+          },
+          "nearest_medical": {
+            "name": "てつか歯科医院",
+            "type": "無床診療所",
+            "distance_m": 796,
+            "walk_min": 10,
+            "phone": "25-7770"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "羽川ふれあい公園",
+            "distance_m": 441,
+            "walk_min": 6,
+            "has_wheelchair": true,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "下往還西公園",
+            "distance_m": 164,
+            "walk_min": 2,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.868241,
+          36.329477
+        ]
+      },
+      "properties": {
+        "id": "shelter-003",
+        "name": "萱橋小学校",
+        "address": "栃木県小山市萱橋1169-1",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "保健室",
+            "has_pediatric": true,
+            "nearest_name": "小山市立萱橋小学校",
+            "nearest_distance_m": 24,
+            "nearest_walk_min": 1,
+            "nearest_location": "保健室"
+          },
+          "nearest_medical": {
+            "name": "南栃木病院",
+            "type": "病院",
+            "distance_m": 818,
+            "walk_min": 10,
+            "phone": "(0285)39-1150"
+          },
+          "nearby_toilet": {
+            "has_nearby": false,
+            "nearest_name": "鉢形四ツ沼公園",
+            "distance_m": 1431,
+            "walk_min": 18,
+            "has_wheelchair": true,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "おやま縄文まつりの広場",
+            "distance_m": 1279,
+            "walk_min": 16,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.835653,
+          36.350443
+        ]
+      },
+      "properties": {
+        "id": "shelter-004",
+        "name": "桑市民交流センター",
+        "address": "栃木県小山市羽川858-1",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "窓口",
+            "has_pediatric": true,
+            "nearest_name": "桑出張所",
+            "nearest_distance_m": 2,
+            "nearest_walk_min": 1,
+            "nearest_location": "窓口"
+          },
+          "nearest_medical": {
+            "name": "朝日病院",
+            "type": "病院",
+            "distance_m": 1193,
+            "walk_min": 15,
+            "phone": "(0285)22-1182"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "羽川ふれあい公園",
+            "distance_m": 786,
+            "walk_min": 10,
+            "has_wheelchair": true,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "荒井団地公園",
+            "distance_m": 290,
+            "walk_min": 4,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.830336,
+          36.345286
+        ]
+      },
+      "properties": {
+        "id": "shelter-005",
+        "name": "桑中学校",
+        "address": "栃木県小山市出井1859",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "職員室",
+            "has_pediatric": true,
+            "nearest_name": "小山市立桑中学校",
+            "nearest_distance_m": 12,
+            "nearest_walk_min": 1,
+            "nearest_location": "職員室"
+          },
+          "nearest_medical": {
+            "name": "朝日病院",
+            "type": "病院",
+            "distance_m": 639,
+            "walk_min": 8,
+            "phone": "(0285)22-1182"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "羽川ふれあい公園",
+            "distance_m": 639,
+            "walk_min": 8,
+            "has_wheelchair": true,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "二ノ窪公園",
+            "distance_m": 449,
+            "walk_min": 6,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.895377,
+          36.32917
+        ]
+      },
+      "properties": {
+        "id": "shelter-006",
+        "name": "絹義務教育学校・西校舎",
+        "address": "栃木県小山市福良2240-1",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "（西校舎）保健室前廊下",
+            "has_pediatric": true,
+            "nearest_name": "小山市立絹義務教育学校",
+            "nearest_distance_m": 11,
+            "nearest_walk_min": 1,
+            "nearest_location": "（西校舎）保健室前廊下"
+          },
+          "nearest_medical": {
+            "name": "南栃木病院",
+            "type": "病院",
+            "distance_m": 2799,
+            "walk_min": 35,
+            "phone": "(0285)39-1150"
+          },
+          "nearby_toilet": {
+            "has_nearby": false,
+            "nearest_name": "やすらぎの森",
+            "distance_m": 1685,
+            "walk_min": 21,
+            "has_wheelchair": false,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "おやま縄文まつりの広場",
+            "distance_m": 1250,
+            "walk_min": 16,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.896309,
+          36.330431
+        ]
+      },
+      "properties": {
+        "id": "shelter-007",
+        "name": "絹義務教育学校・東校舎",
+        "address": "栃木県小山市福良2246",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "（東校舎）職員室前廊下",
+            "has_pediatric": true,
+            "nearest_name": "小山市立絹義務教育学校",
+            "nearest_distance_m": 31,
+            "nearest_walk_min": 1,
+            "nearest_location": "（東校舎）職員室前廊下"
+          },
+          "nearest_medical": {
+            "name": "南栃木病院",
+            "type": "病院",
+            "distance_m": 2843,
+            "walk_min": 36,
+            "phone": "(0285)39-1150"
+          },
+          "nearby_toilet": {
+            "has_nearby": false,
+            "nearest_name": "やすらぎの森",
+            "distance_m": 1643,
+            "walk_min": 21,
+            "has_wheelchair": false,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "おやま縄文まつりの広場",
+            "distance_m": 1372,
+            "walk_min": 17,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.805838,
+          36.32625
+        ]
+      },
+      "properties": {
+        "id": "shelter-008",
+        "name": "若木小学校",
+        "address": "栃木県小山市若木町2-6-44",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "職員室",
+            "has_pediatric": true,
+            "nearest_name": "小山市立若木小学校",
+            "nearest_distance_m": 52,
+            "nearest_walk_min": 1,
+            "nearest_location": "職員室"
+          },
+          "nearest_medical": {
+            "name": "田村歯科医院",
+            "type": "無床診療所",
+            "distance_m": 187,
+            "walk_min": 2,
+            "phone": "24-4180"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "ひまわり公園",
+            "distance_m": 253,
+            "walk_min": 3,
+            "has_wheelchair": false,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "花垣町1丁目公園",
+            "distance_m": 231,
+            "walk_min": 3,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.800971,
+          36.315345
+        ]
+      },
+      "properties": {
+        "id": "shelter-009",
+        "name": "小山御殿広場",
+        "address": "栃木県小山市中央町1-3",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": false,
+            "inside_location": "",
+            "has_pediatric": false,
+            "nearest_name": "小山市役所",
+            "nearest_distance_m": 96,
+            "nearest_walk_min": 1,
+            "nearest_location": "1階"
+          },
+          "nearest_medical": {
+            "name": "角田歯科医院",
+            "type": "無床診療所",
+            "distance_m": 194,
+            "walk_min": 2,
+            "phone": "24-3138"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "思川アプローチ広場",
+            "distance_m": 263,
+            "walk_min": 3,
+            "has_wheelchair": true,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "小山御殿広場",
+            "distance_m": 44,
+            "walk_min": 1,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.842554,
+          36.318565
+        ]
+      },
+      "properties": {
+        "id": "shelter-010",
+        "name": "小山工業高等専門学校",
+        "address": "栃木県小山市中久喜771",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": false,
+            "inside_location": "",
+            "has_pediatric": false,
+            "nearest_name": "ファミリーマート小山中久喜店",
+            "nearest_distance_m": 384,
+            "nearest_walk_min": 5,
+            "nearest_location": "カウウンター裏バックヤード"
+          },
+          "nearest_medical": {
+            "name": "小山すぎの木クリニック",
+            "type": "有床診療所",
+            "distance_m": 363,
+            "walk_min": 5,
+            "phone": "(0285)30-3456"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "西山南公園",
+            "distance_m": 596,
+            "walk_min": 7,
+            "has_wheelchair": true,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "中道公園",
+            "distance_m": 223,
+            "walk_min": 3,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.80689,
+          36.328061
+        ]
+      },
+      "properties": {
+        "id": "shelter-011",
+        "name": "小山高等学校",
+        "address": "栃木県小山市若木町2-8-51",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": false,
+            "inside_location": "",
+            "has_pediatric": false,
+            "nearest_name": "田村歯科医院",
+            "nearest_distance_m": 173,
+            "nearest_walk_min": 2,
+            "nearest_location": ""
+          },
+          "nearest_medical": {
+            "name": "やまなかレディースクリニック",
+            "type": "有床診療所",
+            "distance_m": 163,
+            "walk_min": 2,
+            "phone": "(0285)37-8020"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "ひまわり公園",
+            "distance_m": 400,
+            "walk_min": 5,
+            "has_wheelchair": false,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "若木町2丁目公園",
+            "distance_m": 242,
+            "walk_min": 3,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.820039,
+          36.324238
+        ]
+      },
+      "properties": {
+        "id": "shelter-012",
+        "name": "小山城北小学校",
+        "address": "栃木県小山市城北5-18-1",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "保健室",
+            "has_pediatric": true,
+            "nearest_name": "小山市立小山城北小学校",
+            "nearest_distance_m": 13,
+            "nearest_walk_min": 1,
+            "nearest_location": "保健室"
+          },
+          "nearest_medical": {
+            "name": "城北歯科医院",
+            "type": "無床診療所",
+            "distance_m": 350,
+            "walk_min": 4,
+            "phone": "25-8049"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "向原南公園",
+            "distance_m": 239,
+            "walk_min": 3,
+            "has_wheelchair": true,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "向原南公園",
+            "distance_m": 264,
+            "walk_min": 3,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-013",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.768546,
+          36.352167
+        ]
+      },
+      "properties": {
+        "id": "shelter-013",
+        "name": "小山西高等学校",
+        "address": "栃木県小山市松沼741",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "",
+            "has_pediatric": false,
+            "nearest_name": "栃木県立小山西高等学校",
+            "nearest_distance_m": 13,
+            "nearest_walk_min": 1,
+            "nearest_location": ""
+          },
+          "nearest_medical": {
+            "name": "船田内科歯科医院",
+            "type": "有床診療所",
+            "distance_m": 786,
+            "walk_min": 10,
+            "phone": "(0285)37-0010"
+          },
+          "nearby_toilet": {
+            "has_nearby": false,
+            "nearest_name": "思川駅公衆トイレ",
+            "distance_m": 1168,
+            "walk_min": 15,
+            "has_wheelchair": false,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "板橋1号公園",
+            "distance_m": 1139,
+            "walk_min": 14,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.865565,
+          36.355349
+        ]
+      },
+      "properties": {
+        "id": "shelter-014",
+        "name": "小山北桜高等学校",
+        "address": "栃木県小山市東山田448-29",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "",
+            "has_pediatric": false,
+            "nearest_name": "栃木県立小山北桜高等学校",
+            "nearest_distance_m": 80,
+            "nearest_walk_min": 1,
+            "nearest_location": ""
+          },
+          "nearest_medical": {
+            "name": "南栃木病院",
+            "type": "病院",
+            "distance_m": 2097,
+            "walk_min": 26,
+            "phone": "(0285)39-1150"
+          },
+          "nearby_toilet": {
+            "has_nearby": false,
+            "nearest_name": "南原公園",
+            "distance_m": 1706,
+            "walk_min": 21,
+            "has_wheelchair": true,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "南原公園",
+            "distance_m": 1692,
+            "walk_min": 21,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-015",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.799794,
+          36.318106
+        ]
+      },
+      "properties": {
+        "id": "shelter-015",
+        "name": "城山公園",
+        "address": "栃木県小山市城山町1-1",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": false,
+            "inside_location": "",
+            "has_pediatric": false,
+            "nearest_name": "角田歯科医院",
+            "nearest_distance_m": 135,
+            "nearest_walk_min": 2,
+            "nearest_location": ""
+          },
+          "nearest_medical": {
+            "name": "角田歯科医院",
+            "type": "無床診療所",
+            "distance_m": 135,
+            "walk_min": 2,
+            "phone": "24-3138"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "城山公園",
+            "distance_m": 52,
+            "walk_min": 1,
+            "has_wheelchair": true,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "城山公園",
+            "distance_m": 73,
+            "walk_min": 1,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-016",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.761419,
+          36.31731
+        ]
+      },
+      "properties": {
+        "id": "shelter-016",
+        "name": "美田中学校",
+        "address": "栃木県小山市下国府塚287",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "職員室前廊下",
+            "has_pediatric": true,
+            "nearest_name": "小山市立美田中学校",
+            "nearest_distance_m": 19,
+            "nearest_walk_min": 1,
+            "nearest_location": "職員室前廊下"
+          },
+          "nearest_medical": {
+            "name": "クロス歯科医院",
+            "type": "無床診療所",
+            "distance_m": 2117,
+            "walk_min": 26,
+            "phone": "38-0733"
+          },
+          "nearby_toilet": {
+            "has_nearby": false,
+            "nearest_name": "小山総合公園",
+            "distance_m": 2322,
+            "walk_min": 29,
+            "has_wheelchair": false,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "石ノ上河川広場",
+            "distance_m": 2171,
+            "walk_min": 27,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-017",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.783673,
+          36.34779
+        ]
+      },
+      "properties": {
+        "id": "shelter-017",
+        "name": "豊田小学校",
+        "address": "栃木県小山市松沼416-1",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "保健室",
+            "has_pediatric": true,
+            "nearest_name": "小山市立豊田小学校",
+            "nearest_distance_m": 26,
+            "nearest_walk_min": 1,
+            "nearest_location": "保健室"
+          },
+          "nearest_medical": {
+            "name": "船田内科歯科医院",
+            "type": "有床診療所",
+            "distance_m": 748,
+            "walk_min": 9,
+            "phone": "(0285)37-0010"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "思川駅公衆トイレ",
+            "distance_m": 379,
+            "walk_min": 5,
+            "has_wheelchair": false,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "豊田公民館前広場",
+            "distance_m": 250,
+            "walk_min": 3,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-018",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.781745,
+          36.346318
+        ]
+      },
+      "properties": {
+        "id": "shelter-018",
+        "name": "豊田中学校",
+        "address": "栃木県小山市松沼397",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "保健室",
+            "has_pediatric": true,
+            "nearest_name": "小山市立豊田中学校",
+            "nearest_distance_m": 36,
+            "nearest_walk_min": 1,
+            "nearest_location": "保健室"
+          },
+          "nearest_medical": {
+            "name": "船田内科歯科医院",
+            "type": "有床診療所",
+            "distance_m": 594,
+            "walk_min": 7,
+            "phone": "(0285)37-0010"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "思川駅公衆トイレ",
+            "distance_m": 487,
+            "walk_min": 6,
+            "has_wheelchair": false,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "豊田公民館前広場",
+            "distance_m": 256,
+            "walk_min": 3,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-019",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.831331,
+          36.2925
+        ]
+      },
+      "properties": {
+        "id": "shelter-019",
+        "name": "あけぼの公園",
+        "address": "栃木県小山市横倉新田465",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": false,
+            "inside_location": "",
+            "has_pediatric": false,
+            "nearest_name": "吉浜歯科",
+            "nearest_distance_m": 1096,
+            "nearest_walk_min": 14,
+            "nearest_location": ""
+          },
+          "nearest_medical": {
+            "name": "とちぎ健診プラザ",
+            "type": "無床診療所",
+            "distance_m": 743,
+            "walk_min": 9,
+            "phone": "(0285)31-5555"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "あけぼの公園",
+            "distance_m": 47,
+            "walk_min": 1,
+            "has_wheelchair": false,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "あけぼの公園",
+            "distance_m": 59,
+            "walk_min": 1,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-020",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.814408,
+          36.303111
+        ]
+      },
+      "properties": {
+        "id": "shelter-020",
+        "name": "あさひ公園",
+        "address": "栃木県小山市駅南町5-6",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "カウウンター裏バックヤード",
+            "has_pediatric": true,
+            "nearest_name": "セブンイレブン小山駅南5丁目店",
+            "nearest_distance_m": 58,
+            "nearest_walk_min": 1,
+            "nearest_location": "カウウンター裏バックヤード"
+          },
+          "nearest_medical": {
+            "name": "川村内科医院",
+            "type": "無床診療所",
+            "distance_m": 74,
+            "walk_min": 1,
+            "phone": "(0285)28-1332"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "あさひ公園",
+            "distance_m": 34,
+            "walk_min": 1,
+            "has_wheelchair": false,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "あさひ公園",
+            "distance_m": 20,
+            "walk_min": 1,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-021",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.814545,
+          36.304752
+        ]
+      },
+      "properties": {
+        "id": "shelter-021",
+        "name": "旭小学校",
+        "address": "栃木県小山市駅南町5-6-69",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "職員室",
+            "has_pediatric": true,
+            "nearest_name": "小山市立旭小学校",
+            "nearest_distance_m": 5,
+            "nearest_walk_min": 1,
+            "nearest_location": "職員室"
+          },
+          "nearest_medical": {
+            "name": "川村内科医院",
+            "type": "無床診療所",
+            "distance_m": 249,
+            "walk_min": 3,
+            "phone": "(0285)28-1332"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "あさひ公園",
+            "distance_m": 209,
+            "walk_min": 3,
+            "has_wheelchair": false,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "あさひ公園",
+            "distance_m": 174,
+            "walk_min": 2,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-022",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.809801,
+          36.311111
+        ]
+      },
+      "properties": {
+        "id": "shelter-022",
+        "name": "駅東公園",
+        "address": "栃木県小山市駅東通り2-25",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": false,
+            "inside_location": "",
+            "has_pediatric": false,
+            "nearest_name": "セブンイレブン白鷗大学本キャンパス店",
+            "nearest_distance_m": 275,
+            "nearest_walk_min": 3,
+            "nearest_location": "カウウンター裏バックヤード"
+          },
+          "nearest_medical": {
+            "name": "オキナ歯科医院",
+            "type": "無床診療所",
+            "distance_m": 77,
+            "walk_min": 1,
+            "phone": "22-2668"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "駅東公園",
+            "distance_m": 43,
+            "walk_min": 1,
+            "has_wheelchair": true,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "駅東公園",
+            "distance_m": 4,
+            "walk_min": 1,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-023",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.764018,
+          36.269167
+        ]
+      },
+      "properties": {
+        "id": "shelter-023",
+        "name": "間々田小学校",
+        "address": "栃木県小山市間々田1512",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "保健室",
+            "has_pediatric": true,
+            "nearest_name": "小山市立間々田小学校",
+            "nearest_distance_m": 10,
+            "nearest_walk_min": 1,
+            "nearest_location": "保健室"
+          },
+          "nearest_medical": {
+            "name": "石川歯科クリニック",
+            "type": "無床診療所",
+            "distance_m": 235,
+            "walk_min": 3,
+            "phone": "45-0033"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "間々田八幡公園",
+            "distance_m": 564,
+            "walk_min": 7,
+            "has_wheelchair": true,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "学校南公園",
+            "distance_m": 660,
+            "walk_min": 8,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-024",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.766379,
+          36.276263
+        ]
+      },
+      "properties": {
+        "id": "shelter-024",
+        "name": "間々田中学校",
+        "address": "栃木県小山市間々田2364",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "職員室",
+            "has_pediatric": true,
+            "nearest_name": "小山市立間々田中学校",
+            "nearest_distance_m": 12,
+            "nearest_walk_min": 1,
+            "nearest_location": "職員室"
+          },
+          "nearest_medical": {
+            "name": "所内科胃腸科クリニック",
+            "type": "無床診療所",
+            "distance_m": 429,
+            "walk_min": 5,
+            "phone": "(0285)45-9393"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "学校北公園",
+            "distance_m": 194,
+            "walk_min": 2,
+            "has_wheelchair": true,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "学校北公園",
+            "distance_m": 207,
+            "walk_min": 3,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-025",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.777188,
+          36.257176
+        ]
+      },
+      "properties": {
+        "id": "shelter-025",
+        "name": "間々田東小学校",
+        "address": "栃木県小山市間々田57-2",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "職員室",
+            "has_pediatric": true,
+            "nearest_name": "小山市立間々田東小学校",
+            "nearest_distance_m": 13,
+            "nearest_walk_min": 1,
+            "nearest_location": "職員室"
+          },
+          "nearest_medical": {
+            "name": "荻原歯科クリニック",
+            "type": "無床診療所",
+            "distance_m": 97,
+            "walk_min": 1,
+            "phone": "41-5858"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "六本木公園",
+            "distance_m": 265,
+            "walk_min": 3,
+            "has_wheelchair": false,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "美しが丘ポケットパーク",
+            "distance_m": 135,
+            "walk_min": 2,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-026",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.766817,
+          36.274174
+        ]
+      },
+      "properties": {
+        "id": "shelter-026",
+        "name": "間々田八幡公園",
+        "address": "栃木県小山市間々田2369",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": false,
+            "inside_location": "",
+            "has_pediatric": false,
+            "nearest_name": "小山市立間々田中学校",
+            "nearest_distance_m": 228,
+            "nearest_walk_min": 3,
+            "nearest_location": "職員室"
+          },
+          "nearest_medical": {
+            "name": "所内科胃腸科クリニック",
+            "type": "無床診療所",
+            "distance_m": 234,
+            "walk_min": 3,
+            "phone": "(0285)45-9393"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "間々田八幡公園",
+            "distance_m": 77,
+            "walk_min": 1,
+            "has_wheelchair": true,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "間々田八幡公園",
+            "distance_m": 100,
+            "walk_min": 1,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-027",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.77369,
+          36.263851
+        ]
+      },
+      "properties": {
+        "id": "shelter-027",
+        "name": "間々田美しが丘公園",
+        "address": "栃木県小山市美しが丘3-1",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": false,
+            "inside_location": "",
+            "has_pediatric": false,
+            "nearest_name": "ファミリーマート小山美しが丘店",
+            "nearest_distance_m": 593,
+            "nearest_walk_min": 7,
+            "nearest_location": "カウウンター裏バックヤード"
+          },
+          "nearest_medical": {
+            "name": "まつのき歯科間々田クリニック",
+            "type": "",
+            "distance_m": 154,
+            "walk_min": 2,
+            "phone": "38-6304"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "間々田美しが丘",
+            "distance_m": 68,
+            "walk_min": 1,
+            "has_wheelchair": true,
+            "has_baby": true,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "間々田美しが丘公園",
+            "distance_m": 69,
+            "walk_min": 1,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-028",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.829835,
+          36.28228
+        ]
+      },
+      "properties": {
+        "id": "shelter-028",
+        "name": "関東職業能力開発大学校",
+        "address": "栃木県小山市横倉612-1",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": false,
+            "inside_location": "",
+            "has_pediatric": false,
+            "nearest_name": "学校法人ひまわり学園ひまわり保育所",
+            "nearest_distance_m": 494,
+            "nearest_walk_min": 6,
+            "nearest_location": ""
+          },
+          "nearest_medical": {
+            "name": "関口歯科医院",
+            "type": "無床診療所",
+            "distance_m": 505,
+            "walk_min": 6,
+            "phone": "27-8911"
+          },
+          "nearby_toilet": {
+            "has_nearby": false,
+            "nearest_name": "あけぼの公園",
+            "distance_m": 1043,
+            "walk_min": 13,
+            "has_wheelchair": false,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "欠塚公園",
+            "distance_m": 257,
+            "walk_min": 3,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-029",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.799481,
+          36.294257
+        ]
+      },
+      "properties": {
+        "id": "shelter-029",
+        "name": "希望ケ丘公園",
+        "address": "栃木県小山市西城南5-5",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": false,
+            "inside_location": "",
+            "has_pediatric": false,
+            "nearest_name": "小山市立小山城南小学校",
+            "nearest_distance_m": 139,
+            "nearest_walk_min": 2,
+            "nearest_location": "保健室"
+          },
+          "nearest_medical": {
+            "name": "きらり歯科",
+            "type": "無床診療所",
+            "distance_m": 422,
+            "walk_min": 5,
+            "phone": "37-9366"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "希望ヶ丘公園",
+            "distance_m": 43,
+            "walk_min": 1,
+            "has_wheelchair": false,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "希望ヶ丘公園",
+            "distance_m": 15,
+            "walk_min": 1,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-030",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.827344,
+          36.313878
+        ]
+      },
+      "properties": {
+        "id": "shelter-030",
+        "name": "勤労者体育センター",
+        "address": "栃木県小山市犬塚3-1-2",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "事務室",
+            "has_pediatric": true,
+            "nearest_name": "勤労青少年ホーム",
+            "nearest_distance_m": 4,
+            "nearest_walk_min": 1,
+            "nearest_location": "事務室"
+          },
+          "nearest_medical": {
+            "name": "沼部医院",
+            "type": "無床診療所",
+            "distance_m": 537,
+            "walk_min": 7,
+            "phone": "(0285)22-2903"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "青葉公園",
+            "distance_m": 105,
+            "walk_min": 1,
+            "has_wheelchair": false,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "青葉公園",
+            "distance_m": 88,
+            "walk_min": 1,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-031",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.830794,
+          36.306789
+        ]
+      },
+      "properties": {
+        "id": "shelter-031",
+        "name": "犬塚公園",
+        "address": "栃木県小山市犬塚1-24",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": false,
+            "inside_location": "",
+            "has_pediatric": false,
+            "nearest_name": "小山市立大谷北小学校",
+            "nearest_distance_m": 209,
+            "nearest_walk_min": 3,
+            "nearest_location": "職員室"
+          },
+          "nearest_medical": {
+            "name": "いしい整形外科",
+            "type": "無床診療所",
+            "distance_m": 116,
+            "walk_min": 1,
+            "phone": "(0285)20-3588"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "犬塚公園",
+            "distance_m": 65,
+            "walk_min": 1,
+            "has_wheelchair": false,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "犬塚公園",
+            "distance_m": 31,
+            "walk_min": 1,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-032",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.80401,
+          36.284897
+        ]
+      },
+      "properties": {
+        "id": "shelter-032",
+        "name": "原之内公園",
+        "address": "栃木県小山市神鳥谷1864-1",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": false,
+            "inside_location": "",
+            "has_pediatric": false,
+            "nearest_name": "シルバー人材センター",
+            "nearest_distance_m": 670,
+            "nearest_walk_min": 8,
+            "nearest_location": "事務室"
+          },
+          "nearest_medical": {
+            "name": "苅部小山南クリニック",
+            "type": "無床診療所",
+            "distance_m": 144,
+            "walk_min": 2,
+            "phone": "(0285)31-1188"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "原之内公園",
+            "distance_m": 182,
+            "walk_min": 2,
+            "has_wheelchair": true,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "原之内公園",
+            "distance_m": 189,
+            "walk_min": 2,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-033",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.816192,
+          36.292851
+        ]
+      },
+      "properties": {
+        "id": "shelter-033",
+        "name": "自由ケ丘公園",
+        "address": "栃木県小山市東城南3-8",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": false,
+            "inside_location": "",
+            "has_pediatric": false,
+            "nearest_name": "小山市立東城南小学校",
+            "nearest_distance_m": 135,
+            "nearest_walk_min": 2,
+            "nearest_location": "保健室"
+          },
+          "nearest_medical": {
+            "name": "あいだ歯科",
+            "type": "無床診療所",
+            "distance_m": 172,
+            "walk_min": 2,
+            "phone": "31-3418"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "自由ヶ丘公園",
+            "distance_m": 37,
+            "walk_min": 1,
+            "has_wheelchair": true,
+            "has_baby": false,
+            "has_ostomate": true
+          },
+          "nearest_park": {
+            "name": "自由ヶ丘公園",
+            "distance_m": 20,
+            "walk_min": 1,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-034",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.853416,
+          36.31368
+        ]
+      },
+      "properties": {
+        "id": "shelter-034",
+        "name": "小山運動公園",
+        "address": "栃木県小山市向野187",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "事務室",
+            "has_pediatric": true,
+            "nearest_name": "小山市開運スポーツ合宿所",
+            "nearest_distance_m": 187,
+            "nearest_walk_min": 2,
+            "nearest_location": ""
+          },
+          "nearest_medical": {
+            "name": "小山すぎの木クリニック",
+            "type": "有床診療所",
+            "distance_m": 772,
+            "walk_min": 10,
+            "phone": "(0285)30-3456"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "小山運動公園",
+            "distance_m": 30,
+            "walk_min": 1,
+            "has_wheelchair": false,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "小山運動公園",
+            "distance_m": 195,
+            "walk_min": 2,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-035",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.804083,
+          36.273253
+        ]
+      },
+      "properties": {
+        "id": "shelter-035",
+        "name": "小山市立体育館（小山思いの森敷地内）",
+        "address": "栃木県小山市塚崎1408-1",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": false,
+            "inside_location": "",
+            "has_pediatric": false,
+            "nearest_name": "健康医療介護総合支援センター",
+            "nearest_distance_m": 369,
+            "nearest_walk_min": 5,
+            "nearest_location": "事務室"
+          },
+          "nearest_medical": {
+            "name": "新小山市民病院",
+            "type": "病院",
+            "distance_m": 441,
+            "walk_min": 6,
+            "phone": "(0285)36-0200"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "小山思いの森",
+            "distance_m": 236,
+            "walk_min": 3,
+            "has_wheelchair": true,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "小山思いの森",
+            "distance_m": 237,
+            "walk_min": 3,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-036",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.800072,
+          36.313431
+        ]
+      },
+      "properties": {
+        "id": "shelter-036",
+        "name": "小山市立文化センター",
+        "address": "栃木県小山市中央町1-1-1",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "1階事務室",
+            "has_pediatric": true,
+            "nearest_name": "小山市立文化センター",
+            "nearest_distance_m": 29,
+            "nearest_walk_min": 1,
+            "nearest_location": "1階事務室"
+          },
+          "nearest_medical": {
+            "name": "安西・古谷クリニック",
+            "type": "無床診療所",
+            "distance_m": 245,
+            "walk_min": 3,
+            "phone": "(0285)22-0215"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "小山市中央公衆トイレ",
+            "distance_m": 333,
+            "walk_min": 4,
+            "has_wheelchair": true,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "小山御殿広場",
+            "distance_m": 229,
+            "walk_min": 3,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-037",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.816042,
+          36.307576
+        ]
+      },
+      "properties": {
+        "id": "shelter-037",
+        "name": "小山城東小学校",
+        "address": "栃木県小山市城東1-16-1",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "職員室",
+            "has_pediatric": true,
+            "nearest_name": "小山市立小山城東小学校",
+            "nearest_distance_m": 32,
+            "nearest_walk_min": 1,
+            "nearest_location": "職員室"
+          },
+          "nearest_medical": {
+            "name": "小山皮ふ科",
+            "type": "無床診療所",
+            "distance_m": 106,
+            "walk_min": 1,
+            "phone": "(0285)23-7124"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "城東公園",
+            "distance_m": 227,
+            "walk_min": 3,
+            "has_wheelchair": true,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "あおぞら公園",
+            "distance_m": 241,
+            "walk_min": 3,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-038",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.80272,
+          36.292654
+        ]
+      },
+      "properties": {
+        "id": "shelter-038",
+        "name": "小山城南高等学校",
+        "address": "栃木県小山市西城南4-26-1",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": false,
+            "inside_location": "",
+            "has_pediatric": false,
+            "nearest_name": "小山城南出張所",
+            "nearest_distance_m": 458,
+            "nearest_walk_min": 6,
+            "nearest_location": "窓口"
+          },
+          "nearest_medical": {
+            "name": "ハンディクリニック",
+            "type": "無床診療所",
+            "distance_m": 198,
+            "walk_min": 2,
+            "phone": "(0285)28-6777"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "希望ヶ丘公園",
+            "distance_m": 361,
+            "walk_min": 5,
+            "has_wheelchair": false,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "希望ヶ丘公園",
+            "distance_m": 341,
+            "walk_min": 4,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-039",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.807859,
+          36.293197
+        ]
+      },
+      "properties": {
+        "id": "shelter-039",
+        "name": "小山城南市民交流センター",
+        "address": "栃木県小山市東城南4-1-12",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "窓口",
+            "has_pediatric": true,
+            "nearest_name": "小山城南出張所",
+            "nearest_distance_m": 7,
+            "nearest_walk_min": 1,
+            "nearest_location": "窓口"
+          },
+          "nearest_medical": {
+            "name": "浅井こどもクリニック",
+            "type": "無床診療所",
+            "distance_m": 194,
+            "walk_min": 2,
+            "phone": "(0285)28-3002"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "城南公園",
+            "distance_m": 65,
+            "walk_min": 1,
+            "has_wheelchair": true,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "城南公園",
+            "distance_m": 117,
+            "walk_min": 1,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-040",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.797979,
+          36.294169
+        ]
+      },
+      "properties": {
+        "id": "shelter-040",
+        "name": "小山城南小学校",
+        "address": "栃木県小山市西城南5-29-1",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "保健室",
+            "has_pediatric": true,
+            "nearest_name": "小山市立小山城南小学校",
+            "nearest_distance_m": 6,
+            "nearest_walk_min": 1,
+            "nearest_location": "保健室"
+          },
+          "nearest_medical": {
+            "name": "矢尾板クリニック",
+            "type": "無床診療所",
+            "distance_m": 504,
+            "walk_min": 6,
+            "phone": "(0285)28-7755"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "希望ヶ丘公園",
+            "distance_m": 94,
+            "walk_min": 1,
+            "has_wheelchair": false,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "希望ヶ丘公園",
+            "distance_m": 126,
+            "walk_min": 2,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-041",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.81068,
+          36.295355
+        ]
+      },
+      "properties": {
+        "id": "shelter-041",
+        "name": "小山城南中学校",
+        "address": "栃木県小山市東城南1-22-9",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "保健室",
+            "has_pediatric": true,
+            "nearest_name": "小山市立小山城南中学校",
+            "nearest_distance_m": 60,
+            "nearest_walk_min": 1,
+            "nearest_location": "保健室"
+          },
+          "nearest_medical": {
+            "name": "川田耳鼻咽喉科クリニック",
+            "type": "無床診療所",
+            "distance_m": 135,
+            "walk_min": 2,
+            "phone": "(0285)31-3855"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "萩山公園",
+            "distance_m": 238,
+            "walk_min": 3,
+            "has_wheelchair": false,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "萩山公園",
+            "distance_m": 216,
+            "walk_min": 3,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-042",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.788085,
+          36.296484
+        ]
+      },
+      "properties": {
+        "id": "shelter-042",
+        "name": "小山第三小学校",
+        "address": "栃木県小山市神鳥谷4-7-51",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "保健室",
+            "has_pediatric": true,
+            "nearest_name": "小山市立小山第三小学校",
+            "nearest_distance_m": 40,
+            "nearest_walk_min": 1,
+            "nearest_location": "保健室"
+          },
+          "nearest_medical": {
+            "name": "樹レディスクリニック",
+            "type": "有床診療所",
+            "distance_m": 251,
+            "walk_min": 3,
+            "phone": "(0285)20-5505"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "通宿公園",
+            "distance_m": 87,
+            "walk_min": 1,
+            "has_wheelchair": true,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "通り宿公園（通宿公園）",
+            "distance_m": 70,
+            "walk_min": 1,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-043",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.83253,
+          36.314698
+        ]
+      },
+      "properties": {
+        "id": "shelter-043",
+        "name": "小山第三中学校",
+        "address": "栃木県小山市犬塚3-29-1",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "保健室",
+            "has_pediatric": true,
+            "nearest_name": "小山市立小山第三中学校",
+            "nearest_distance_m": 18,
+            "nearest_walk_min": 1,
+            "nearest_location": "保健室"
+          },
+          "nearest_medical": {
+            "name": "たむら歯科医院",
+            "type": "無床診療所",
+            "distance_m": 564,
+            "walk_min": 7,
+            "phone": "22-6441"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "やまみち公園",
+            "distance_m": 215,
+            "walk_min": 3,
+            "has_wheelchair": true,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "やまみち公園",
+            "distance_m": 203,
+            "walk_min": 3,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-044",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.799941,
+          36.310068
+        ]
+      },
+      "properties": {
+        "id": "shelter-044",
+        "name": "小山第二小学校",
+        "address": "栃木県小山市宮本町2-9-20",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "職員室前廊下",
+            "has_pediatric": true,
+            "nearest_name": "小山市立小山第二小学校",
+            "nearest_distance_m": 11,
+            "nearest_walk_min": 1,
+            "nearest_location": "職員室前廊下"
+          },
+          "nearest_medical": {
+            "name": "福田医院",
+            "type": "無床診療所",
+            "distance_m": 219,
+            "walk_min": 3,
+            "phone": "(0285)25-5511"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "小山市中央公衆トイレ",
+            "distance_m": 492,
+            "walk_min": 6,
+            "has_wheelchair": true,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "天神ふれあい公園",
+            "distance_m": 293,
+            "walk_min": 4,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-045",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.798252,
+          36.306219
+        ]
+      },
+      "properties": {
+        "id": "shelter-045",
+        "name": "小山第二中学校",
+        "address": "栃木県小山市天神町1-6-36",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "職員室",
+            "has_pediatric": true,
+            "nearest_name": "小山市立小山第二中学校",
+            "nearest_distance_m": 36,
+            "nearest_walk_min": 1,
+            "nearest_location": "職員室"
+          },
+          "nearest_medical": {
+            "name": "小林歯科医院",
+            "type": "無床診療所",
+            "distance_m": 73,
+            "walk_min": 1,
+            "phone": "22-1208"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "神山公園",
+            "distance_m": 436,
+            "walk_min": 5,
+            "has_wheelchair": true,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "天神公園",
+            "distance_m": 114,
+            "walk_min": 1,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-046",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7803,
+          36.258659
+        ]
+      },
+      "properties": {
+        "id": "shelter-046",
+        "name": "小山南高等学校",
+        "address": "栃木県小山市間々田23-1",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "",
+            "has_pediatric": false,
+            "nearest_name": "栃木県立小山南高等学校",
+            "nearest_distance_m": 46,
+            "nearest_walk_min": 1,
+            "nearest_location": ""
+          },
+          "nearest_medical": {
+            "name": "三田整形外科",
+            "type": "無床診療所",
+            "distance_m": 176,
+            "walk_min": 2,
+            "phone": "(0285)45-8800"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "六本木公園",
+            "distance_m": 263,
+            "walk_min": 3,
+            "has_wheelchair": false,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "美しが丘ポケットパーク",
+            "distance_m": 242,
+            "walk_min": 3,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-047",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.81645,
+          36.310074
+        ]
+      },
+      "properties": {
+        "id": "shelter-047",
+        "name": "城東公園",
+        "address": "栃木県小山市城東1-19",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": false,
+            "inside_location": "",
+            "has_pediatric": false,
+            "nearest_name": "小山市立中央図書館",
+            "nearest_distance_m": 86,
+            "nearest_walk_min": 1,
+            "nearest_location": "１階フロアー"
+          },
+          "nearest_medical": {
+            "name": "内海歯科医院",
+            "type": "無床診療所",
+            "distance_m": 160,
+            "walk_min": 2,
+            "phone": "25-5000"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "城東公園",
+            "distance_m": 33,
+            "walk_min": 1,
+            "has_wheelchair": false,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "城東公園",
+            "distance_m": 51,
+            "walk_min": 1,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-048",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.808415,
+          36.292249
+        ]
+      },
+      "properties": {
+        "id": "shelter-048",
+        "name": "城南公園",
+        "address": "栃木県小山市東城南4-17",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": false,
+            "inside_location": "",
+            "has_pediatric": false,
+            "nearest_name": "小山城南出張所",
+            "nearest_distance_m": 121,
+            "nearest_walk_min": 2,
+            "nearest_location": "窓口"
+          },
+          "nearest_medical": {
+            "name": "浅井こどもクリニック",
+            "type": "無床診療所",
+            "distance_m": 309,
+            "walk_min": 4,
+            "phone": "(0285)28-3002"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "城南公園",
+            "distance_m": 63,
+            "walk_min": 1,
+            "has_wheelchair": true,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "城南公園",
+            "distance_m": 10,
+            "walk_min": 1,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-049",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.792207,
+          36.299514
+        ]
+      },
+      "properties": {
+        "id": "shelter-049",
+        "name": "神久保公園",
+        "address": "栃木県小山市神鳥谷2-29",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": false,
+            "inside_location": "",
+            "has_pediatric": false,
+            "nearest_name": "ファミリーマート小山神鳥谷店",
+            "nearest_distance_m": 170,
+            "nearest_walk_min": 2,
+            "nearest_location": "カウウンター裏バックヤード"
+          },
+          "nearest_medical": {
+            "name": "慶野歯科医院",
+            "type": "",
+            "distance_m": 106,
+            "walk_min": 1,
+            "phone": "22-8148"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "神久保公園",
+            "distance_m": 45,
+            "walk_min": 1,
+            "has_wheelchair": true,
+            "has_baby": false,
+            "has_ostomate": true
+          },
+          "nearest_park": {
+            "name": "神久保公園",
+            "distance_m": 10,
+            "walk_min": 1,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-050",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.832016,
+          36.277415
+        ]
+      },
+      "properties": {
+        "id": "shelter-050",
+        "name": "大谷市民交流センター",
+        "address": "栃木県小山市横倉499-6",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "入口",
+            "has_pediatric": true,
+            "nearest_name": "大谷出張所",
+            "nearest_distance_m": 31,
+            "nearest_walk_min": 1,
+            "nearest_location": "入口"
+          },
+          "nearest_medical": {
+            "name": "関口歯科医院",
+            "type": "無床診療所",
+            "distance_m": 689,
+            "walk_min": 9,
+            "phone": "27-8911"
+          },
+          "nearby_toilet": {
+            "has_nearby": false,
+            "nearest_name": "あけぼの公園",
+            "distance_m": 1575,
+            "walk_min": 20,
+            "has_wheelchair": false,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "中林4号公園",
+            "distance_m": 114,
+            "walk_min": 1,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-051",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.821877,
+          36.275372
+        ]
+      },
+      "properties": {
+        "id": "shelter-051",
+        "name": "大谷中学校",
+        "address": "栃木県小山市横倉新田97",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "職員室",
+            "has_pediatric": true,
+            "nearest_name": "小山市立大谷中学校",
+            "nearest_distance_m": 9,
+            "nearest_walk_min": 1,
+            "nearest_location": "職員室"
+          },
+          "nearest_medical": {
+            "name": "関口歯科医院",
+            "type": "無床診療所",
+            "distance_m": 581,
+            "walk_min": 7,
+            "phone": "27-8911"
+          },
+          "nearby_toilet": {
+            "has_nearby": false,
+            "nearest_name": "原之内2号公園",
+            "distance_m": 1668,
+            "walk_min": 21,
+            "has_wheelchair": true,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "青木公園",
+            "distance_m": 194,
+            "walk_min": 2,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-052",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.822169,
+          36.279251
+        ]
+      },
+      "properties": {
+        "id": "shelter-052",
+        "name": "大谷東小学校",
+        "address": "栃木県小山市横倉新田271",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "職員室",
+            "has_pediatric": true,
+            "nearest_name": "小山市立大谷東小学校",
+            "nearest_distance_m": 28,
+            "nearest_walk_min": 1,
+            "nearest_location": "職員室"
+          },
+          "nearest_medical": {
+            "name": "関口歯科医院",
+            "type": "無床診療所",
+            "distance_m": 265,
+            "walk_min": 3,
+            "phone": "27-8911"
+          },
+          "nearby_toilet": {
+            "has_nearby": false,
+            "nearest_name": "西坪公園",
+            "distance_m": 1538,
+            "walk_min": 19,
+            "has_wheelchair": true,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "萩原2号公園",
+            "distance_m": 135,
+            "walk_min": 2,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-053",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.805057,
+          36.253172
+        ]
+      },
+      "properties": {
+        "id": "shelter-053",
+        "name": "大谷南小学校",
+        "address": "栃木県小山市東野田2147",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "保健室",
+            "has_pediatric": true,
+            "nearest_name": "小山市立大谷南小学校",
+            "nearest_distance_m": 27,
+            "nearest_walk_min": 1,
+            "nearest_location": "保健室"
+          },
+          "nearest_medical": {
+            "name": "やまなか歯科",
+            "type": "無床診療所",
+            "distance_m": 1450,
+            "walk_min": 18,
+            "phone": "28-0005"
+          },
+          "nearby_toilet": {
+            "has_nearby": false,
+            "nearest_name": "小山思いの森",
+            "distance_m": 2337,
+            "walk_min": 29,
+            "has_wheelchair": true,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "反町公園",
+            "distance_m": 755,
+            "walk_min": 9,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-054",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.833292,
+          36.306755
+        ]
+      },
+      "properties": {
+        "id": "shelter-054",
+        "name": "大谷北小学校",
+        "address": "栃木県小山市犬塚5-6-10",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "職員室",
+            "has_pediatric": true,
+            "nearest_name": "小山市立大谷北小学校",
+            "nearest_distance_m": 16,
+            "nearest_walk_min": 1,
+            "nearest_location": "職員室"
+          },
+          "nearest_medical": {
+            "name": "いしい整形外科",
+            "type": "無床診療所",
+            "distance_m": 177,
+            "walk_min": 2,
+            "phone": "(0285)20-3588"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "犬塚公園",
+            "distance_m": 169,
+            "walk_min": 2,
+            "has_wheelchair": false,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "谷ノ中公園",
+            "distance_m": 206,
+            "walk_min": 3,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-055",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.814941,
+          36.292736
+        ]
+      },
+      "properties": {
+        "id": "shelter-055",
+        "name": "東城南小学校",
+        "address": "栃木県小山市東城南3-9-5",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "保健室",
+            "has_pediatric": true,
+            "nearest_name": "小山市立東城南小学校",
+            "nearest_distance_m": 23,
+            "nearest_walk_min": 1,
+            "nearest_location": "保健室"
+          },
+          "nearest_medical": {
+            "name": "あいだ歯科",
+            "type": "無床診療所",
+            "distance_m": 139,
+            "walk_min": 2,
+            "phone": "31-3418"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "自由ヶ丘公園",
+            "distance_m": 82,
+            "walk_min": 1,
+            "has_wheelchair": true,
+            "has_baby": false,
+            "has_ostomate": true
+          },
+          "nearest_park": {
+            "name": "自由ヶ丘公園",
+            "distance_m": 117,
+            "walk_min": 1,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-056",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.760408,
+          36.308192
+        ]
+      },
+      "properties": {
+        "id": "shelter-056",
+        "name": "道の駅思川",
+        "address": "栃木県小山市下国府塚25-1",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "事務室",
+            "has_pediatric": true,
+            "nearest_name": "道の駅思川",
+            "nearest_distance_m": 19,
+            "nearest_walk_min": 1,
+            "nearest_location": "事務室"
+          },
+          "nearest_medical": {
+            "name": "クロス歯科医院",
+            "type": "無床診療所",
+            "distance_m": 2617,
+            "walk_min": 33,
+            "phone": "38-0733"
+          },
+          "nearby_toilet": {
+            "has_nearby": false,
+            "nearest_name": "石ノ上河川広場",
+            "distance_m": 1802,
+            "walk_min": 23,
+            "has_wheelchair": false,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "石ノ上河川広場",
+            "distance_m": 1685,
+            "walk_min": 21,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-057",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.807321,
+          36.311815
+        ]
+      },
+      "properties": {
+        "id": "shelter-057",
+        "name": "白鷗大学本キャンパス",
+        "address": "栃木県小山市駅東通り2-2-2",
+        "remarks": "",
+        "disasters": {
+          "flood": true,
+          "landslide": true,
+          "earthquake": true,
+          "fire": true,
+          "inland_flood": true
+        },
+        "disaster_count": 5,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "カウウンター裏バックヤード",
+            "has_pediatric": true,
+            "nearest_name": "セブンイレブン白鷗大学本キャンパス店",
+            "nearest_distance_m": 46,
+            "nearest_walk_min": 1,
+            "nearest_location": "カウウンター裏バックヤード"
+          },
+          "nearest_medical": {
+            "name": "小山ステーション脳神経外科・内科",
+            "type": "無床診療所",
+            "distance_m": 144,
+            "walk_min": 2,
+            "phone": "(0285)25-5500"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "小山市駅東口公衆トイレ",
+            "distance_m": 105,
+            "walk_min": 1,
+            "has_wheelchair": true,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "駅東公園",
+            "distance_m": 238,
+            "walk_min": 3,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-058",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.785785,
+          36.35891
+        ]
+      },
+      "properties": {
+        "id": "shelter-058",
+        "name": "旧豊田北小学校",
+        "address": "栃木県小山市大本808",
+        "remarks": "",
+        "disasters": {
+          "landslide": true,
+          "earthquake": true,
+          "fire": true
+        },
+        "disaster_count": 3,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": false,
+            "inside_location": "",
+            "has_pediatric": false,
+            "nearest_name": "ファミリーマート黒本店",
+            "nearest_distance_m": 891,
+            "nearest_walk_min": 11,
+            "nearest_location": "カウウンター裏バックヤード"
+          },
+          "nearest_medical": {
+            "name": "船田内科歯科医院",
+            "type": "有床診療所",
+            "distance_m": 1561,
+            "walk_min": 20,
+            "phone": "(0285)37-0010"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "思川駅公衆トイレ",
+            "distance_m": 992,
+            "walk_min": 12,
+            "has_wheelchair": false,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "板橋1号公園",
+            "distance_m": 844,
+            "walk_min": 11,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-059",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.738247,
+          36.318041
+        ]
+      },
+      "properties": {
+        "id": "shelter-059",
+        "name": "中小学校",
+        "address": "栃木県小山市南小林109",
+        "remarks": "",
+        "disasters": {
+          "landslide": true,
+          "earthquake": true,
+          "fire": true
+        },
+        "disaster_count": 3,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "職員室",
+            "has_pediatric": true,
+            "nearest_name": "小山市立中小学校",
+            "nearest_distance_m": 38,
+            "nearest_walk_min": 1,
+            "nearest_location": "職員室"
+          },
+          "nearest_medical": {
+            "name": "クロス歯科医院",
+            "type": "無床診療所",
+            "distance_m": 760,
+            "walk_min": 10,
+            "phone": "38-0733"
+          },
+          "nearby_toilet": {
+            "has_nearby": false,
+            "nearest_name": "石ノ上河川広場",
+            "distance_m": 4067,
+            "walk_min": 51,
+            "has_wheelchair": false,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "石ノ上河川広場",
+            "distance_m": 3939,
+            "walk_min": 49,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-060",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.761323,
+          36.270862
+        ]
+      },
+      "properties": {
+        "id": "shelter-060",
+        "name": "間々田市民交流センター",
+        "address": "栃木県小山市間々田1960-1",
+        "remarks": "",
+        "disasters": {
+          "landslide": true,
+          "earthquake": true,
+          "fire": true
+        },
+        "disaster_count": 3,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "窓口",
+            "has_pediatric": true,
+            "nearest_name": "間々田出張所",
+            "nearest_distance_m": 19,
+            "nearest_walk_min": 1,
+            "nearest_location": "窓口"
+          },
+          "nearest_medical": {
+            "name": "所内科胃腸科クリニック",
+            "type": "無床診療所",
+            "distance_m": 394,
+            "walk_min": 5,
+            "phone": "(0285)45-9393"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "間々田八幡公園",
+            "distance_m": 604,
+            "walk_min": 8,
+            "has_wheelchair": true,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "間々田八幡公園",
+            "distance_m": 709,
+            "walk_min": 9,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-061",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.781463,
+          36.300294
+        ]
+      },
+      "properties": {
+        "id": "shelter-061",
+        "name": "県立温水プール館",
+        "address": "栃木県小山市外城371-1",
+        "remarks": "",
+        "disasters": {
+          "landslide": true,
+          "earthquake": true,
+          "fire": true
+        },
+        "disaster_count": 3,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": false,
+            "inside_location": "",
+            "has_pediatric": false,
+            "nearest_name": "小山総合公園",
+            "nearest_distance_m": 306,
+            "nearest_walk_min": 4,
+            "nearest_location": "サイクルセンター事務室"
+          },
+          "nearest_medical": {
+            "name": "神鳥谷クリニック",
+            "type": "無床診療所",
+            "distance_m": 815,
+            "walk_min": 10,
+            "phone": "(0285)22-7700"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "小山総合公園",
+            "distance_m": 194,
+            "walk_min": 2,
+            "has_wheelchair": false,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "小山総合公園",
+            "distance_m": 174,
+            "walk_min": 2,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-062",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.782804,
+          36.300821
+        ]
+      },
+      "properties": {
+        "id": "shelter-062",
+        "name": "県立県南体育館",
+        "address": "栃木県小山市外城371-1",
+        "remarks": "",
+        "disasters": {
+          "landslide": true,
+          "earthquake": true,
+          "fire": true
+        },
+        "disaster_count": 3,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": false,
+            "inside_location": "",
+            "has_pediatric": false,
+            "nearest_name": "小山総合公園",
+            "nearest_distance_m": 276,
+            "nearest_walk_min": 3,
+            "nearest_location": "サイクルセンター事務室"
+          },
+          "nearest_medical": {
+            "name": "神鳥谷クリニック",
+            "type": "無床診療所",
+            "distance_m": 698,
+            "walk_min": 9,
+            "phone": "(0285)22-7700"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "小山総合公園",
+            "distance_m": 92,
+            "walk_min": 1,
+            "has_wheelchair": false,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "小山総合公園",
+            "distance_m": 106,
+            "walk_min": 1,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-063",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.89121,
+          36.313392
+        ]
+      },
+      "properties": {
+        "id": "shelter-063",
+        "name": "小山ベースボールビレッジ（旧梁小学校）",
+        "address": "栃木県小山市梁67",
+        "remarks": "",
+        "disasters": {
+          "landslide": true,
+          "earthquake": true,
+          "fire": true
+        },
+        "disaster_count": 3,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": false,
+            "inside_location": "",
+            "has_pediatric": false,
+            "nearest_name": "セブンイレブン小山中島橋西店",
+            "nearest_distance_m": 788,
+            "nearest_walk_min": 10,
+            "nearest_location": "カウウンター裏バックヤード"
+          },
+          "nearest_medical": {
+            "name": "南栃木病院",
+            "type": "病院",
+            "distance_m": 3451,
+            "walk_min": 43,
+            "phone": "(0285)39-1150"
+          },
+          "nearby_toilet": {
+            "has_nearby": false,
+            "nearest_name": "やすらぎの森",
+            "distance_m": 3104,
+            "walk_min": 39,
+            "has_wheelchair": false,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "おやま縄文まつりの広場",
+            "distance_m": 1648,
+            "walk_min": 21,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-064",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.782933,
+          36.3034
+        ]
+      },
+      "properties": {
+        "id": "shelter-064",
+        "name": "小山総合公園",
+        "address": "栃木県小山市外城371-1",
+        "remarks": "",
+        "disasters": {
+          "landslide": true,
+          "earthquake": true,
+          "fire": true
+        },
+        "disaster_count": 3,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "サイクルセンター事務室",
+            "has_pediatric": true,
+            "nearest_name": "小山総合公園",
+            "nearest_distance_m": 140,
+            "nearest_walk_min": 2,
+            "nearest_location": "サイクルセンター事務室"
+          },
+          "nearest_medical": {
+            "name": "神鳥谷クリニック",
+            "type": "無床診療所",
+            "distance_m": 768,
+            "walk_min": 10,
+            "phone": "(0285)22-7700"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "小山総合公園",
+            "distance_m": 125,
+            "walk_min": 2,
+            "has_wheelchair": false,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "小山総合公園",
+            "distance_m": 197,
+            "walk_min": 2,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-065",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.798428,
+          36.313576
+        ]
+      },
+      "properties": {
+        "id": "shelter-065",
+        "name": "小山第一小学校",
+        "address": "栃木県小山市宮本町1-3-1",
+        "remarks": "",
+        "disasters": {
+          "landslide": true,
+          "earthquake": true,
+          "fire": true
+        },
+        "disaster_count": 3,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "保健室",
+            "has_pediatric": true,
+            "nearest_name": "小山市立小山第一小学校",
+            "nearest_distance_m": 7,
+            "nearest_walk_min": 1,
+            "nearest_location": "保健室"
+          },
+          "nearest_medical": {
+            "name": "安西・古谷クリニック",
+            "type": "無床診療所",
+            "distance_m": 391,
+            "walk_min": 5,
+            "phone": "(0285)22-0215"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "思川アプローチ広場",
+            "distance_m": 398,
+            "walk_min": 5,
+            "has_wheelchair": true,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "思川アプローチ",
+            "distance_m": 264,
+            "walk_min": 3,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-066",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.771803,
+          36.312286
+        ]
+      },
+      "properties": {
+        "id": "shelter-066",
+        "name": "穂積小学校",
+        "address": "栃木県小山市萩島27",
+        "remarks": "",
+        "disasters": {
+          "landslide": true,
+          "earthquake": true,
+          "fire": true
+        },
+        "disaster_count": 3,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "職員室",
+            "has_pediatric": true,
+            "nearest_name": "小山市立穂積小学校",
+            "nearest_distance_m": 33,
+            "nearest_walk_min": 1,
+            "nearest_location": "職員室"
+          },
+          "nearest_medical": {
+            "name": "なかの歯科医院",
+            "type": "無床診療所",
+            "distance_m": 1927,
+            "walk_min": 24,
+            "phone": "21-1182"
+          },
+          "nearby_toilet": {
+            "has_nearby": false,
+            "nearest_name": "小山総合公園",
+            "distance_m": 1284,
+            "walk_min": 16,
+            "has_wheelchair": false,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "石ノ上河川広場",
+            "distance_m": 1160,
+            "walk_min": 15,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-067",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.809061,
+          36.357138
+        ]
+      },
+      "properties": {
+        "id": "shelter-067",
+        "name": "羽川西小学校",
+        "address": "栃木県小山市黒本771-2",
+        "remarks": "",
+        "disasters": {
+          "earthquake": true,
+          "fire": true
+        },
+        "disaster_count": 2,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "職員室前廊下",
+            "has_pediatric": true,
+            "nearest_name": "小山市立羽川西小学校",
+            "nearest_distance_m": 22,
+            "nearest_walk_min": 1,
+            "nearest_location": "職員室前廊下"
+          },
+          "nearest_medical": {
+            "name": "扶桑医院",
+            "type": "無床診療所",
+            "distance_m": 611,
+            "walk_min": 8,
+            "phone": "(0285)23-2350"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "扶桑第一公園",
+            "distance_m": 547,
+            "walk_min": 7,
+            "has_wheelchair": false,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "扶桑第一公園",
+            "distance_m": 569,
+            "walk_min": 7,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-068",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.801826,
+          36.33231
+        ]
+      },
+      "properties": {
+        "id": "shelter-068",
+        "name": "小山中学校",
+        "address": "栃木県小山市渋井779-1",
+        "remarks": "",
+        "disasters": {
+          "earthquake": true,
+          "fire": true
+        },
+        "disaster_count": 2,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "職員室",
+            "has_pediatric": true,
+            "nearest_name": "小山市立小山中学校",
+            "nearest_distance_m": 3,
+            "nearest_walk_min": 1,
+            "nearest_location": "職員室"
+          },
+          "nearest_medical": {
+            "name": "おやま城北クリニック",
+            "type": "無床診療所",
+            "distance_m": 220,
+            "walk_min": 3,
+            "phone": "(0285)24-6565"
+          },
+          "nearby_toilet": {
+            "has_nearby": false,
+            "nearest_name": "ひまわり公園",
+            "distance_m": 1013,
+            "walk_min": 13,
+            "has_wheelchair": false,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "若木町2丁目公園",
+            "distance_m": 594,
+            "walk_min": 7,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-069",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.79357,
+          36.31574
+        ]
+      },
+      "properties": {
+        "id": "shelter-069",
+        "name": "白鷗大学大行寺キャンパス",
+        "address": "栃木県小山市大行寺1117",
+        "remarks": "",
+        "disasters": {
+          "earthquake": true,
+          "fire": true
+        },
+        "disaster_count": 2,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "",
+            "has_pediatric": false,
+            "nearest_name": "白鴎大学",
+            "nearest_distance_m": 6,
+            "nearest_walk_min": 1,
+            "nearest_location": ""
+          },
+          "nearest_medical": {
+            "name": "なかの歯科医院",
+            "type": "無床診療所",
+            "distance_m": 218,
+            "walk_min": 3,
+            "phone": "21-1182"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "思川緑地",
+            "distance_m": 221,
+            "walk_min": 3,
+            "has_wheelchair": true,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "思川緑地",
+            "distance_m": 284,
+            "walk_min": 4,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-070",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.749485,
+          36.262637
+        ]
+      },
+      "properties": {
+        "id": "shelter-070",
+        "name": "乙女小学校",
+        "address": "栃木県小山市乙女1954",
+        "remarks": "",
+        "disasters": {
+          "earthquake": true,
+          "fire": true
+        },
+        "disaster_count": 2,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "保健室",
+            "has_pediatric": true,
+            "nearest_name": "小山市立乙女小学校",
+            "nearest_distance_m": 6,
+            "nearest_walk_min": 1,
+            "nearest_location": "保健室"
+          },
+          "nearest_medical": {
+            "name": "前田歯科医院",
+            "type": "無床診療所",
+            "distance_m": 645,
+            "walk_min": 8,
+            "phone": "45-8049"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "乙女河岸",
+            "distance_m": 191,
+            "walk_min": 2,
+            "has_wheelchair": true,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "乙女河岸",
+            "distance_m": 182,
+            "walk_min": 2,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-071",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.755058,
+          36.262857
+        ]
+      },
+      "properties": {
+        "id": "shelter-071",
+        "name": "乙女中学校",
+        "address": "栃木県小山市乙女1731",
+        "remarks": "",
+        "disasters": {
+          "earthquake": true,
+          "fire": true
+        },
+        "disaster_count": 2,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "職員室",
+            "has_pediatric": true,
+            "nearest_name": "小山市立乙女中学校",
+            "nearest_distance_m": 35,
+            "nearest_walk_min": 1,
+            "nearest_location": "職員室"
+          },
+          "nearest_medical": {
+            "name": "森岡内科小児科医院",
+            "type": "無床診療所",
+            "distance_m": 242,
+            "walk_min": 3,
+            "phone": "(0285)45-7002"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "山下通り",
+            "distance_m": 120,
+            "walk_min": 2,
+            "has_wheelchair": true,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "乙女かわらの里公園",
+            "distance_m": 127,
+            "walk_min": 2,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-072",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.708833,
+          36.247388
+        ]
+      },
+      "properties": {
+        "id": "shelter-072",
+        "name": "下生井小学校",
+        "address": "栃木県小山市下生井1546",
+        "remarks": "",
+        "disasters": {
+          "earthquake": true,
+          "fire": true
+        },
+        "disaster_count": 2,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "職員室",
+            "has_pediatric": true,
+            "nearest_name": "小山市立下生井小学校",
+            "nearest_distance_m": 31,
+            "nearest_walk_min": 1,
+            "nearest_location": "職員室"
+          },
+          "nearest_medical": {
+            "name": "光南病院",
+            "type": "病院",
+            "distance_m": 3331,
+            "walk_min": 42,
+            "phone": "(0285)45-7711"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "生井ふるさと公園",
+            "distance_m": 707,
+            "walk_min": 9,
+            "has_wheelchair": false,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "生井桜づつみ",
+            "distance_m": 738,
+            "walk_min": 9,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-073",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.735907,
+          36.293093
+        ]
+      },
+      "properties": {
+        "id": "shelter-073",
+        "name": "寒川小学校",
+        "address": "栃木県小山市中里861",
+        "remarks": "",
+        "disasters": {
+          "earthquake": true,
+          "fire": true
+        },
+        "disaster_count": 2,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "職員室",
+            "has_pediatric": true,
+            "nearest_name": "小山市立寒川小学校",
+            "nearest_distance_m": 11,
+            "nearest_walk_min": 1,
+            "nearest_location": "職員室"
+          },
+          "nearest_medical": {
+            "name": "青木医院",
+            "type": "無床診療所",
+            "distance_m": 3130,
+            "walk_min": 39,
+            "phone": "(0285)45-5545"
+          },
+          "nearby_toilet": {
+            "has_nearby": false,
+            "nearest_name": "巴波川決壊口祈念公園",
+            "distance_m": 1963,
+            "walk_min": 25,
+            "has_wheelchair": true,
+            "has_baby": false,
+            "has_ostomate": false
+          },
+          "nearest_park": {
+            "name": "網戸公園",
+            "distance_m": 2044,
+            "walk_min": 26,
+            "area": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shelter-074",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.743129,
+          36.270782
+        ]
+      },
+      "properties": {
+        "id": "shelter-074",
+        "name": "旧網戸小学校",
+        "address": "栃木県小山市網戸1514",
+        "remarks": "",
+        "disasters": {
+          "earthquake": true,
+          "fire": true
+        },
+        "disaster_count": 2,
+        "cross_analysis": {
+          "aed": {
+            "has_inside": true,
+            "inside_location": "職員室",
+            "has_pediatric": true,
+            "nearest_name": "小山市立網戸小学校",
+            "nearest_distance_m": 16,
+            "nearest_walk_min": 1,
+            "nearest_location": "職員室"
+          },
+          "nearest_medical": {
+            "name": "青木医院",
+            "type": "無床診療所",
+            "distance_m": 640,
+            "walk_min": 8,
+            "phone": "(0285)45-5545"
+          },
+          "nearby_toilet": {
+            "has_nearby": true,
+            "nearest_name": "網戸公園",
+            "distance_m": 966,
+            "walk_min": 12,
+            "has_wheelchair": true,
+            "has_baby": true,
+            "has_ostomate": true
+          },
+          "nearest_park": {
+            "name": "網戸公園",
+            "distance_m": 977,
+            "walk_min": 12,
+            "area": ""
+          }
+        }
+      }
+    }
+  ]
+}
