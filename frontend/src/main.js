@@ -27,6 +27,7 @@ const state = {
   highlightMarker: null,       // 最寄りハイライト用マーカー
   currentLocationMarker: null,
   nearestLine: null,
+  isNearestActive: false,      // 最寄りハイライトがアクティブかどうか
   allShelters: [],
   allAed: [],
   allMedical: [],
@@ -713,6 +714,56 @@ function acquireUserLocation() {
   });
 }
 
+// 最寄り避難所のハイライト・ルート線・ボトムシートを解除して元に戻す（アイデア2: トグル解除）
+function clearNearestHighlight(resetView = true) {
+  if (state.highlightMarker) {
+    state.map.removeLayer(state.highlightMarker);
+    state.highlightMarker = null;
+  }
+  if (state.nearestLine) {
+    state.map.removeLayer(state.nearestLine);
+    state.nearestLine = null;
+  }
+  const sheet = document.getElementById('nearest-sheet');
+  if (sheet) {
+    sheet.classList.add('hidden');
+  }
+  if (state.map) {
+    state.map.closePopup();
+  }
+
+  state.isNearestActive = false;
+
+  // ヘッダーボタンを通常状態（最寄りの避難所）に戻す
+  const btnNearest = document.getElementById('btn-nearest');
+  if (btnNearest) {
+    btnNearest.classList.remove('active');
+    btnNearest.setAttribute('title', '現在の条件に合う最寄りの避難所をハイライト表示');
+    const btnText = btnNearest.querySelector('.btn-text');
+    if (btnText) btnText.textContent = '最寄りの避難所';
+    const iconEl = btnNearest.querySelector('.icon');
+    if (iconEl) {
+      iconEl.innerHTML = `
+        <circle cx="12" cy="12" r="10"></circle>
+        <circle cx="12" cy="12" r="3" fill="currentColor"></circle>
+        <line x1="12" y1="2" x2="12" y2="5"></line>
+        <line x1="12" y1="19" x2="12" y2="22"></line>
+        <line x1="2" y1="12" x2="5" y2="12"></line>
+        <line x1="19" y1="12" x2="22" y2="12"></line>
+      `;
+    }
+  }
+
+  // 地図の表示を全体に戻す
+  if (resetView && state.map) {
+    if (state.userLocation) {
+      state.map.setView([state.userLocation[1], state.userLocation[0]], 14);
+    } else {
+      state.map.setView(OYAMA_CENTER, DEFAULT_ZOOM);
+    }
+  }
+}
+
 // 条件に合致する最寄り避難所を検索し、ハイライト表示する
 function findAndHighlightNearestShelter(shouldFitBounds = true) {
   if (!state.userLocation) return null;
@@ -761,8 +812,13 @@ function findAndHighlightNearestShelter(shouldFitBounds = true) {
     zIndexOffset: 1200,
   }).addTo(state.map);
 
+  // マーカークリック時用にポップアップをバインドするが、自動では開かない（画面中央を塞がない）
   const popupHtml = createShelterPopupHtml(nearestFeature, true);
-  state.highlightMarker.bindPopup(popupHtml, { maxWidth: 320 }).openPopup();
+  state.highlightMarker.bindPopup(popupHtml, { maxWidth: 320 });
+  state.highlightMarker.on('click', () => {
+    const s = document.getElementById('nearest-sheet');
+    if (s) s.classList.remove('hidden');
+  });
 
   if (state.nearestLine) {
     state.map.removeLayer(state.nearestLine);
@@ -781,25 +837,82 @@ function findAndHighlightNearestShelter(shouldFitBounds = true) {
     }
   ).addTo(state.map);
 
-  const filterLabel = filter === 'all' ? '全体' : DISASTER_INFO[filter]?.name;
-  const card = document.getElementById('nearest-card');
+  const filterLabel = filter === 'all' ? '全災害' : DISASTER_INFO[filter]?.name;
+  const sheet = document.getElementById('nearest-sheet');
+  const badgeEl = document.getElementById('nearest-badge');
   const nameEl = document.getElementById('nearest-name');
+  const addressEl = document.getElementById('nearest-address');
   const distEl = document.getElementById('nearest-distance');
   const walkEl = document.getElementById('nearest-walk');
+  const summaryEl = document.getElementById('nearest-cross-summary');
   const gmapsLink = document.getElementById('link-gmaps-nearest');
   const btnFocus = document.getElementById('btn-focus-nearest');
 
-  nameEl.textContent = `【${filterLabel}対応】${nearestFeature.properties.name}`;
-  distEl.textContent = distMeters < 1000 ? `直線距離: 約 ${distMeters} m` : `直線距離: 約 ${(distMeters / 1000).toFixed(1)} km`;
-  walkEl.textContent = `徒歩目安: 約 ${walkMinutes} 分`;
-  gmapsLink.href = `https://www.google.com/maps/dir/?api=1&origin=${userLat},${userLon}&destination=${nearestLatLng[0]},${nearestLatLng[1]}`;
+  if (badgeEl) badgeEl.textContent = `🎯 最寄りの避難所 (${filterLabel}対応)`;
+  if (nameEl) nameEl.textContent = nearestFeature.properties.name || '名称不明';
+  if (addressEl) addressEl.textContent = nearestFeature.properties.address ? `📍 ${nearestFeature.properties.address}` : '';
+  if (distEl) {
+    distEl.textContent = distMeters < 1000 ? `直線距離: 約 ${distMeters} m` : `直線距離: 約 ${(distMeters / 1000).toFixed(1)} km`;
+  }
+  if (walkEl) {
+    walkEl.textContent = `徒歩目安: 約 ${walkMinutes} 分`;
+  }
 
-  card.classList.remove('hidden');
+  if (summaryEl) {
+    let badges = '';
+    const cross = nearestFeature.properties.cross_analysis;
+    if (cross) {
+      if (cross.aed?.has_inside) {
+        badges += '<span class="sheet-cross-badge aed-ok">⚡ 施設内常設AEDあり</span>';
+      } else if (cross.aed?.nearest_name) {
+        badges += `<span class="sheet-cross-badge">⚡ 最寄りAED 約${cross.aed.nearest_distance_m}m</span>`;
+      }
+      if (cross.nearest_medical) {
+        const medDist = cross.nearest_medical.distance_m < 1000
+          ? `${cross.nearest_medical.distance_m}m`
+          : `${(cross.nearest_medical.distance_m / 1000).toFixed(1)}km`;
+        badges += `<span class="sheet-cross-badge">🏥 ${cross.nearest_medical.name} (${medDist})</span>`;
+      }
+      if (cross.nearby_toilet?.nearest_name) {
+        badges += `<span class="sheet-cross-badge">🚻 トイレ 約${cross.nearby_toilet.distance_m}m</span>`;
+      }
+      if (cross.nearest_park) {
+        badges += `<span class="sheet-cross-badge">🌳 ${cross.nearest_park.name}</span>`;
+      }
+    }
+    summaryEl.innerHTML = badges;
+  }
 
-  btnFocus.onclick = () => {
-    state.map.setView(nearestLatLng, 16);
-    state.highlightMarker.openPopup();
-  };
+  if (gmapsLink) {
+    gmapsLink.href = `https://www.google.com/maps/dir/?api=1&origin=${userLat},${userLon}&destination=${nearestLatLng[0]},${nearestLatLng[1]}`;
+  }
+
+  if (btnFocus) {
+    btnFocus.onclick = () => {
+      state.map.setView(nearestLatLng, 16);
+    };
+  }
+
+  if (sheet) {
+    sheet.classList.remove('hidden');
+  }
+
+  // トグル状態をアクティブに更新し、ボタン表示を「最寄り解除」に変更（アイデア2）
+  state.isNearestActive = true;
+  const btnNearest = document.getElementById('btn-nearest');
+  if (btnNearest) {
+    btnNearest.classList.add('active');
+    btnNearest.setAttribute('title', '最寄り避難所のハイライトを解除して全体表示に戻す');
+    const btnText = btnNearest.querySelector('.btn-text');
+    if (btnText) btnText.textContent = '最寄り解除';
+    const iconEl = btnNearest.querySelector('.icon');
+    if (iconEl) {
+      iconEl.innerHTML = `
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      `;
+    }
+  }
 
   if (shouldFitBounds) {
     if (minDistance > 25) {
@@ -816,11 +929,41 @@ function findAndHighlightNearestShelter(shouldFitBounds = true) {
   return nearestFeature;
 }
 
-// 「最寄りの避難所」ボタンのセットアップ
+// 「最寄りの避難所」ボタンおよびボトムシートのセットアップ
 function setupNearestButton() {
   const btnNearest = document.getElementById('btn-nearest');
+  const sheet = document.getElementById('nearest-sheet');
+  const btnClose = document.getElementById('btn-close-sheet');
+
+  // ボトムシートの「×」閉じるボタン（最寄りハイライトを完全解除し、フィルター切り替え時の勝手な復活を防ぐ）
+  if (btnClose) {
+    btnClose.addEventListener('click', (e) => {
+      e.stopPropagation();
+      clearNearestHighlight(false);
+    });
+  }
+
+  // 地図の余白クリック時にボトムシートを閉じる
+  if (state.map && sheet) {
+    state.map.on('click', () => {
+      sheet.classList.add('hidden');
+    });
+
+    // 最寄りピンの吹き出し（Popup）が×で閉じられた場合も最寄りハイライト状態を完全解除
+    state.map.on('popupclose', (e) => {
+      if (state.highlightMarker && e.popup === state.highlightMarker.getPopup()) {
+        clearNearestHighlight(false);
+      }
+    });
+  }
 
   btnNearest.addEventListener('click', async () => {
+    // 【アイデア2】すでにアクティブ状態の場合はトグル解除（元に戻す）
+    if (state.isNearestActive) {
+      clearNearestHighlight(true);
+      return;
+    }
+
     btnNearest.classList.add('loading');
     const btnText = btnNearest.querySelector('.btn-text');
     btnText.textContent = '検索中...';
@@ -846,9 +989,12 @@ function setupNearestButton() {
     } catch (err) {
       console.error('Nearest search error:', err);
       alert('最寄り避難所の検索中にエラーが発生しました。');
+      clearNearestHighlight(false);
     } finally {
       btnNearest.classList.remove('loading');
-      btnText.textContent = '最寄りの避難所';
+      if (!state.isNearestActive) {
+        btnText.textContent = '最寄りの避難所';
+      }
     }
   });
 }
@@ -865,7 +1011,7 @@ function setupGeolocation() {
     try {
       await acquireUserLocation();
       state.map.setView([state.userLocation[1], state.userLocation[0]], 15);
-      if (state.highlightMarker) {
+      if (state.isNearestActive) {
         findAndHighlightNearestShelter(false);
       }
     } catch (err) {
@@ -890,7 +1036,11 @@ function setupFilterChips() {
       state.currentFilter = chip.dataset.filter;
       renderShelters();
 
-      if (state.userLocation) {
+      const sheet = document.getElementById('nearest-sheet');
+      const isSheetVisible = sheet && !sheet.classList.contains('hidden');
+
+      // 最寄りハイライトがアクティブかつシートが表示されている場合のみ、新条件で追随更新
+      if (state.userLocation && state.isNearestActive && isSheetVisible) {
         findAndHighlightNearestShelter(true);
       }
     });

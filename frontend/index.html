@@ -17,7 +17,7 @@
           <h1 class="brand-title">防災マップ</h1>
         </div>
         <div class="header-actions">
-          <button id="btn-nearest" class="btn btn-warning" style="background-color: #ea580c !important; color: #ffffff !important;" title="現在の条件に合う最寄りの避難所をハイライト表示">
+          <button id="btn-nearest" class="btn btn-warning" title="現在の条件に合う最寄りの避難所をハイライト表示">
             <svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
               <circle cx="12" cy="12" r="10"></circle>
               <circle cx="12" cy="12" r="3" fill="currentColor"></circle>
@@ -95,19 +95,34 @@
           </div>
         </div>
 
-        <!-- 最寄り避難所通知カード (現在地取得時) -->
-        <div id="nearest-card" class="nearest-card hidden">
-          <div class="nearest-content">
-            <div class="nearest-badge">最寄りの避難所</div>
-            <div class="nearest-title" id="nearest-name">---</div>
-            <div class="nearest-meta">
-              <span id="nearest-distance">直線距離: -- m</span>
-              <span id="nearest-walk">徒歩約 -- 分</span>
-            </div>
+        <!-- 最寄り避難所ボトムシート (下部スライドカード) -->
+        <div id="nearest-sheet" class="nearest-sheet hidden" aria-live="polite">
+          <div class="sheet-handle-bar"></div>
+          <div class="sheet-header">
+            <span class="sheet-badge" id="nearest-badge">🎯 最寄りの避難所</span>
+            <button id="btn-close-sheet" class="sheet-close-btn" aria-label="閉じる" title="閉じる">&times;</button>
           </div>
-          <div class="nearest-actions">
-            <button id="btn-focus-nearest" class="btn btn-sm btn-primary">地図で見る</button>
-            <a id="link-gmaps-nearest" class="btn btn-sm btn-outline" target="_blank" rel="noopener">道順</a>
+          <div class="sheet-body">
+            <h2 class="sheet-title" id="nearest-name">---</h2>
+            <p class="sheet-address" id="nearest-address">📍 ---</p>
+            <div class="sheet-distance-box">
+              <span class="sheet-dist-item" id="nearest-distance">直線距離: -- m</span>
+              <span class="sheet-dist-item" id="nearest-walk">徒歩目安: -- 分</span>
+            </div>
+            <!-- 周辺クロス集計サマリー (AED・病院・トイレ) -->
+            <div class="sheet-cross-summary" id="nearest-cross-summary"></div>
+          </div>
+          <div class="sheet-actions">
+            <button id="btn-focus-nearest" class="btn btn-secondary btn-sm">
+              <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>
+              ズーム
+            </button>
+            <a id="link-gmaps-nearest" class="btn btn-primary btn-sm flex-1" target="_blank" rel="noopener">
+              Googleマップで道順案内 ↗
+            </a>
           </div>
         </div>
       </div>
