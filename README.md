@@ -89,7 +89,7 @@
 ## 📁 ディレクトリ構成
 
 ```text
-oyama_city_geodjango/
+oyama_city_bousai/
 ├── docker-compose.yml           # ローカル開発用 Docker Compose 設定 (Vite + Python)
 ├── Dockerfile.frontend          # フロントエンド開発用コンテナ (Node 22)
 ├── .dockerignore                # Dockerビルド用除外設定

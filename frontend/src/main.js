@@ -14,6 +14,23 @@ const DISASTER_INFO = {
   inland_flood: { name: '内水氾濫', icon: '🌧️' },
 };
 
+// モバイル（Android Chrome等）でピンタップ時にヘッダーが画面外に押し出される・隠れるのを防ぐ共通設定
+const POPUP_OPTIONS = {
+  maxWidth: 320,
+  maxHeight: 280,
+  autoPan: true,
+  autoPanPaddingTopLeft: L.point(10, 125), // ヘッダー(56px) + フィルターバー(約44px) + 余白25pxで確実に下部に配置
+  autoPanPaddingBottomRight: L.point(10, 20),
+  keepInView: false,
+};
+
+// モバイルでタップやフォーカスによりページ全体（window）がスクロールされるのを防止
+window.addEventListener('scroll', () => {
+  if (window.scrollY !== 0 || window.scrollX !== 0) {
+    window.scrollTo(0, 0);
+  }
+}, { passive: true });
+
 // アプリケーション状態
 const state = {
   map: null,
@@ -280,6 +297,13 @@ function initMap() {
   // レイヤー追加/削除時にフィルターチップのアクティブ状態を同期
   map.on('overlayadd', (e) => syncChipState(e.name, true));
   map.on('overlayremove', (e) => syncChipState(e.name, false));
+
+  // モバイルブラウザでポップアップ表示時に画面がズレてヘッダーが消えるのを防止
+  map.on('popupopen', () => {
+    if (window.scrollY !== 0 || window.scrollX !== 0) {
+      window.scrollTo(0, 0);
+    }
+  });
 }
 
 function syncChipState(layerName, isActive) {
@@ -394,7 +418,7 @@ function renderShelters() {
     });
 
     const popupContent = createShelterPopupHtml(feature);
-    marker.bindPopup(popupContent, { maxWidth: 320 });
+    marker.bindPopup(popupContent, POPUP_OPTIONS);
 
     state.sheltersLayerGroup.addLayer(marker);
     state.shelterMarkerMap.set(feature.id, marker);
@@ -431,7 +455,7 @@ function renderAed() {
         </div>
       </div>
     `;
-    marker.bindPopup(popupHtml, { maxWidth: 290 });
+    marker.bindPopup(popupHtml, { ...POPUP_OPTIONS, maxWidth: 290 });
     state.aedLayerGroup.addLayer(marker);
   });
 }
@@ -465,7 +489,7 @@ function renderMedical() {
         </div>
       </div>
     `;
-    marker.bindPopup(popupHtml, { maxWidth: 280 });
+    marker.bindPopup(popupHtml, { ...POPUP_OPTIONS, maxWidth: 280 });
     state.medicalLayerGroup.addLayer(marker);
   });
 }
@@ -505,7 +529,7 @@ function renderToilets() {
         </div>
       </div>
     `;
-    marker.bindPopup(popupHtml, { maxWidth: 280 });
+    marker.bindPopup(popupHtml, { ...POPUP_OPTIONS, maxWidth: 280 });
     state.toiletsLayerGroup.addLayer(marker);
   });
 }
@@ -537,7 +561,7 @@ function renderParks() {
         </div>
       </div>
     `;
-    marker.bindPopup(popupHtml, { maxWidth: 280 });
+    marker.bindPopup(popupHtml, { ...POPUP_OPTIONS, maxWidth: 280 });
     state.parksLayerGroup.addLayer(marker);
   });
 }
@@ -814,7 +838,7 @@ function findAndHighlightNearestShelter(shouldFitBounds = true) {
 
   // マーカークリック時用にポップアップをバインドするが、自動では開かない（画面中央を塞がない）
   const popupHtml = createShelterPopupHtml(nearestFeature, true);
-  state.highlightMarker.bindPopup(popupHtml, { maxWidth: 320 });
+  state.highlightMarker.bindPopup(popupHtml, POPUP_OPTIONS);
   state.highlightMarker.on('click', () => {
     const s = document.getElementById('nearest-sheet');
     if (s) s.classList.remove('hidden');
